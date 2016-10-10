@@ -1,0 +1,30 @@
+/* ------------------------------------------ */
+/* FOOTER BLOCK
+/* ------------------------------------------ */
+.footer {
+	width: 100%;
+	padding: 5px 50px;
+
+	text-align: left;
+
+	background: rgba(237, 37, 122, 1);
+
+	line-height: 1;
+
+	flex: 0 0 auto;
+
+	&__cantainer {
+		display: flex;
+		flex-direction: column;
+
+		width: 100%;
+		max-width: 880px;
+		margin: 0 auto;
+
+		align-items: center;
+
+		@media (min-width: @break-point) {
+			flex-direction: row;
+		}
+	}
+}
