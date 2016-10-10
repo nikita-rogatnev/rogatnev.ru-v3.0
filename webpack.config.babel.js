@@ -6,7 +6,7 @@ export default {
     entry: './index.jsx',
     output: {
         path: `${__dirname}/build/js`,
-        filename: 'scripts.js',
+        filename: 'react.js',
     },
     module: {
         loaders: [
@@ -14,19 +14,11 @@ export default {
                 test: /\.jsx?$/,
                 exclude: /node_modules/,
                 loader: 'babel'
-            },
-            {
-                test: /\.less$/,
-                loader: "style!css!less"
-            },
-            {
-                test: /\.css$/,
-                loader: 'css-loader!autoprefixer-loader?browsers=last 2 versions'
             }
-    ],
+        ],
     },
     resolve: {
-        extensions: ['', '.js', '.jsx'],
+        extensions: ['', '.js', '.jsx']
     },
     plugins: (() => {
         if (process.argv.indexOf('-p') !== -1) {

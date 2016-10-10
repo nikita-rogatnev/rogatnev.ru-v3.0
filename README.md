@@ -3,9 +3,9 @@
 ## Summary
 * High Resolution: Yes
 * Compatible Browsers: IE10+, Edge, Firefox, Safari, Opera, Chrome
-* Technologies: BEM, LESS, WebPack, HTML5
-* Files Included: HTML Files, CSS Files, JS Files, images
-* Layout: Responsive
+* Technologies: BEM, SASS, WebPack, Gulp, HTML5
+* Files Included: HTML Files, SCSS Files, CSS Files, JS Files, Images
+* Layout: Responsive (Bootstrap v.4 Alpha 4 grid & normalize)
 
 
 [travis-image]: https://travis-ci.org/rogatnev-nikita/rogatnev-nikita.github.io.svg?branch=master
