@@ -91,7 +91,7 @@ gulp.task("serve", function () {
         ui: false
     });
 
-    gulp.watch("./src/scss/**/*.scss")
+    gulp.watch("./src/scss/**")
         .on("change", server.reload);
 });
 

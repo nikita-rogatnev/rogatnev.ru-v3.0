@@ -63,34 +63,26 @@
 	
 	var _App2 = _interopRequireDefault(_App);
 	
-	var _Home = __webpack_require__(/*! ./src/components/Home */ 245);
+	var _home__page = __webpack_require__(/*! ./src/components/home__page */ 245);
 	
-	var _Home2 = _interopRequireDefault(_Home);
+	var _home__page2 = _interopRequireDefault(_home__page);
 	
-	var _PageNotFound = __webpack_require__(/*! ./src/components/PageNotFound */ 246);
+	var _error__page = __webpack_require__(/*! ./src/components/error__page */ 246);
 	
-	var _PageNotFound2 = _interopRequireDefault(_PageNotFound);
+	var _error__page2 = _interopRequireDefault(_error__page);
 	
-	var _ExampleComponent = __webpack_require__(/*! ./src/components/ExampleComponent */ 247);
+	var _pay__page = __webpack_require__(/*! ./src/components/pay__page */ 247);
 	
-	var _ExampleComponent2 = _interopRequireDefault(_ExampleComponent);
-	
-	var _ExampleTwoDeepComponent = __webpack_require__(/*! ./src/components/ExampleTwoDeepComponent */ 248);
-	
-	var _ExampleTwoDeepComponent2 = _interopRequireDefault(_ExampleTwoDeepComponent);
+	var _pay__page2 = _interopRequireDefault(_pay__page);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var routes = _react2.default.createElement(
 	    _reactRouter.Route,
 	    { path: '/', mapMenuTitle: 'Home', component: _App2.default },
-	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
-	    _react2.default.createElement(
-	        _reactRouter.Route,
-	        { path: 'example', mapMenuTitle: 'Example', component: _ExampleComponent2.default },
-	        _react2.default.createElement(_reactRouter.Route, { path: 'two-deep', mapMenuTitle: 'Two Deep', component: _ExampleTwoDeepComponent2.default })
-	    ),
-	    _react2.default.createElement(_reactRouter.Route, { path: '*', mapMenuTitle: 'Page Not Found', component: _PageNotFound2.default })
+	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _home__page2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: 'pay', mapMenuTitle: 'Example', component: _pay__page2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '*', mapMenuTitle: 'Page Not Found', component: _error__page2.default })
 	);
 	
 	(0, _reactDom.render)(_react2.default.createElement(_reactRouter.Router, { history: _reactRouter.browserHistory, routes: routes }), document.getElementById('app-container'));
@@ -28565,43 +28557,95 @@
 	        });
 	    }
 	
-	    var repoLink = 'https://github.com/rogatnev-nikita/rogatnev-nikita.github.io';
-	
 	    return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'app-container__content' },
 	        _react2.default.createElement(
-	            'h1',
-	            null,
-	            '\u0420\u043E\u0433\u0430\u0442\u043D\u0435\u0432 \u041D\u0438\u043A\u0438\u0442\u0430 | \u041F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0439 \u0441\u0430\u0439\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A\u0430'
-	        ),
-	        _react2.default.createElement(
-	            'a',
-	            { href: repoLink },
-	            'https://github.com/rogatnev-nikita/rogatnev-nikita.github.io'
-	        ),
-	        _react2.default.createElement(
-	            'nav',
-	            null,
-	            generateMapMenu()
-	        ),
-	        children,
-	        _react2.default.createElement(
-	            'div',
-	            { style: {
-	                    color: '#A0A0A0',
-	                    fontSize: '14px',
-	                    marginTop: '50px'
-	                } },
+	            'header',
+	            { className: 'header' },
 	            _react2.default.createElement(
-	                'a',
-	                { href: 'http://www.rogatnev.ru', className: 'extended-link' },
+	                'nav',
+	                { id: 'header__navigation', className: 'header__navigation container', role: 'navigation' },
 	                _react2.default.createElement(
-	                    'span',
-	                    { className: 'link-style' },
-	                    'Rogatnev Nikita'
+	                    'ul',
+	                    null,
+	                    _react2.default.createElement(
+	                        'li',
+	                        { className: 'header__navigation-item header__navigation-item--active' },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: '#home' },
+	                            _react2.default.createElement('i', { className: 'pe-7s-home' }),
+	                            'Home'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'li',
+	                        { className: 'header__navigation-item' },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: '#about' },
+	                            _react2.default.createElement('i', { className: 'pe-7s-user' }),
+	                            'About Me'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'li',
+	                        { className: 'header__navigation-item' },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: '#resume' },
+	                            _react2.default.createElement('i', { className: 'pe-7s-id' }),
+	                            'Resume'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'li',
+	                        { className: 'header__navigation-item' },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: '#portfolio' },
+	                            _react2.default.createElement('i', { className: 'pe-7s-glasses' }),
+	                            'Portfolio'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'li',
+	                        { className: 'header__navigation-item' },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: '#certifacates' },
+	                            _react2.default.createElement('i', { className: 'pe-7s-glasses' }),
+	                            'Certifacates'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'li',
+	                        { className: 'header__navigation-item' },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: '#blog' },
+	                            _react2.default.createElement('i', { className: 'pe-7s-notebook' }),
+	                            'Blog'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'li',
+	                        { className: 'header__navigation-item' },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: '#contact' },
+	                            _react2.default.createElement('i', { className: 'pe-7s-call' }),
+	                            'Contact'
+	                        )
+	                    )
 	                )
 	            )
+	        ),
+	        _react2.default.createElement(
+	            'main',
+	            { className: 'main' },
+	            children
 	        )
 	    );
 	}
@@ -28612,9 +28656,9 @@
 
 /***/ },
 /* 245 */
-/*!*********************************!*\
-  !*** ./src/components/Home.jsx ***!
-  \*********************************/
+/*!***************************************!*\
+  !*** ./src/components/home__page.jsx ***!
+  \***************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28631,7 +28675,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	function Home() {
+	function home__page() {
 	    var reactLink = 'https://github.com/facebook/react';
 	    var reactRouterLink = 'https://github.com/reactjs/react-router';
 	    var ghPagesLink = 'https://pages.github.com/';
@@ -28639,34 +28683,83 @@
 	
 	    return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'main__content container-fluid' },
 	        _react2.default.createElement(
-	            'p',
-	            null,
-	            'This is an example single page app built',
+	            'section',
+	            { className: 'intro row', id: 'intro' },
 	            _react2.default.createElement(
 	                'div',
-	                null,
-	                _react2.default.createElement(
-	                    _reactRouter.Link,
-	                    { to: '/example' },
-	                    'Example page'
-	                )
+	                { className: 'col-xs-12' },
+	                '1'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'section',
+	            { className: 'about row', id: 'about' },
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'col-xs-12' },
+	                '2'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'section',
+	            { className: 'resume row', id: 'resume' },
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'col-xs-12' },
+	                '3'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'section',
+	            { className: 'portfolio row', id: 'portfolio' },
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'col-xs-12' },
+	                '4'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'section',
+	            { className: 'certificates row', id: 'certificates' },
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'col-xs-12' },
+	                '5'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'section',
+	            { className: 'blog row', id: 'blog' },
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'col-xs-12' },
+	                '6'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'section',
+	            { className: 'contact row', id: 'contact' },
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'col-xs-12' },
+	                '7'
 	            )
 	        )
 	    );
 	}
 	
-	exports.default = Home;
+	exports.default = home__page;
 
 /***/ },
 /* 246 */
-/*!*****************************************!*\
-  !*** ./src/components/PageNotFound.jsx ***!
-  \*****************************************/
+/*!****************************************!*\
+  !*** ./src/components/error__page.jsx ***!
+  \****************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
@@ -28682,31 +28775,35 @@
 	    location: _react.PropTypes.object.isRequired
 	};
 	
-	function PageNotFound(_ref) {
+	function error__page(_ref) {
 	    var location = _ref.location;
 	
 	    return _react2.default.createElement(
-	        'p',
-	        null,
-	        'Page not found - the path,',
+	        "div",
+	        { className: "main__content" },
 	        _react2.default.createElement(
-	            'code',
-	            null,
-	            location.pathname
-	        ),
-	        ', did not match any React Router routes.'
+	            "section",
+	            { className: "error" },
+	            "Page not found - the path,",
+	            _react2.default.createElement(
+	                "code",
+	                null,
+	                location.pathname
+	            ),
+	            ", did not match any React Router routes."
+	        )
 	    );
 	}
 	
-	PageNotFound.propTypes = propTypes;
+	error__page.propTypes = propTypes;
 	
-	exports.default = PageNotFound;
+	exports.default = error__page;
 
 /***/ },
 /* 247 */
-/*!*********************************************!*\
-  !*** ./src/components/ExampleComponent.jsx ***!
-  \*********************************************/
+/*!**************************************!*\
+  !*** ./src/components/pay__page.jsx ***!
+  \**************************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28727,7 +28824,7 @@
 	    children: _react.PropTypes.element
 	};
 	
-	function ExampleComponent(_ref) {
+	function pay__page(_ref) {
 	    var children = _ref.children;
 	
 	    return _react2.default.createElement(
@@ -28750,123 +28847,9 @@
 	    );
 	}
 	
-	ExampleComponent.propTypes = propTypes;
+	pay__page.propTypes = propTypes;
 	
-	exports.default = ExampleComponent;
-
-/***/ },
-/* 248 */
-/*!****************************************************!*\
-  !*** ./src/components/ExampleTwoDeepComponent.jsx ***!
-  \****************************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRouter = __webpack_require__(/*! react-router */ 172);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var propTypes = {
-	    location: _react.PropTypes.object.isRequired
-	};
-	
-	function ExampleTwoDeepComponent(_ref) {
-	    var location = _ref.location;
-	
-	    var queryPresent = Object.keys(location.query).length !== 0;
-	    var hashPresent = location.hash !== '';
-	
-	    function queryStringTitle() {
-	        if (queryPresent) return 'The query string field-value pairs are:';
-	        return 'No query string in the url';
-	    }
-	
-	    function hashFragmentTitle() {
-	        if (hashPresent) return 'The hash fragment is:';
-	        return 'No hash frgament in the url';
-	    }
-	
-	    function linkToShowQueryAndOrHash() {
-	        if (queryPresent && hashPresent) return null;
-	
-	        var queryString = queryPresent ? location.search : '?field1=foo&field2=bar';
-	        var hashFragment = hashPresent ? location.hash : '#boom!';
-	
-	        var linkText = '';
-	        if (queryPresent && !hashPresent) linkText = 'Show with hash fragment';
-	        if (!queryPresent && hashPresent) linkText = 'Show with query string';
-	        if (!queryPresent && !hashPresent) linkText = 'Show with query string and hash fragment';
-	
-	        return _react2.default.createElement(
-	            'div',
-	            null,
-	            _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: '/example/two-deep' + queryString + hashFragment },
-	                linkText
-	            )
-	        );
-	    }
-	
-	    return _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	            'div',
-	            null,
-	            _react2.default.createElement(
-	                'div',
-	                null,
-	                queryStringTitle()
-	            ),
-	            _react2.default.createElement(
-	                'ul',
-	                null,
-	                Object.keys(location.query).map(function (field, index) {
-	                    return _react2.default.createElement(
-	                        'li',
-	                        { key: index },
-	                        field,
-	                        ': ',
-	                        location.query[field]
-	                    );
-	                })
-	            )
-	        ),
-	        _react2.default.createElement(
-	            'div',
-	            null,
-	            _react2.default.createElement(
-	                'div',
-	                null,
-	                hashFragmentTitle()
-	            ),
-	            _react2.default.createElement(
-	                'ul',
-	                null,
-	                hashPresent ? _react2.default.createElement(
-	                    'li',
-	                    null,
-	                    location.hash.slice(1)
-	                ) : undefined
-	            )
-	        ),
-	        linkToShowQueryAndOrHash()
-	    );
-	}
-	
-	ExampleTwoDeepComponent.propTypes = propTypes;
-	
-	exports.default = ExampleTwoDeepComponent;
+	exports.default = pay__page;
 
 /***/ }
 /******/ ]);

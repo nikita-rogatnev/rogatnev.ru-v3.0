@@ -1,9 +1,6 @@
 /* ------------------------------------------ */
-/* MAIN BLOCK
+/* CERTIFICATES BLOCK
 /* ------------------------------------------ */
-.main {
-	width: calc(100% - 120px);
-	height: 100vh;
-
-	outline: 1px solid blue;
+.certificates {
+	background: $palette-certificates;
 }

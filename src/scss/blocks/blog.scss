@@ -1,9 +1,6 @@
 /* ------------------------------------------ */
-/* MAIN BLOCK
+/* BLOG BLOCK
 /* ------------------------------------------ */
-.main {
-	width: calc(100% - 120px);
-	height: 100vh;
-
-	outline: 1px solid blue;
+.blog {
+	background: $palette-blog;
 }

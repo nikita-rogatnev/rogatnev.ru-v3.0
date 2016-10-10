@@ -1,9 +1,6 @@
 /* ------------------------------------------ */
-/* MAIN BLOCK
+/* RESUME BLOCK
 /* ------------------------------------------ */
-.main {
-	width: calc(100% - 120px);
-	height: 100vh;
-
-	outline: 1px solid blue;
+.resume {
+	background: $palette-resume;
 }

@@ -1,9 +1,6 @@
 /* ------------------------------------------ */
-/* MAIN BLOCK
+/* CONTACT BLOCK
 /* ------------------------------------------ */
-.main {
-	width: calc(100% - 120px);
-	height: 100vh;
-
-	outline: 1px solid blue;
+.contact {
+	background: $palette-contact;
 }

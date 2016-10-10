@@ -1,0 +1,26 @@
+/* ------------------------------------------ */
+/* HEADER BLOCK
+/* ------------------------------------------ */
+.header {
+	width: 120px;
+	height: 100vh;
+
+	color: $palette-primary;
+	background: $palette-tertiary;
+}
+
+.header__navigation {
+	text-align: center;
+
+	a {
+		text-decoration: none;
+
+		color: $palette-primary;
+
+		&:hover {
+			text-decoration: none;
+
+			color: $palette-primary;
+		}
+	}
+}

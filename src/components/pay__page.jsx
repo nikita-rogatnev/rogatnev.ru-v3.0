@@ -5,7 +5,7 @@ const propTypes = {
     children: PropTypes.element
 };
 
-function ExampleComponent({children}) {
+function pay__page({children}) {
     return (
         <div>
             <p>
@@ -20,6 +20,6 @@ function ExampleComponent({children}) {
     );
 }
 
-ExampleComponent.propTypes = propTypes;
+pay__page.propTypes = propTypes;
 
-export default ExampleComponent;
+export default pay__page;

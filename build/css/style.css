@@ -2,51 +2,114 @@
 /* GLOBAL
 /* ------------------------------------------ */
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
   margin: 0;
   padding: 0; }
 
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url("../fonts/HelveticaNeue.woff2") format("woff2"), url("../fonts/HelveticaNeue.ttf") format("truetype"); }
-
-@font-face {
-  font-family: 'Helvetica Neue Light';
-  src: url("../fonts/HelveticaNeue-Light.woff2") format("woff2"), url("../fonts/HelveticaNeue-Light.ttf") format("truetype"); }
-
-html {
-  height: 100%;
-  color: #f3f4f5;
-  background-color: #efefef; }
-
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  font-family: "Helvetica Neue Light", Helvetica, sans-serif;
+  color: #333333;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.4; }
 
-.visible {
-  display: block; }
+ul {
+  padding: 0;
+  list-style-type: none; }
 
-.hidden {
-  display: none; }
+/* ------------------------------------------ */
+/* APP CONTAINER BLOCK
+/* ------------------------------------------ */
+.app-container {
+  width: 100%;
+  height: 100vh; }
+  .app-container .app-container__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; }
+
+/* ------------------------------------------ */
+/* HEADER BLOCK
+/* ------------------------------------------ */
+.header {
+  width: 120px;
+  height: 100vh;
+  color: white;
+  background: #1c262b; }
+
+.header__navigation {
+  text-align: center; }
+  .header__navigation a {
+    text-decoration: none;
+    color: white; }
+    .header__navigation a:hover {
+      text-decoration: none;
+      color: white; }
 
 /* ------------------------------------------ */
 /* MAIN BLOCK
 /* ------------------------------------------ */
 .main {
-  display: flex;
-  padding: 15px;
-  color: #525252;
-  background: url(../img/main/main__bg.jpg) no-repeat center center;
-  background-size: cover;
-  flex: 1 0 auto;
-  align-items: center; }
-  .main__container {
-    max-width: 1200px;
-    height: 100%;
-    margin: 0 auto;
-    text-align: center; }
+  width: calc(100% - 120px);
+  height: 100vh;
+  outline: 1px solid blue; }
+
+/* ------------------------------------------ */
+/* INTRO BLOCK
+/* ------------------------------------------ */
+.intro {
+  background: #d6e2e0; }
+
+/* ------------------------------------------ */
+/* ABOUT BLOCK
+/* ------------------------------------------ */
+.about {
+  background: #2e2f2d; }
+
+/* ------------------------------------------ */
+/* RESUME BLOCK
+/* ------------------------------------------ */
+.resume {
+  background: #ebf0df; }
+
+/* ------------------------------------------ */
+/* PORTFOLIO BLOCK
+/* ------------------------------------------ */
+.portfolio {
+  background: #60d7a9; }
+
+/* ------------------------------------------ */
+/* CERTIFICATES BLOCK
+/* ------------------------------------------ */
+.certificates {
+  background: #d6e2e0; }
+
+/* ------------------------------------------ */
+/* BLOG BLOCK
+/* ------------------------------------------ */
+.blog {
+  background: #e5dcc5; }
+
+/* ------------------------------------------ */
+/* CONTACT BLOCK
+/* ------------------------------------------ */
+.contact {
+  background: #d6e2e0; }
+
+/* ------------------------------------------ */
+/* PAY BLOCK
+/* ------------------------------------------ */
+.pay {
+  background: blue; }
+
+/* ------------------------------------------ */
+/* ERROR BLOCK
+/* ------------------------------------------ */
+.error {
+  background: blue; }

@@ -27,25 +27,38 @@ function App({children, routes}) {
         )));
     }
 
-    const repoLink = 'https://github.com/rogatnev-nikita/rogatnev-nikita.github.io';
-
     return (
-        <div>
-            <h1>Рогатнев Никита | Персональный сайт разработчика</h1>
-            <a href={repoLink}>https://github.com/rogatnev-nikita/rogatnev-nikita.github.io</a>
-            <nav>
-                {generateMapMenu()}
-            </nav>
-            {children}
-            <div style={{
-                color: '#A0A0A0',
-                fontSize: '14px',
-                marginTop: '50px'
-            }}>
-                <a href="http://www.rogatnev.ru" className="extended-link">
-                    <span className="link-style">Rogatnev Nikita</span>
-                </a>
-            </div>
+        <div className="app-container__content">
+            <header className="header">
+                <nav id="header__navigation" className="header__navigation container" role="navigation">
+                    <ul>
+                        <li className="header__navigation-item header__navigation-item--active">
+                            <a href="#home"><i className="pe-7s-home"></i>Home</a>
+                        </li>
+                        <li className="header__navigation-item">
+                            <a href="#about"><i className="pe-7s-user"></i>About Me</a>
+                        </li>
+                        <li className="header__navigation-item">
+                            <a href="#resume"><i className="pe-7s-id"></i>Resume</a>
+                        </li>
+                        <li className="header__navigation-item">
+                            <a href="#portfolio"><i className="pe-7s-glasses"></i>Portfolio</a>
+                        </li>
+                        <li className="header__navigation-item">
+                            <a href="#certifacates"><i className="pe-7s-glasses"></i>Certifacates</a>
+                        </li>
+                        <li className="header__navigation-item">
+                            <a href="#blog"><i className="pe-7s-notebook"></i>Blog</a>
+                        </li>
+                        <li className="header__navigation-item">
+                            <a href="#contact"><i className="pe-7s-call"></i>Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main className="main">
+                {children}
+            </main>
         </div>
     );
 }

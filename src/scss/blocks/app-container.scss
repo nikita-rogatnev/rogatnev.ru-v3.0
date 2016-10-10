@@ -1,0 +1,14 @@
+/* ------------------------------------------ */
+/* APP CONTAINER BLOCK
+/* ------------------------------------------ */
+.app-container {
+	width: 100%;
+	height: 100vh;
+
+	.app-container__content {
+		display: flex;
+		flex-direction: row;
+
+		flex-wrap: nowrap;
+	}
+}

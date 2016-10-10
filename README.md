@@ -1,4 +1,4 @@
-# Rogatnev Nikita personal website [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url] [![devDependency status][dev-dependency-image]][dev-dependency-url]
+# Rogatnev Nikita website v.3 [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url] [![devDependency status][dev-dependency-image]][dev-dependency-url]
 
 ## Summary
 * High Resolution: Yes
@@ -7,7 +7,15 @@
 * Files Included: HTML Files, SCSS Files, CSS Files, JS Files, Images
 * Layout: Responsive (Bootstrap v.4 Alpha 4 grid & normalize)
 
+# Install & Run
+```bash
+git clone https://github.com/rogatnev-nikita/rogatnev-nikita.github.io
+cd rogatnev-nikita.github.io
+npm i
 
+# Run the app
+npm start
+```
 [travis-image]: https://travis-ci.org/rogatnev-nikita/rogatnev-nikita.github.io.svg?branch=master
 [travis-url]: https://travis-ci.org/rogatnev-nikita/rogatnev-nikita.github.io
 

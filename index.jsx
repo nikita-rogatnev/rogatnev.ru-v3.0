@@ -4,20 +4,16 @@ import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 import 'current-input';
 
 import App from './src/components/App';
-import Home from './src/components/Home';
-import PageNotFound from './src/components/PageNotFound';
-import ExampleComponent from './src/components/ExampleComponent';
-import ExampleTwoDeepComponent from './src/components/ExampleTwoDeepComponent';
+import home__page from './src/components/home__page';
+import error__page from './src/components/error__page';
+import pay__page from './src/components/pay__page';
 
 const routes = (
     <Route path="/" mapMenuTitle="Home" component={App}>
-        <IndexRoute component={Home}/>
+        <IndexRoute component={home__page}/>
 
-        <Route path="example" mapMenuTitle="Example" component={ExampleComponent}>
-            <Route path="two-deep" mapMenuTitle="Two Deep" component={ExampleTwoDeepComponent}/>
-        </Route>
-
-        <Route path="*" mapMenuTitle="Page Not Found" component={PageNotFound}/>
+        <Route path="pay" mapMenuTitle="Example" component={pay__page}></Route>
+        <Route path="*" mapMenuTitle="Page Not Found" component={error__page}/>
     </Route>
 );
 

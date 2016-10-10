@@ -7,4 +7,27 @@
 // ------------------------------------------ //
 // BLOCKS
 // ------------------------------------------ //
+@import "./blocks/app-container.scss";
+@import "./blocks/header.scss";
 @import "./blocks/main.scss";
+
+// ------------------------------------------ //
+// HOME PAGE BLOCKS
+// ------------------------------------------ //
+@import "./blocks/intro.scss";
+@import "./blocks/about.scss";
+@import "./blocks/resume.scss";
+@import "./blocks/portfolio.scss";
+@import "./blocks/certificates.scss";
+@import "./blocks/blog.scss";
+@import "./blocks/contact.scss";
+
+// ------------------------------------------ //
+// PAY PAGE BLOCKS
+// ------------------------------------------ //
+@import "./blocks/pay.scss";
+
+// ------------------------------------------ //
+// ERROR PAGE BLOCKS
+// ------------------------------------------ //
+@import "./blocks/error.scss";
