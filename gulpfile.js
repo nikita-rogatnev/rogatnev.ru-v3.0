@@ -37,7 +37,9 @@ gulp.task("style", function () {
         ]))
         .pipe(gulp.dest("build/css"))
         .pipe(minify())
-        .pipe(rename("style.min.css"))
+        .pipe(rename({
+            suffix: ".min",
+        }))
         .pipe(gulp.dest("build/css"))
         .pipe(server.stream());
 });
@@ -72,7 +74,7 @@ gulp.task("copy", function () {
         "./src/img/**",
         "./src/js/**.js"
     ], {
-            base: "."
+            base: "./src"
         })
         .pipe(gulp.dest("build"));
 });
@@ -89,8 +91,7 @@ gulp.task("serve", function () {
         ui: false
     });
 
-    gulp.watch("./src/scss/**/*.scss", ["style"]);
-    gulp.watch("build/*.html")
+    gulp.watch("./src/scss/**/*.scss")
         .on("change", server.reload);
 });
 
