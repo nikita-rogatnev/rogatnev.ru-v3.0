@@ -1,4 +1,4 @@
-# Rogatnev Nikita website v.3 [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url] [![devDependency status][dev-dependency-image]][dev-dependency-url]
+# Rogatnev Nikita Website v3.0 [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url] [![devDependency status][dev-dependency-image]][dev-dependency-url]
 
 ## Summary
 * High Resolution: Yes
