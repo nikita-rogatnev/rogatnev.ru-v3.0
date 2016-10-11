@@ -63,26 +63,51 @@
 	
 	var _App2 = _interopRequireDefault(_App);
 	
-	var _home__page = __webpack_require__(/*! ./src/components/home__page */ 245);
+	var _intro = __webpack_require__(/*! ./src/components/home/intro */ 245);
 	
-	var _home__page2 = _interopRequireDefault(_home__page);
+	var _intro2 = _interopRequireDefault(_intro);
 	
-	var _error__page = __webpack_require__(/*! ./src/components/error__page */ 246);
+	var _about = __webpack_require__(/*! ./src/components/home/about */ 246);
 	
-	var _error__page2 = _interopRequireDefault(_error__page);
+	var _about2 = _interopRequireDefault(_about);
 	
-	var _pay__page = __webpack_require__(/*! ./src/components/pay__page */ 247);
+	var _resume = __webpack_require__(/*! ./src/components/home/resume */ 247);
 	
-	var _pay__page2 = _interopRequireDefault(_pay__page);
+	var _resume2 = _interopRequireDefault(_resume);
+	
+	var _portfolio = __webpack_require__(/*! ./src/components/home/portfolio */ 248);
+	
+	var _portfolio2 = _interopRequireDefault(_portfolio);
+	
+	var _certificates = __webpack_require__(/*! ./src/components/home/certificates */ 249);
+	
+	var _certificates2 = _interopRequireDefault(_certificates);
+	
+	var _blog = __webpack_require__(/*! ./src/components/home/blog */ 250);
+	
+	var _blog2 = _interopRequireDefault(_blog);
+	
+	var _contact = __webpack_require__(/*! ./src/components/home/contact */ 251);
+	
+	var _contact2 = _interopRequireDefault(_contact);
+	
+	var _error = __webpack_require__(/*! ./src/components/error/error */ 254);
+	
+	var _error2 = _interopRequireDefault(_error);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var routes = _react2.default.createElement(
 	    _reactRouter.Route,
-	    { path: '/', mapMenuTitle: 'Home', component: _App2.default },
-	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _home__page2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: 'pay', mapMenuTitle: 'Example', component: _pay__page2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: '*', mapMenuTitle: 'Page Not Found', component: _error__page2.default })
+	    { path: '/', component: _App2.default },
+	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _intro2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: 'about', component: _about2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: 'resume', component: _resume2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: 'portfolio', component: _portfolio2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: 'certificates', component: _certificates2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: 'blog', component: _blog2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: 'contact', component: _contact2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '*', component: _error2.default })
 	);
 	
 	(0, _reactDom.render)(_react2.default.createElement(_reactRouter.Router, { history: _reactRouter.browserHistory, routes: routes }), document.getElementById('app'));
@@ -28594,10 +28619,10 @@
 	                null,
 	                _react2.default.createElement(
 	                    'li',
-	                    { className: 'header__navigation-item header__navigation-item--active' },
+	                    { className: 'header__navigation-item' },
 	                    _react2.default.createElement(
-	                        'a',
-	                        { href: '#intro' },
+	                        _reactRouter.IndexLink,
+	                        { to: '/', className: 'header__navigation-link', activeClassName: 'header__navigation-link--active' },
 	                        _react2.default.createElement(
 	                            'svg',
 	                            null,
@@ -28614,8 +28639,8 @@
 	                    'li',
 	                    { className: 'header__navigation-item' },
 	                    _react2.default.createElement(
-	                        'a',
-	                        { href: '#about' },
+	                        _reactRouter.Link,
+	                        { to: 'about', className: 'header__navigation-link', activeClassName: 'header__navigation-link--active' },
 	                        _react2.default.createElement(
 	                            'svg',
 	                            null,
@@ -28632,8 +28657,8 @@
 	                    'li',
 	                    { className: 'header__navigation-item' },
 	                    _react2.default.createElement(
-	                        'a',
-	                        { href: '#resume' },
+	                        _reactRouter.Link,
+	                        { to: 'resume', className: 'header__navigation-link', activeClassName: 'header__navigation-link--active' },
 	                        _react2.default.createElement(
 	                            'svg',
 	                            null,
@@ -28650,8 +28675,8 @@
 	                    'li',
 	                    { className: 'header__navigation-item' },
 	                    _react2.default.createElement(
-	                        'a',
-	                        { href: '#portfolio' },
+	                        _reactRouter.Link,
+	                        { to: 'portfolio', className: 'header__navigation-link', activeClassName: 'header__navigation-link--active' },
 	                        _react2.default.createElement(
 	                            'svg',
 	                            null,
@@ -28668,8 +28693,8 @@
 	                    'li',
 	                    { className: 'header__navigation-item' },
 	                    _react2.default.createElement(
-	                        'a',
-	                        { href: '#certificates' },
+	                        _reactRouter.Link,
+	                        { to: 'certificates', className: 'header__navigation-link', activeClassName: 'header__navigation-link--active' },
 	                        _react2.default.createElement(
 	                            'svg',
 	                            null,
@@ -28686,8 +28711,8 @@
 	                    'li',
 	                    { className: 'header__navigation-item' },
 	                    _react2.default.createElement(
-	                        'a',
-	                        { href: '#blog' },
+	                        _reactRouter.Link,
+	                        { to: 'blog', className: 'header__navigation-link', activeClassName: 'header__navigation-link--active' },
 	                        _react2.default.createElement(
 	                            'svg',
 	                            null,
@@ -28704,8 +28729,8 @@
 	                    'li',
 	                    { className: 'header__navigation-item' },
 	                    _react2.default.createElement(
-	                        'a',
-	                        { href: '#contact' },
+	                        _reactRouter.Link,
+	                        { to: 'contact', className: 'header__navigation-link', activeClassName: 'header__navigation-link--active' },
 	                        _react2.default.createElement(
 	                            'svg',
 	                            null,
@@ -28729,7 +28754,7 @@
 /***/ },
 /* 245 */
 /*!***************************************!*\
-  !*** ./src/components/home__page.jsx ***!
+  !*** ./src/components/home/intro.jsx ***!
   \***************************************/
 /***/ function(module, exports, __webpack_require__) {
 
@@ -28747,11 +28772,12 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	function home__page() {
-	    var reactLink = 'https://github.com/facebook/react';
-	    var reactRouterLink = 'https://github.com/reactjs/react-router';
-	    var ghPagesLink = 'https://pages.github.com/';
-	    var repoReadmeLink = 'https://github.com/rogatnev-nikita/rogatnev-nikita.github.io#readme';
+	var propTypes = {
+	    children: _react.PropTypes.element
+	};
+	
+	function intro(_ref) {
+	    var children = _ref.children;
 	
 	    return _react2.default.createElement(
 	        'div',
@@ -28762,76 +28788,22 @@
 	            _react2.default.createElement(
 	                'div',
 	                { className: 'intro__container' },
-	                '1'
-	            )
-	        ),
-	        _react2.default.createElement(
-	            'section',
-	            { className: 'about', id: 'about' },
-	            _react2.default.createElement(
-	                'div',
-	                { className: 'about__container' },
-	                '2'
-	            )
-	        ),
-	        _react2.default.createElement(
-	            'section',
-	            { className: 'resume', id: 'resume' },
-	            _react2.default.createElement(
-	                'div',
-	                { className: 'resume__container' },
-	                '3'
-	            )
-	        ),
-	        _react2.default.createElement(
-	            'section',
-	            { className: 'portfolio', id: 'portfolio' },
-	            _react2.default.createElement(
-	                'div',
-	                { className: 'portfolio__container' },
-	                '4'
-	            )
-	        ),
-	        _react2.default.createElement(
-	            'section',
-	            { className: 'certificates', id: 'certificates' },
-	            _react2.default.createElement(
-	                'div',
-	                { className: 'certificates__container' },
-	                '5'
-	            )
-	        ),
-	        _react2.default.createElement(
-	            'section',
-	            { className: 'blog', id: 'blog' },
-	            _react2.default.createElement(
-	                'div',
-	                { className: 'blog__container' },
-	                '6'
-	            )
-	        ),
-	        _react2.default.createElement(
-	            'section',
-	            { className: 'contact', id: 'contact' },
-	            _react2.default.createElement(
-	                'div',
-	                { className: 'contact__container' },
-	                '7'
+	                'intro'
 	            )
 	        )
 	    );
 	}
 	
-	exports.default = home__page;
+	exports.default = intro;
 
 /***/ },
 /* 246 */
-/*!****************************************!*\
-  !*** ./src/components/error__page.jsx ***!
-  \****************************************/
+/*!***************************************!*\
+  !*** ./src/components/home/about.jsx ***!
+  \***************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
@@ -28841,40 +28813,173 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _reactRouter = __webpack_require__(/*! react-router */ 172);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var propTypes = {
-	    location: _react.PropTypes.object.isRequired
+	    children: _react.PropTypes.element
 	};
 	
-	function error__page(_ref) {
-	    var location = _ref.location;
+	function about(_ref) {
+	    var children = _ref.children;
 	
 	    return _react2.default.createElement(
-	        "div",
-	        { className: "main__content" },
+	        'div',
+	        { className: 'main__container' },
 	        _react2.default.createElement(
-	            "section",
-	            { className: "error" },
-	            "Page not found - the path,",
+	            'section',
+	            { className: 'about', id: 'about' },
 	            _react2.default.createElement(
-	                "code",
-	                null,
-	                location.pathname
-	            ),
-	            ", did not match any React Router routes."
+	                'div',
+	                { className: 'about__container' },
+	                'about'
+	            )
 	        )
 	    );
 	}
 	
-	error__page.propTypes = propTypes;
-	
-	exports.default = error__page;
+	exports.default = about;
 
 /***/ },
 /* 247 */
+/*!****************************************!*\
+  !*** ./src/components/home/resume.jsx ***!
+  \****************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 172);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var propTypes = {
+	    children: _react.PropTypes.element
+	};
+	
+	function resume(_ref) {
+	    var children = _ref.children;
+	
+	    return _react2.default.createElement(
+	        'div',
+	        { className: 'main__container' },
+	        _react2.default.createElement(
+	            'section',
+	            { className: 'resume', id: 'resume' },
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'resume__container' },
+	                'resume'
+	            )
+	        )
+	    );
+	}
+	
+	exports.default = resume;
+
+/***/ },
+/* 248 */
+/*!*******************************************!*\
+  !*** ./src/components/home/portfolio.jsx ***!
+  \*******************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 172);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var propTypes = {
+	    children: _react.PropTypes.element
+	};
+	
+	function portfolio(_ref) {
+	    var children = _ref.children;
+	
+	    return _react2.default.createElement(
+	        'div',
+	        { className: 'main__container' },
+	        _react2.default.createElement(
+	            'section',
+	            { className: 'portfolio', id: 'portfolio' },
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'portfolio__container' },
+	                'portfolio'
+	            )
+	        )
+	    );
+	}
+	
+	exports.default = portfolio;
+
+/***/ },
+/* 249 */
+/*!**********************************************!*\
+  !*** ./src/components/home/certificates.jsx ***!
+  \**********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 172);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var propTypes = {
+	    children: _react.PropTypes.element
+	};
+	
+	function certificates(_ref) {
+	    var children = _ref.children;
+	
+	    return _react2.default.createElement(
+	        'div',
+	        { className: 'main__container' },
+	        _react2.default.createElement(
+	            'section',
+	            { className: 'certificates', id: 'certificates' },
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'certificates__container' },
+	                'certificates'
+	            )
+	        )
+	    );
+	}
+	
+	exports.default = certificates;
+
+/***/ },
+/* 250 */
 /*!**************************************!*\
-  !*** ./src/components/pay__page.jsx ***!
+  !*** ./src/components/home/blog.jsx ***!
   \**************************************/
 /***/ function(module, exports, __webpack_require__) {
 
@@ -28896,32 +29001,119 @@
 	    children: _react.PropTypes.element
 	};
 	
-	function pay__page(_ref) {
+	function blog(_ref) {
 	    var children = _ref.children;
 	
 	    return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'main__container' },
 	        _react2.default.createElement(
-	            'p',
-	            null,
-	            'This is an example page. Refresh the page or copy/paste the url to test out the redirect functionality (this same page should load after the redirect).'
-	        ),
-	        children || _react2.default.createElement(
-	            'div',
-	            null,
+	            'section',
+	            { className: 'blog', id: 'blog' },
 	            _react2.default.createElement(
-	                _reactRouter.Link,
-	                { to: '/example/two-deep?field1=foo&field2=bar#boom!' },
-	                'Example two deep with query and hash'
+	                'div',
+	                { className: 'blog__container' },
+	                'blog'
 	            )
 	        )
 	    );
 	}
 	
-	pay__page.propTypes = propTypes;
+	exports.default = blog;
+
+/***/ },
+/* 251 */
+/*!*****************************************!*\
+  !*** ./src/components/home/contact.jsx ***!
+  \*****************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
 	
-	exports.default = pay__page;
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 172);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var propTypes = {
+	    children: _react.PropTypes.element
+	};
+	
+	function contact(_ref) {
+	    var children = _ref.children;
+	
+	    return _react2.default.createElement(
+	        'div',
+	        { className: 'main__container' },
+	        _react2.default.createElement(
+	            'section',
+	            { className: 'contact', id: 'contact' },
+	            _react2.default.createElement(
+	                'div',
+	                { className: 'contact__container' },
+	                'contact'
+	            )
+	        )
+	    );
+	}
+	
+	exports.default = contact;
+
+/***/ },
+/* 252 */,
+/* 253 */,
+/* 254 */
+/*!****************************************!*\
+  !*** ./src/components/error/error.jsx ***!
+  \****************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var propTypes = {
+	    location: _react.PropTypes.object.isRequired
+	};
+	
+	function error(_ref) {
+	    var location = _ref.location;
+	
+	    return _react2.default.createElement(
+	        "div",
+	        { className: "main__content" },
+	        _react2.default.createElement(
+	            "section",
+	            { className: "error" },
+	            "Page not found - the path,",
+	            _react2.default.createElement(
+	                "code",
+	                null,
+	                location.pathname
+	            ),
+	            ", did not match any React Router routes."
+	        )
+	    );
+	}
+	
+	error.propTypes = propTypes;
+	
+	exports.default = error;
 
 /***/ }
 /******/ ]);

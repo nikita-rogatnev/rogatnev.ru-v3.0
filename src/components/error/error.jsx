@@ -4,7 +4,7 @@ const propTypes = {
     location: PropTypes.object.isRequired
 };
 
-function error__page({location}) {
+function error({location}) {
     return (
         <div className="main__content">
             <section className="error">
@@ -15,6 +15,6 @@ function error__page({location}) {
     );
 }
 
-error__page.propTypes = propTypes;
+error.propTypes = propTypes;
 
-export default error__page;
+export default error;

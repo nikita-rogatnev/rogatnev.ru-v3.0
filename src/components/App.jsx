@@ -1,5 +1,5 @@
 import React, {PropTypes} from 'react';
-import {Link} from 'react-router';
+import {IndexLink, Link} from 'react-router';
 
 const propTypes = {
     children: PropTypes.element.isRequired,
@@ -50,59 +50,59 @@ function Header() {
             </div>
             <nav id="header__navigation" className="header__navigation" role="navigation">
                <ul>
-                   <li className="header__navigation-item header__navigation-item--active">
-                       <a href="#intro">
+                   <li className="header__navigation-item">
+                       <IndexLink to="/" className="header__navigation-link" activeClassName="header__navigation-link--active">
                            <svg>
                                <use xlinkHref="#home"></use>
                            </svg>
                            <span>Home</span>
-                       </a>
+                       </IndexLink>
                    </li>
                    <li className="header__navigation-item">
-                       <a href="#about">
+                       <Link to="about" className="header__navigation-link" activeClassName="header__navigation-link--active">
                            <svg>
                                <use xlinkHref="#user"></use>
                            </svg>
                            <span>About Me</span>
-                       </a>
+                       </Link>
                    </li>
                    <li className="header__navigation-item">
-                       <a href="#resume">
+                       <Link to="resume" className="header__navigation-link" activeClassName="header__navigation-link--active">
                            <svg><use xlinkHref="#id"></use></svg>
                            <span>Resume</span>
-                       </a>
+                       </Link>
                    </li>
                    <li className="header__navigation-item">
-                       <a href="#portfolio">
+                       <Link to="portfolio" className="header__navigation-link" activeClassName="header__navigation-link--active">
                            <svg>
                                <use xlinkHref="#glasses"></use>
                            </svg>
                            <span>Portfolio</span>
-                       </a>
+                       </Link>
                    </li>
                    <li className="header__navigation-item">
-                       <a href="#certificates">
+                       <Link to="certificates" className="header__navigation-link" activeClassName="header__navigation-link--active">
                            <svg>
                                <use xlinkHref="#albums"></use>
                            </svg>
                            <span>Certifacates</span>
-                       </a>
+                       </Link>
                    </li>
                    <li className="header__navigation-item">
-                       <a href="#blog">
+                       <Link to="blog" className="header__navigation-link" activeClassName="header__navigation-link--active">
                            <svg>
                                <use xlinkHref="#notebook"></use>
                            </svg>
                            <span>Blog</span>
-                       </a>
+                       </Link>
                    </li>
                    <li className="header__navigation-item">
-                       <a href="#contact">
+                       <Link to="contact" className="header__navigation-link" activeClassName="header__navigation-link--active">
                            <svg>
                                <use xlinkHref="#call"></use>
                            </svg>
                            <span>Contact</span>
-                       </a>
+                       </Link>
                    </li>
                </ul>
             </nav>

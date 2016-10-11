@@ -53,23 +53,20 @@
 	border-bottom: 0.5px solid $palette-quaternary__opacity2;
 	background: $palette-tertiary;
 
-	a {
-		display: block;
-
-		padding: 1.1em 0.5em;
-
-		text-decoration: none;
-
-		opacity: 0.4;
-		color: $palette-quaternary;
-
-		&:hover {
-			text-decoration: none;
-
-			opacity: 0.7;
-			color: $palette-quaternary;
-		}
+	&:first-child {
+		border-top: 0;
 	}
+}
+
+.header__navigation-link {
+	display: block;
+
+	padding: 1.1em 0.5em;
+
+	text-decoration: none;
+
+	opacity: 0.4;
+	color: $palette-quaternary;
 
 	svg {
 		display: block;
@@ -87,17 +84,18 @@
 		margin-top: 0.3em;
 	}
 
-	&:first-child {
-		border-top: 0;
+	&:hover {
+		text-decoration: none;
+
+		opacity: 0.7;
+		color: $palette-quaternary;
 	}
 
 	&--active {
-		a {
-			opacity: 1;
+		opacity: 1;
 
-			&:hover {
-				opacity: 1;
-			}
+		&:hover {
+			opacity: 1;
 		}
 	}
 }
