@@ -29,33 +29,7 @@ function App({children, routes}) {
 
     return (
         <div className="app-container__content">
-            <header className="header">
-                <nav id="header__navigation" className="header__navigation container" role="navigation">
-                    <ul>
-                        <li className="header__navigation-item header__navigation-item--active">
-                            <a href="#home"><i className="pe-7s-home"></i>Home</a>
-                        </li>
-                        <li className="header__navigation-item">
-                            <a href="#about"><i className="pe-7s-user"></i>About Me</a>
-                        </li>
-                        <li className="header__navigation-item">
-                            <a href="#resume"><i className="pe-7s-id"></i>Resume</a>
-                        </li>
-                        <li className="header__navigation-item">
-                            <a href="#portfolio"><i className="pe-7s-glasses"></i>Portfolio</a>
-                        </li>
-                        <li className="header__navigation-item">
-                            <a href="#certifacates"><i className="pe-7s-glasses"></i>Certifacates</a>
-                        </li>
-                        <li className="header__navigation-item">
-                            <a href="#blog"><i className="pe-7s-notebook"></i>Blog</a>
-                        </li>
-                        <li className="header__navigation-item">
-                            <a href="#contact"><i className="pe-7s-call"></i>Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+            <Header />
             <main className="main">
                 {children}
             </main>
@@ -63,6 +37,79 @@ function App({children, routes}) {
     );
 }
 
-App.propTypes = propTypes;
 
+// ------------------------------------------ //
+// HEADER BLOCK
+// ------------------------------------------ //
+function Header() {
+    return (
+        <header className="header">
+            <div className="header__profile">
+               <img src="https://ru.gravatar.com/userimage/94050862/3286ae2da6fb3e5602cc2ef5a5158bc8.png?size=120" alt="Rogatnev Nikita" width="120" height="120" />
+               <h1 class="site-title">Rogatnev Nikita</h1>
+            </div>
+            <nav id="header__navigation" className="header__navigation container" role="navigation">
+               <ul className="row">
+                   <li className="header__navigation-item header__navigation-item--active">
+                       <a href="#home">
+                           <svg>
+                               <use xlinkHref="#home"></use>
+                           </svg>
+                           <span>Home</span>
+                       </a>
+                   </li>
+                   <li className="header__navigation-item">
+                       <a href="#about">
+                           <svg>
+                               <use xlinkHref="#user"></use>
+                           </svg>
+                           <span>About Me</span>
+                       </a>
+                   </li>
+                   <li className="header__navigation-item">
+                       <a href="#resume">
+                           <svg><use xlinkHref="#id"></use></svg>
+                           <span>Resume</span>
+                       </a>
+                   </li>
+                   <li className="header__navigation-item">
+                       <a href="#portfolio">
+                           <svg>
+                               <use xlinkHref="#glasses"></use>
+                           </svg>
+                           <span>Portfolio</span>
+                       </a>
+                   </li>
+                   <li className="header__navigation-item">
+                       <a href="#certifacates">
+                           <svg>
+                               <use xlinkHref="#albums"></use>
+                           </svg>
+                           <span>Certifacates</span>
+                       </a>
+                   </li>
+                   <li className="header__navigation-item">
+                       <a href="#blog">
+                           <svg>
+                               <use xlinkHref="#notebook"></use>
+                           </svg>
+                           <span>Blog</span>
+                       </a>
+                   </li>
+                   <li className="header__navigation-item">
+                       <a href="#contact">
+                           <svg>
+                               <use xlinkHref="#call"></use>
+                           </svg>
+                           <span>Contact</span>
+                       </a>
+                   </li>
+               </ul>
+            </nav>
+        </header>
+    )
+}
+
+
+App.propTypes = propTypes;
 export default App;

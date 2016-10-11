@@ -28560,88 +28560,7 @@
 	    return _react2.default.createElement(
 	        'div',
 	        { className: 'app-container__content' },
-	        _react2.default.createElement(
-	            'header',
-	            { className: 'header' },
-	            _react2.default.createElement(
-	                'nav',
-	                { id: 'header__navigation', className: 'header__navigation container', role: 'navigation' },
-	                _react2.default.createElement(
-	                    'ul',
-	                    null,
-	                    _react2.default.createElement(
-	                        'li',
-	                        { className: 'header__navigation-item header__navigation-item--active' },
-	                        _react2.default.createElement(
-	                            'a',
-	                            { href: '#home' },
-	                            _react2.default.createElement('i', { className: 'pe-7s-home' }),
-	                            'Home'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'li',
-	                        { className: 'header__navigation-item' },
-	                        _react2.default.createElement(
-	                            'a',
-	                            { href: '#about' },
-	                            _react2.default.createElement('i', { className: 'pe-7s-user' }),
-	                            'About Me'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'li',
-	                        { className: 'header__navigation-item' },
-	                        _react2.default.createElement(
-	                            'a',
-	                            { href: '#resume' },
-	                            _react2.default.createElement('i', { className: 'pe-7s-id' }),
-	                            'Resume'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'li',
-	                        { className: 'header__navigation-item' },
-	                        _react2.default.createElement(
-	                            'a',
-	                            { href: '#portfolio' },
-	                            _react2.default.createElement('i', { className: 'pe-7s-glasses' }),
-	                            'Portfolio'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'li',
-	                        { className: 'header__navigation-item' },
-	                        _react2.default.createElement(
-	                            'a',
-	                            { href: '#certifacates' },
-	                            _react2.default.createElement('i', { className: 'pe-7s-glasses' }),
-	                            'Certifacates'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'li',
-	                        { className: 'header__navigation-item' },
-	                        _react2.default.createElement(
-	                            'a',
-	                            { href: '#blog' },
-	                            _react2.default.createElement('i', { className: 'pe-7s-notebook' }),
-	                            'Blog'
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'li',
-	                        { className: 'header__navigation-item' },
-	                        _react2.default.createElement(
-	                            'a',
-	                            { href: '#contact' },
-	                            _react2.default.createElement('i', { className: 'pe-7s-call' }),
-	                            'Contact'
-	                        )
-	                    )
-	                )
-	            )
-	        ),
+	        _react2.default.createElement(Header, null),
 	        _react2.default.createElement(
 	            'main',
 	            { className: 'main' },
@@ -28650,8 +28569,161 @@
 	    );
 	}
 	
-	App.propTypes = propTypes;
+	// ------------------------------------------ //
+	// HEADER BLOCK
+	// ------------------------------------------ //
+	function Header() {
+	    return _react2.default.createElement(
+	        'header',
+	        { className: 'header' },
+	        _react2.default.createElement(
+	            'div',
+	            { className: 'header__profile' },
+	            _react2.default.createElement('img', { src: 'https://ru.gravatar.com/userimage/94050862/3286ae2da6fb3e5602cc2ef5a5158bc8.png?size=120', alt: 'Rogatnev Nikita', width: '120', height: '120' }),
+	            _react2.default.createElement(
+	                'h1',
+	                { 'class': 'site-title' },
+	                'Rogatnev Nikita'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'nav',
+	            { id: 'header__navigation', className: 'header__navigation container', role: 'navigation' },
+	            _react2.default.createElement(
+	                'ul',
+	                { className: 'row' },
+	                _react2.default.createElement(
+	                    'li',
+	                    { className: 'header__navigation-item header__navigation-item--active' },
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: '#home' },
+	                        _react2.default.createElement(
+	                            'svg',
+	                            null,
+	                            _react2.default.createElement('use', { xlinkHref: '#home' })
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            null,
+	                            'Home'
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'li',
+	                    { className: 'header__navigation-item' },
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: '#about' },
+	                        _react2.default.createElement(
+	                            'svg',
+	                            null,
+	                            _react2.default.createElement('use', { xlinkHref: '#user' })
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            null,
+	                            'About Me'
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'li',
+	                    { className: 'header__navigation-item' },
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: '#resume' },
+	                        _react2.default.createElement(
+	                            'svg',
+	                            null,
+	                            _react2.default.createElement('use', { xlinkHref: '#id' })
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            null,
+	                            'Resume'
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'li',
+	                    { className: 'header__navigation-item' },
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: '#portfolio' },
+	                        _react2.default.createElement(
+	                            'svg',
+	                            null,
+	                            _react2.default.createElement('use', { xlinkHref: '#glasses' })
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            null,
+	                            'Portfolio'
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'li',
+	                    { className: 'header__navigation-item' },
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: '#certifacates' },
+	                        _react2.default.createElement(
+	                            'svg',
+	                            null,
+	                            _react2.default.createElement('use', { xlinkHref: '#albums' })
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            null,
+	                            'Certifacates'
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'li',
+	                    { className: 'header__navigation-item' },
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: '#blog' },
+	                        _react2.default.createElement(
+	                            'svg',
+	                            null,
+	                            _react2.default.createElement('use', { xlinkHref: '#notebook' })
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            null,
+	                            'Blog'
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'li',
+	                    { className: 'header__navigation-item' },
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: '#contact' },
+	                        _react2.default.createElement(
+	                            'svg',
+	                            null,
+	                            _react2.default.createElement('use', { xlinkHref: '#call' })
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            null,
+	                            'Contact'
+	                        )
+	                    )
+	                )
+	            )
+	        )
+	    );
+	}
 	
+	App.propTypes = propTypes;
 	exports.default = App;
 
 /***/ },

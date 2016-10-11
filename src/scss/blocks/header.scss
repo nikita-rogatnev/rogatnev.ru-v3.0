@@ -5,22 +5,83 @@
 	width: 120px;
 	height: 100vh;
 
-	color: $palette-primary;
+	letter-spacing: 0.07em;
+
 	background: $palette-tertiary;
+
+	font-size: 10px;
+}
+
+.header__profile {
+	display: flex;
+	flex-direction: column;
+
+	h1 {
+		display: block;
+
+		width: auto;
+		margin: 0;
+		padding: 0.8em;
+
+		text-align: center;
+		text-transform: uppercase;
+
+		color: $palette-primary;
+		background: $palette-accent;
+
+		font-size: 1.2em;
+		line-height: 1.4;
+	}
 }
 
 .header__navigation {
 	text-align: center;
+}
+
+.header__navigation-item {
+	display: block;
+
+	text-transform: uppercase;
+
+	border-top: 0.5px solid $palette-quaternary__opacity2;
+	border-bottom: 0.5px solid $palette-quaternary__opacity2;
+	background: $palette-tertiary;
 
 	a {
+		display: block;
+
+		padding: 1.1em 0.5em;
+
 		text-decoration: none;
 
-		color: $palette-primary;
+		opacity: 0.4;
+		color: $palette-quaternary;
 
 		&:hover {
 			text-decoration: none;
 
-			color: $palette-primary;
+			opacity: 0.7;
+			color: $palette-quaternary;
 		}
+	}
+
+	svg {
+		display: block;
+
+		width: 22px;
+		height: 22px;
+		margin: 0 auto;
+
+		fill: $palette-quaternary;
+	}
+
+	span {
+		display: block;
+
+		margin-top: 0.3em;
+	}
+
+	&:first-child {
+		border-top: 0;
 	}
 }

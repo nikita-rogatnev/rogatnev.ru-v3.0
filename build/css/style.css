@@ -6,22 +6,46 @@
 
 html,
 body {
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
+  max-width: 100%;
   height: 100vh;
+  max-height: 100vh;
   margin: 0;
   padding: 0; }
 
 body {
   color: #333333;
+  background: #2e363a;
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
-  line-height: 1.4; }
+  line-height: 1.42857143; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal; }
 
 ul {
+  margin: 0;
   padding: 0;
   list-style-type: none; }
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+  a:hover {
+    text-decoration: none;
+    outline: none; }
 
 /* ------------------------------------------ */
 /* APP CONTAINER BLOCK
@@ -40,17 +64,55 @@ ul {
 .header {
   width: 120px;
   height: 100vh;
-  color: white;
-  background: #1c262b; }
+  letter-spacing: 0.07em;
+  background: #1c262b;
+  font-size: 10px; }
+
+.header__profile {
+  display: flex;
+  flex-direction: column; }
+  .header__profile h1 {
+    display: block;
+    width: auto;
+    margin: 0;
+    padding: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background: #2ba163;
+    font-size: 1.2em;
+    line-height: 1.4; }
 
 .header__navigation {
   text-align: center; }
-  .header__navigation a {
+
+.header__navigation-item {
+  display: block;
+  text-transform: uppercase;
+  border-top: 0.5px solid rgba(225, 246, 255, 0.2);
+  border-bottom: 0.5px solid rgba(225, 246, 255, 0.2);
+  background: #1c262b; }
+  .header__navigation-item a {
+    display: block;
+    padding: 1.1em 0.5em;
     text-decoration: none;
-    color: white; }
-    .header__navigation a:hover {
+    opacity: 0.4;
+    color: #e1f6ff; }
+    .header__navigation-item a:hover {
       text-decoration: none;
-      color: white; }
+      opacity: 0.7;
+      color: #e1f6ff; }
+  .header__navigation-item svg {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 0 auto;
+    fill: #e1f6ff; }
+  .header__navigation-item span {
+    display: block;
+    margin-top: 0.3em; }
+  .header__navigation-item:first-child {
+    border-top: 0; }
 
 /* ------------------------------------------ */
 /* MAIN BLOCK
