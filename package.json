@@ -8,7 +8,7 @@
     "scripts": {
         "build": "gulp build",
         "start": "webpack -d --watch & live-server --entry-file=404.html & npm run build",
-        "test": "webpack -d --watch & live-server --entry-file=404.html & gulp serve"
+        "test": "gulp build"
     },
     "repository": {
         "type": "git",
