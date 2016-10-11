@@ -318,6 +318,7 @@ a {
     height: auto;
     padding: 0.8em;
     text-align: center;
+    white-space: normal;
     background: #2ba163;
     font-size: 1.2em; }
   .header__navigation-link svg {
