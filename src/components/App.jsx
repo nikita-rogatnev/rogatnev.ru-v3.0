@@ -46,7 +46,7 @@ function Header() {
         <header className="header">
             <div className="header__profile">
                <img src="https://ru.gravatar.com/userimage/94050862/3286ae2da6fb3e5602cc2ef5a5158bc8.png?size=120" alt="Rogatnev Nikita" width="120" height="120" />
-               <h1 class="site-title">Rogatnev Nikita</h1>
+               <h1>Rogatnev Nikita</h1>
             </div>
             <nav id="header__navigation" className="header__navigation" role="navigation">
                <ul>

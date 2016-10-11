@@ -116,6 +116,10 @@ a {
     margin-top: 0.3em; }
   .header__navigation-item:first-child {
     border-top: 0; }
+  .header__navigation-item--active a {
+    opacity: 1; }
+    .header__navigation-item--active a:hover {
+      opacity: 1; }
 
 /* ------------------------------------------ */
 /* MAIN BLOCK

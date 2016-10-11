@@ -90,4 +90,14 @@
 	&:first-child {
 		border-top: 0;
 	}
+
+	&--active {
+		a {
+			opacity: 1;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
 }
