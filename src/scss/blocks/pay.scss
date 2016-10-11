@@ -3,4 +3,7 @@
 /* ------------------------------------------ */
 .pay {
 	background: blue;
+
+	@include section;
+	@include container;
 }

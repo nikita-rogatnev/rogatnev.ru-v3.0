@@ -3,4 +3,7 @@
 /* ------------------------------------------ */
 .portfolio {
 	background: $palette-portfolio;
+
+	@include section;
+	@include container;
 }

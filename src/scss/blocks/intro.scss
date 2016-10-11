@@ -3,4 +3,7 @@
 /* ------------------------------------------ */
 .intro {
 	background: $palette-intro;
+
+	@include section;
+	@include container;
 }

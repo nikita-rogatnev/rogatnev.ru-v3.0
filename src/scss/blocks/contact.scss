@@ -3,4 +3,7 @@
 /* ------------------------------------------ */
 .contact {
 	background: $palette-contact;
+
+	@include section;
+	@include container;
 }

@@ -18,4 +18,4 @@ const routes = (
 );
 
 render(
-    <Router history={browserHistory} routes={routes}/>, document.getElementById('app-container'));
+    <Router history={browserHistory} routes={routes}/>, document.getElementById('app'));

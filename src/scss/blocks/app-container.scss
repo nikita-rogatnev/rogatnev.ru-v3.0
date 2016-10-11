@@ -1,11 +1,11 @@
 /* ------------------------------------------ */
 /* APP CONTAINER BLOCK
 /* ------------------------------------------ */
-.app-container {
+.app {
 	width: 100%;
 	height: 100vh;
 
-	.app-container__content {
+	&__container {
 		display: flex;
 		flex-direction: row;
 

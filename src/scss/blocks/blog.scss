@@ -3,4 +3,7 @@
 /* ------------------------------------------ */
 .blog {
 	background: $palette-blog;
+
+	@include section;
+	@include container;
 }

@@ -3,4 +3,7 @@
 /* ------------------------------------------ */
 .certificates {
 	background: $palette-certificates;
+
+	@include section;
+	@include container;
 }

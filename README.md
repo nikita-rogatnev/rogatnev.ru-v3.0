@@ -5,7 +5,7 @@
 * Compatible Browsers: IE10+, Edge, Firefox, Safari, Opera, Chrome
 * Technologies: BEM, SASS, WebPack, Gulp, HTML5
 * Files Included: HTML Files, SCSS Files, CSS Files, JS Files, Images
-* Layout: Responsive (Bootstrap v.4 Alpha 2 grid & normalize)
+* Layout: Responsive
 
 ## Install & Run
 ```bash
@@ -16,6 +16,7 @@ npm i
 # Run the app
 npm start
 ```
+
 [travis-image]: https://travis-ci.org/rogatnev-nikita/rogatnev-nikita.github.io.svg?branch=master
 [travis-url]: https://travis-ci.org/rogatnev-nikita/rogatnev-nikita.github.io
 

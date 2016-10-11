@@ -2,6 +2,8 @@
 /* HEADER BLOCK
 /* ------------------------------------------ */
 .header {
+	position: fixed;
+
 	width: 120px;
 	height: 100vh;
 
@@ -15,6 +17,10 @@
 .header__profile {
 	display: flex;
 	flex-direction: column;
+
+	img {
+		background: $palette-accent;
+	}
 
 	h1 {
 		display: block;

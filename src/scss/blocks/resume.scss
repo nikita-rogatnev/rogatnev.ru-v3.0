@@ -3,4 +3,7 @@
 /* ------------------------------------------ */
 .resume {
 	background: $palette-resume;
+
+	@include section;
+	@include container;
 }

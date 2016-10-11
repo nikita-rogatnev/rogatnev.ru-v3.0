@@ -28,7 +28,7 @@ function App({children, routes}) {
     }
 
     return (
-        <div className="app-container__content">
+        <div className="app__container">
             <Header />
             <main className="main">
                 {children}
@@ -48,10 +48,10 @@ function Header() {
                <img src="https://ru.gravatar.com/userimage/94050862/3286ae2da6fb3e5602cc2ef5a5158bc8.png?size=120" alt="Rogatnev Nikita" width="120" height="120" />
                <h1 class="site-title">Rogatnev Nikita</h1>
             </div>
-            <nav id="header__navigation" className="header__navigation container" role="navigation">
-               <ul className="row">
+            <nav id="header__navigation" className="header__navigation" role="navigation">
+               <ul>
                    <li className="header__navigation-item header__navigation-item--active">
-                       <a href="#home">
+                       <a href="#intro">
                            <svg>
                                <use xlinkHref="#home"></use>
                            </svg>
@@ -81,7 +81,7 @@ function Header() {
                        </a>
                    </li>
                    <li className="header__navigation-item">
-                       <a href="#certifacates">
+                       <a href="#certificates">
                            <svg>
                                <use xlinkHref="#albums"></use>
                            </svg>
