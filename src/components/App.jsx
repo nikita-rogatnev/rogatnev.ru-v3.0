@@ -1,6 +1,7 @@
 import React, {PropTypes} from 'react';
 import {IndexLink, Link} from 'react-router';
 
+
 const propTypes = {
     children: PropTypes.element.isRequired,
     routes: PropTypes.array.isRequired
@@ -44,8 +45,18 @@ function App({children, routes}) {
 function Header() {
     return (
         <header className="header">
+            <div className="header__mobile">
+               <a className="header__mobile-toggle">
+                   <svg className="header__mobile-icon header__mobile-icon--active">
+                       <use xlinkHref="#menu"></use>
+                   </svg>
+                   <svg className="header__mobile-icon">
+                       <use xlinkHref="#close"></use>
+                   </svg>
+               </a>
+            </div>
             <div className="header__profile">
-               <img src="https://ru.gravatar.com/userimage/94050862/3286ae2da6fb3e5602cc2ef5a5158bc8.png?size=120" alt="Rogatnev Nikita" width="120" height="120" />
+               <img src="/build/img/header/header__profile.png" alt="Rogatnev Nikita" width="160" height="160" />
                <h1>Rogatnev Nikita</h1>
             </div>
             <nav id="header__navigation" className="header__navigation" role="navigation">

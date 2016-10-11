@@ -91,7 +91,7 @@
 	
 	var _contact2 = _interopRequireDefault(_contact);
 	
-	var _error = __webpack_require__(/*! ./src/components/error/error */ 254);
+	var _error = __webpack_require__(/*! ./src/components/error/error */ 252);
 	
 	var _error2 = _interopRequireDefault(_error);
 	
@@ -28603,8 +28603,26 @@
 	        { className: 'header' },
 	        _react2.default.createElement(
 	            'div',
+	            { className: 'header__mobile' },
+	            _react2.default.createElement(
+	                'a',
+	                { className: 'header__mobile-toggle' },
+	                _react2.default.createElement(
+	                    'svg',
+	                    { className: 'header__mobile-icon header__mobile-icon--active' },
+	                    _react2.default.createElement('use', { xlinkHref: '#menu' })
+	                ),
+	                _react2.default.createElement(
+	                    'svg',
+	                    { className: 'header__mobile-icon' },
+	                    _react2.default.createElement('use', { xlinkHref: '#close' })
+	                )
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'div',
 	            { className: 'header__profile' },
-	            _react2.default.createElement('img', { src: 'https://ru.gravatar.com/userimage/94050862/3286ae2da6fb3e5602cc2ef5a5158bc8.png?size=120', alt: 'Rogatnev Nikita', width: '120', height: '120' }),
+	            _react2.default.createElement('img', { src: '/build/img/header/header__profile.png', alt: 'Rogatnev Nikita', width: '160', height: '160' }),
 	            _react2.default.createElement(
 	                'h1',
 	                null,
@@ -29067,9 +29085,7 @@
 	exports.default = contact;
 
 /***/ },
-/* 252 */,
-/* 253 */,
-/* 254 */
+/* 252 */
 /*!****************************************!*\
   !*** ./src/components/error/error.jsx ***!
   \****************************************/

@@ -1,18 +1,13 @@
 $(document).ready(function() {
 
     // ------------------------------------------ //
-    // ACTIVE MENU
+    // MOBILE MENU
     // ------------------------------------------ //
-    //  $('.header__navigation .header__navigation-item a').click(function(e) {
-    //    e.preventDefault();
-
-    //  $('body').scrollTo($(this).attr('href'));
-
-    //$('.header__navigation .header__navigation-item').removeClass('header__navigation-item--active');
-    //var $parent = $(this).parent();
-    //if(!$parent.hasClass('header__navigation-item--active')) {
-    //  $parent.addClass('header__navigation-item--active');
-    //}
-    //});
+    $('.header__mobile .header__mobile-toggle').click(function(e) {
+        e.preventDefault();
+        $('.header__mobile-icon').toggleClass("header__mobile-icon--active");
+        $('.header').toggleClass("header--active");
+        $('.main').toggleClass("main--active");
+    });
 
 });
