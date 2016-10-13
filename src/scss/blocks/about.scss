@@ -7,3 +7,14 @@
 	@include section;
 	@include container;
 }
+
+.about__clients {
+	margin-bottom: 5em;
+
+	@include flex;
+	justify-content: center;
+
+	&-item {
+		width: calc(100% / 6);
+	}
+}

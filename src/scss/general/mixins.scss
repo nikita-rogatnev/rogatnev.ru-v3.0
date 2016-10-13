@@ -11,6 +11,14 @@
 	}
 }
 
+// GRID
+@mixin flex {
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+}
+
 // CONTAINERS
 @mixin container {
 	&__container {
@@ -29,6 +37,29 @@
 		}
 		@include mediaquery-lg {
 			padding: 6em;
+		}
+	}
+
+	&__heading {
+		padding-bottom: 4em;
+
+		svg {
+			display: block;
+
+			width: 70px;
+			height: 70px;
+			margin: 0 auto;
+			padding: 0.2em 0;
+		}
+		h1 {
+			margin: 0;
+			padding: 0.2em 0;
+
+			text-align: center;
+			text-transform: lowercase;
+
+			font-size: 4em;
+			line-height: 1;
 		}
 	}
 }
