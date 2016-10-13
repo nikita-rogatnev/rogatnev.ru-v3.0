@@ -477,6 +477,34 @@ a {
       font-size: 4em;
       line-height: 1; }
 
+.contact__reach {
+  margin-bottom: 5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .contact__reach-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2);
+    margin: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 0 !important;
+    font-size: 12px;
+    line-height: 1.2;
+    flex-wrap: nowrap; }
+    .contact__reach-item a {
+      text-decoration: none;
+      color: #333333; }
+      .contact__reach-item a:hover, .contact__reach-item a:visited {
+        text-decoration: underline;
+        color: #333333; }
+    .contact__reach-item svg {
+      width: 50px;
+      height: 50px;
+      margin: 0 auto; }
+
 .contact__social {
   margin-bottom: 5em;
   display: flex;
@@ -489,7 +517,13 @@ a {
     margin: 5px;
     border-radius: 0 !important; }
     .contact__social-item:hover {
+      opacity: 0.9; }
+    .contact__social-item:active {
       opacity: 0.7; }
+  .contact__social svg {
+    width: 50px;
+    height: 50px;
+    fill: #333333; }
 
 /* ------------------------------------------ */
 /* ERROR BLOCK
@@ -574,6 +608,9 @@ a {
     width: 100%;
     height: 100vh;
     padding: 4em; }
+  .contact__reach-item svg {
+    width: 60px;
+    height: 60px; }
   .error__container {
     width: 100%;
     height: 100vh;
@@ -584,18 +621,21 @@ a {
     min-width: 160px;
     max-width: 160px; }
   .intro__container {
-    padding: 6em; }
+    padding: 3.5em; }
   .about__container {
-    padding: 6em; }
+    padding: 3.5em; }
   .resume__container {
-    padding: 6em; }
+    padding: 3.5em; }
   .portfolio__container {
-    padding: 6em; }
+    padding: 3.5em; }
   .certificates__container {
-    padding: 6em; }
+    padding: 3.5em; }
   .blog__container {
-    padding: 6em; }
+    padding: 3.5em; }
   .contact__container {
-    padding: 6em; }
+    padding: 3.5em; }
+  .contact__reach-item {
+    width: calc(100% / 4);
+    font-size: 14px; }
   .error__container {
-    padding: 6em; } }
+    padding: 3.5em; } }
