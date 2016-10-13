@@ -29135,8 +29135,48 @@
 	            { className: 'blog', id: 'blog' },
 	            _react2.default.createElement(
 	                'div',
-	                { className: 'blog__container' },
-	                'blog'
+	                { className: 'blog__container container-grid' },
+	                _react2.default.createElement(
+	                    'article',
+	                    { className: 'blog__item' },
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'blog__item-media' },
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: 'https://habrahabr.ru/post/213187/', target: '_blank' },
+	                            _react2.default.createElement('img', { src: '/build/img/blog/blog__img-213187.jpg', alt: 'blog image' })
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'header',
+	                        { className: 'blog__item-content' },
+	                        _react2.default.createElement(
+	                            'span',
+	                            { title: '2014', className: 'blog__item-date' },
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'blog__item-day' },
+	                                '2'
+	                            ),
+	                            'mar'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                '\u041A\u0430\u043A \u0443\u0434\u0430\u043B\u0438\u0442\u044C 1500000 \u0437\u0430\u043F\u0438\u0441\u0435\u0439 \u0438\u0437 \u0431\u0430\u0437\u044B \u0434\u0430\u043D\u043D\u044B\u0445 Yahoo'
+	                            ),
+	                            _react2.default.createElement(
+	                                'a',
+	                                { href: 'https://habrahabr.ru/post/213187/', target: '_blank' },
+	                                'Continue reading at [habrahabr.ru]'
+	                            )
+	                        )
+	                    )
+	                )
 	            )
 	        )
 	    );
