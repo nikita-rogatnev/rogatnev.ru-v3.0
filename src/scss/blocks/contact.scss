@@ -10,6 +10,7 @@
 
 
 .contact__reach {
+	width: 100%;
 	margin-bottom: 5em;
 
 	@include flex;
@@ -64,6 +65,7 @@
 }
 
 .contact__social {
+	width: 100%;
 	margin-bottom: 5em;
 
 	@include flex;

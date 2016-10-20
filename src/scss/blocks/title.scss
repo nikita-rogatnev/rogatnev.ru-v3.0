@@ -1,0 +1,106 @@
+/* ------------------------------------------ */
+/* TITLE BLOCK
+/* ------------------------------------------ */
+.title {
+	width: 100%;
+
+	text-align: center;
+
+	h2 {
+		position: relative;
+
+		display: inline-block;
+
+		width: auto;
+		margin: 3.5em auto 2.5em;
+
+		text-align: center;
+		white-space: nowrap;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+
+		font-size: 11px;
+		font-weight: normal;
+
+		span {
+			position: relative;
+			z-index: 2;
+
+			display: inline-block;
+
+			padding: 0.8em 3em;
+
+			color: $palette-primary;
+			background-color: $palette-accent;
+
+			font-style: normal;
+
+			&:before,
+			&:after {
+				position: absolute;
+				bottom: -0.5em;
+				left: -0.05em;
+
+				display: block;
+
+				width: 0;
+				height: 0;
+
+				content: "";
+				pointer-events: none;
+
+				-webkit-mask: none;
+			}
+
+			&:before {
+				top: -0.5em;
+				bottom: auto;
+
+				border-bottom: 0.5em solid #080b0c;
+				border-bottom: 0.5em solid rgba(8, 11, 12, 0.2);
+				border-left: 0.5em solid transparent;
+			}
+
+			&:after {
+				right: -0.05em;
+				left: auto;
+
+				border-top: 0.5em solid #080b0c;
+				border-top: 0.5em solid rgba(8, 11, 12, 0.2);
+				border-right: 0.5em solid transparent;
+			}
+		}
+
+		&:before,
+		&:after {
+			position: absolute;
+			bottom: -0.5em;
+
+			display: block;
+
+			width: 2em;
+			height: 100%;
+
+			content: "";
+			pointer-events: none;
+
+			background-color: #7db376;
+		}
+
+		&:before {
+			z-index: 1;
+			top: -0.5em;
+			bottom: auto;
+			left: -1.57em;
+
+			background-color: #7db376;
+		}
+
+		&:after {
+			z-index: 1;
+			right: -1.57em;
+
+			background-color: #7db376;
+		}
+	}
+}

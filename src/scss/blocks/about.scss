@@ -8,7 +8,18 @@
 	@include container;
 }
 
+.about__services {
+	width: 100%;
+	margin-bottom: 5em;
+}
+
+.about__process {
+	width: 100%;
+	margin-bottom: 5em;
+}
+
 .about__clients {
+	width: 100%;
 	margin-bottom: 5em;
 
 	@include flex;
@@ -17,4 +28,9 @@
 	&-item {
 		width: calc(100% / 6);
 	}
+}
+
+.about__facts {
+	width: 100%;
+	margin-bottom: 5em;
 }

@@ -77,7 +77,7 @@
 
 	color: #cccccc;
 	border-radius: 102px;
-	background: #ffffff;
+	background: $palette-primary;
 
 	font-size: 14px;
 	font-style: italic;
@@ -106,7 +106,7 @@
 	width: 100%;
 	padding: 3em 20px 28px;
 
-	background: #ffffff;
+	background: $palette-primary;
 
 	a {
 		color: $palette-accent;

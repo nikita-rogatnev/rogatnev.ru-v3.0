@@ -24,12 +24,15 @@
 	&__container {
 		position: relative;
 
+		display: flex;
 		overflow-y: auto;
 
 		width: 100vw;
 		height: calc(100vh - 50px);
 		padding: 2em;
 
+		align-content: flex-start;
+		flex-wrap: wrap;
 		@include mediaquery-md {
 			width: 100%;
 			height: 100vh;
@@ -41,7 +44,8 @@
 	}
 
 	&__heading {
-		padding-bottom: 4em;
+		width: 100%;
+		padding-bottom: 3em;
 
 		svg {
 			display: block;

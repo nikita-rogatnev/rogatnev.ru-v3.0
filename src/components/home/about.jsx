@@ -22,18 +22,10 @@ function about({children}) {
                                 <span>Services</span>
                             </h2>
                         </div>
-                        <div className="about__services-item">
-
-                        </div>
-                        <div className="about__services-item">
-
-                        </div>
-                        <div className="about__services-item">
-
-                        </div>
-                        <div className="about__services-item">
-
-                        </div>
+                        <div className="about__services-item"></div>
+                        <div className="about__services-item"></div>
+                        <div className="about__services-item"></div>
+                        <div className="about__services-item"></div>
                     </div>
                     <div className="about__process">
                         <div className="title">
@@ -41,24 +33,12 @@ function about({children}) {
                                 <span>Work process</span>
                             </h2>
                         </div>
-                        <div className="about__process-item">
-
-                        </div>
-                        <div className="about__process-item">
-
-                        </div>
-                        <div className="about__process-item">
-
-                        </div>
-                        <div className="about__process-item">
-
-                        </div>
-                        <div className="about__process-item">
-
-                        </div>
-                        <div className="about__process-item">
-
-                        </div>
+                        <div className="about__process-item"></div>
+                        <div className="about__process-item"></div>
+                        <div className="about__process-item"></div>
+                        <div className="about__process-item"></div>
+                        <div className="about__process-item"></div>
+                        <div className="about__process-item"></div>
                     </div>
                     <div className="about__clients">
                         <div className="title">
@@ -67,23 +47,13 @@ function about({children}) {
                             </h2>
                         </div>
                         <div className="about__clients-item">
-                            <img src="/build/img/about/__clients/rwm.png" alt="" width="160" height="160" />
+                            <img src="/build/img/about/__clients/rwm.png" alt="" width="160" height="160"/>
                         </div>
-                        <div className="about__clients-item">
-
-                        </div>
-                        <div className="about__clients-item">
-
-                        </div>
-                        <div className="about__clients-item">
-
-                        </div>
-                        <div className="about__clients-item">
-
-                        </div>
-                        <div className="about__clients-item">
-
-                        </div>
+                        <div className="about__clients-item"></div>
+                        <div className="about__clients-item"></div>
+                        <div className="about__clients-item"></div>
+                        <div className="about__clients-item"></div>
+                        <div className="about__clients-item"></div>
                     </div>
                     <div className="about__facts">
                         <div className="title">
@@ -91,18 +61,10 @@ function about({children}) {
                                 <span>Fun fact</span>
                             </h2>
                         </div>
-                        <div className="about__facts-item">
-
-                        </div>
-                        <div className="about__facts-item">
-
-                        </div>
-                        <div className="about__facts-item">
-
-                        </div>
-                        <div className="about__facts-item">
-
-                        </div>
+                        <div className="about__facts-item"></div>
+                        <div className="about__facts-item"></div>
+                        <div className="about__facts-item"></div>
+                        <div className="about__facts-item"></div>
                     </div>
                 </div>
             </section>

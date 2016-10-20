@@ -26,25 +26,29 @@ function contact({children}) {
                             <svg>
                                 <use xlinkHref="#map-marker"></use>
                             </svg>
-                            <h3>Location<br />Koh Samui</h3>
+                            <h3>Location<br/>Koh Samui</h3>
                         </div>
                         <div className="contact__reach-item">
                             <svg>
                                 <use xlinkHref="#call"></use>
                             </svg>
-                            <h3>Skype<br /><a href="skype:rogatnev_nikita?chat">rogatnev_nikita</a></h3>
+                            <h3>Skype<br/>
+                                <a href="skype:rogatnev_nikita?chat">rogatnev_nikita</a>
+                            </h3>
                         </div>
                         <div className="contact__reach-item">
                             <svg>
                                 <use xlinkHref="#mail"></use>
                             </svg>
-                            <h3>Email<br /><a href="mailto:mail@rogatnev.ru">mail@rogatnev.ru</a></h3>
+                            <h3>Email<br/>
+                                <a href="mailto:mail@rogatnev.ru">mail@rogatnev.ru</a>
+                            </h3>
                         </div>
                         <div className="contact__reach-item">
                             <svg>
                                 <use xlinkHref="#check"></use>
                             </svg>
-                            <h3>Freelance<br />Available</h3>
+                            <h3>Freelance<br/>Available</h3>
                         </div>
                     </div>
                     <div className="contact__social">

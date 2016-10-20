@@ -33,70 +33,6 @@ h5,
 h6 {
   font-weight: normal; }
 
-.title {
-  width: 100%;
-  text-align: center; }
-  .title h2 {
-    position: relative;
-    display: inline-block;
-    width: auto;
-    margin: 0 auto 2.5em;
-    text-align: center;
-    white-space: nowrap;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: normal; }
-    .title h2 span {
-      position: relative;
-      z-index: 2;
-      display: inline-block;
-      padding: 0.8em 3em;
-      color: #ffffff;
-      background-color: #8acb82;
-      font-style: normal; }
-      .title h2 span:before, .title h2 span:after {
-        position: absolute;
-        bottom: -0.5em;
-        left: -0.05em;
-        display: block;
-        width: 0;
-        height: 0;
-        content: "";
-        pointer-events: none;
-        -webkit-mask: none; }
-      .title h2 span:before {
-        top: -0.5em;
-        bottom: auto;
-        border-bottom: 0.5em solid #080b0c;
-        border-bottom: 0.5em solid rgba(8, 11, 12, 0.2);
-        border-left: 0.5em solid transparent; }
-      .title h2 span:after {
-        right: -0.05em;
-        left: auto;
-        border-top: 0.5em solid #080b0c;
-        border-top: 0.5em solid rgba(8, 11, 12, 0.2);
-        border-right: 0.5em solid transparent; }
-    .title h2:before, .title h2:after {
-      position: absolute;
-      bottom: -0.5em;
-      display: block;
-      width: 2em;
-      height: 100%;
-      content: "";
-      pointer-events: none;
-      background-color: #7db376; }
-    .title h2:before {
-      z-index: 1;
-      top: -0.5em;
-      bottom: auto;
-      left: -1.57em;
-      background-color: #7db376; }
-    .title h2:after {
-      z-index: 1;
-      right: -1.57em;
-      background-color: #7db376; }
-
 ul {
   margin: 0;
   padding: 0;
@@ -236,6 +172,73 @@ a {
       opacity: 1; }
 
 /* ------------------------------------------ */
+/* TITLE BLOCK
+/* ------------------------------------------ */
+.title {
+  width: 100%;
+  text-align: center; }
+  .title h2 {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin: 3.5em auto 2.5em;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: normal; }
+    .title h2 span {
+      position: relative;
+      z-index: 2;
+      display: inline-block;
+      padding: 0.8em 3em;
+      color: white;
+      background-color: #2ba163;
+      font-style: normal; }
+      .title h2 span:before, .title h2 span:after {
+        position: absolute;
+        bottom: -0.5em;
+        left: -0.05em;
+        display: block;
+        width: 0;
+        height: 0;
+        content: "";
+        pointer-events: none;
+        -webkit-mask: none; }
+      .title h2 span:before {
+        top: -0.5em;
+        bottom: auto;
+        border-bottom: 0.5em solid #080b0c;
+        border-bottom: 0.5em solid rgba(8, 11, 12, 0.2);
+        border-left: 0.5em solid transparent; }
+      .title h2 span:after {
+        right: -0.05em;
+        left: auto;
+        border-top: 0.5em solid #080b0c;
+        border-top: 0.5em solid rgba(8, 11, 12, 0.2);
+        border-right: 0.5em solid transparent; }
+    .title h2:before, .title h2:after {
+      position: absolute;
+      bottom: -0.5em;
+      display: block;
+      width: 2em;
+      height: 100%;
+      content: "";
+      pointer-events: none;
+      background-color: #7db376; }
+    .title h2:before {
+      z-index: 1;
+      top: -0.5em;
+      bottom: auto;
+      left: -1.57em;
+      background-color: #7db376; }
+    .title h2:after {
+      z-index: 1;
+      right: -1.57em;
+      background-color: #7db376; }
+
+/* ------------------------------------------ */
 /* MAIN BLOCK
 /* ------------------------------------------ */
 .main {
@@ -257,12 +260,16 @@ a {
   min-height: 100vh; }
   .intro__container {
     position: relative;
+    display: flex;
     overflow-y: auto;
     width: 100vw;
     height: calc(100vh - 50px);
-    padding: 2em; }
+    padding: 2em;
+    align-content: flex-start;
+    flex-wrap: wrap; }
   .intro__heading {
-    padding-bottom: 4em; }
+    width: 100%;
+    padding-bottom: 3em; }
     .intro__heading svg {
       display: block;
       width: 70px;
@@ -275,6 +282,7 @@ a {
       text-align: center;
       text-transform: lowercase;
       font-size: 4em;
+      font-weight: bold;
       line-height: 1; }
 
 /* ------------------------------------------ */
@@ -288,12 +296,16 @@ a {
   min-height: 100vh; }
   .about__container {
     position: relative;
+    display: flex;
     overflow-y: auto;
     width: 100vw;
     height: calc(100vh - 50px);
-    padding: 2em; }
+    padding: 2em;
+    align-content: flex-start;
+    flex-wrap: wrap; }
   .about__heading {
-    padding-bottom: 4em; }
+    width: 100%;
+    padding-bottom: 3em; }
     .about__heading svg {
       display: block;
       width: 70px;
@@ -306,9 +318,19 @@ a {
       text-align: center;
       text-transform: lowercase;
       font-size: 4em;
+      font-weight: bold;
       line-height: 1; }
 
+.about__services {
+  width: 100%;
+  margin-bottom: 5em; }
+
+.about__process {
+  width: 100%;
+  margin-bottom: 5em; }
+
 .about__clients {
+  width: 100%;
   margin-bottom: 5em;
   display: flex;
   flex-direction: row;
@@ -316,6 +338,10 @@ a {
   justify-content: center; }
   .about__clients-item {
     width: calc(100% / 6); }
+
+.about__facts {
+  width: 100%;
+  margin-bottom: 5em; }
 
 /* ------------------------------------------ */
 /* RESUME BLOCK
@@ -328,12 +354,16 @@ a {
   min-height: 100vh; }
   .resume__container {
     position: relative;
+    display: flex;
     overflow-y: auto;
     width: 100vw;
     height: calc(100vh - 50px);
-    padding: 2em; }
+    padding: 2em;
+    align-content: flex-start;
+    flex-wrap: wrap; }
   .resume__heading {
-    padding-bottom: 4em; }
+    width: 100%;
+    padding-bottom: 3em; }
     .resume__heading svg {
       display: block;
       width: 70px;
@@ -346,7 +376,353 @@ a {
       text-align: center;
       text-transform: lowercase;
       font-size: 4em;
+      font-weight: bold;
       line-height: 1; }
+
+.resume__history {
+  width: 100%;
+  margin-bottom: 3.5em; }
+
+.resume__history-item {
+  position: relative;
+  padding: 0 1em 2em 3.5em; }
+  .resume__history-item:before {
+    position: absolute;
+    top: 10px;
+    bottom: -10px;
+    left: 12px;
+    width: 4px;
+    content: "";
+    background: rgba(255, 255, 255, 0.5); }
+  .resume__history-item svg {
+    position: absolute;
+    z-index: 2;
+    top: -15px;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+    padding: 0.7em;
+    border-radius: 50%;
+    background: #2ba163;
+    fill: white; }
+  .resume__history-item:after {
+    position: absolute;
+    top: 6px;
+    left: 7px;
+    width: 14px;
+    height: 14px;
+    content: "";
+    border-radius: 50%;
+    background: white; }
+  .resume__history-item:nth-of-type(2):after, .resume__history-item:nth-of-type(3):after, .resume__history-item:nth-of-type(8):after {
+    background-color: #2ba163; }
+  .resume__history-item:first-child h2 {
+    margin-top: 10px; }
+  .resume__history-item:last-of-type {
+    margin-bottom: 3em;
+    padding-bottom: 0; }
+  .resume__history-item:last-of-type:before {
+    bottom: 4px; }
+  .resume__history-item h2 {
+    margin: 1.3em 0 1em 0;
+    letter-spacing: 0.15em;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 1; }
+  .resume__history-item h3 {
+    position: relative;
+    display: inline-block;
+    margin: 0.3em 0 1em;
+    padding: 3px 20px 3px 8px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: white;
+    background: #2ba163;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.3; }
+  .resume__history-item h4 {
+    margin: 0 0 0.2em 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700; }
+  .resume__history-item h5 {
+    margin: 0;
+    padding: 0 0 0.3em 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(28, 38, 43, 0.35);
+    font-size: 11px;
+    font-weight: 400; }
+  .resume__history-item p {
+    margin: 0.6em 0 0.2em 0;
+    font-size: 15px; }
+    .resume__history-item p:last-child {
+      margin-bottom: 0; }
+
+.resume__download {
+  display: inline-block;
+  margin-top: 3.5em;
+  padding: 1.1em 2em;
+  transition: all 0.1s;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  border: 2px solid #333333;
+  outline: 0;
+  background: none;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1; }
+  .resume__download svg {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    vertical-align: middle; }
+  .resume__download span {
+    display: inline-block;
+    vertical-align: middle; }
+  .resume__download:hover {
+    color: white;
+    border-color: transparent;
+    background-color: #2ba163; }
+    .resume__download:hover svg {
+      fill: white; }
+
+.resume__skills {
+  width: 100%;
+  margin-bottom: 3.5em; }
+
+.resume__skills-item {
+  padding-right: 32px;
+  padding-bottom: 1.1em; }
+  .resume__skills-item h4 {
+    position: relative;
+    z-index: 100;
+    margin: 0 0 4px 0;
+    padding-left: 0;
+    font-size: 14px;
+    font-weight: 400; }
+  .resume__skills-item .resume__skills-bar {
+    position: relative;
+    width: 100%;
+    height: 8px; }
+  .resume__skills-item .resume__skills-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 16px;
+    background: white; }
+    .resume__skills-item .resume__skills-progress--5 {
+      width: 5%; }
+    .resume__skills-item .resume__skills-progress--6 {
+      width: 6%; }
+    .resume__skills-item .resume__skills-progress--7 {
+      width: 7%; }
+    .resume__skills-item .resume__skills-progress--8 {
+      width: 8%; }
+    .resume__skills-item .resume__skills-progress--9 {
+      width: 9%; }
+    .resume__skills-item .resume__skills-progress--10 {
+      width: 10%; }
+    .resume__skills-item .resume__skills-progress--11 {
+      width: 11%; }
+    .resume__skills-item .resume__skills-progress--12 {
+      width: 12%; }
+    .resume__skills-item .resume__skills-progress--13 {
+      width: 13%; }
+    .resume__skills-item .resume__skills-progress--14 {
+      width: 14%; }
+    .resume__skills-item .resume__skills-progress--15 {
+      width: 15%; }
+    .resume__skills-item .resume__skills-progress--16 {
+      width: 16%; }
+    .resume__skills-item .resume__skills-progress--17 {
+      width: 17%; }
+    .resume__skills-item .resume__skills-progress--18 {
+      width: 18%; }
+    .resume__skills-item .resume__skills-progress--19 {
+      width: 19%; }
+    .resume__skills-item .resume__skills-progress--20 {
+      width: 20%; }
+    .resume__skills-item .resume__skills-progress--21 {
+      width: 21%; }
+    .resume__skills-item .resume__skills-progress--22 {
+      width: 22%; }
+    .resume__skills-item .resume__skills-progress--23 {
+      width: 23%; }
+    .resume__skills-item .resume__skills-progress--24 {
+      width: 24%; }
+    .resume__skills-item .resume__skills-progress--25 {
+      width: 25%; }
+    .resume__skills-item .resume__skills-progress--26 {
+      width: 26%; }
+    .resume__skills-item .resume__skills-progress--27 {
+      width: 27%; }
+    .resume__skills-item .resume__skills-progress--28 {
+      width: 28%; }
+    .resume__skills-item .resume__skills-progress--29 {
+      width: 29%; }
+    .resume__skills-item .resume__skills-progress--30 {
+      width: 30%; }
+    .resume__skills-item .resume__skills-progress--31 {
+      width: 31%; }
+    .resume__skills-item .resume__skills-progress--32 {
+      width: 32%; }
+    .resume__skills-item .resume__skills-progress--33 {
+      width: 33%; }
+    .resume__skills-item .resume__skills-progress--34 {
+      width: 34%; }
+    .resume__skills-item .resume__skills-progress--35 {
+      width: 35%; }
+    .resume__skills-item .resume__skills-progress--36 {
+      width: 36%; }
+    .resume__skills-item .resume__skills-progress--37 {
+      width: 37%; }
+    .resume__skills-item .resume__skills-progress--38 {
+      width: 38%; }
+    .resume__skills-item .resume__skills-progress--39 {
+      width: 39%; }
+    .resume__skills-item .resume__skills-progress--40 {
+      width: 40%; }
+    .resume__skills-item .resume__skills-progress--41 {
+      width: 41%; }
+    .resume__skills-item .resume__skills-progress--42 {
+      width: 42%; }
+    .resume__skills-item .resume__skills-progress--43 {
+      width: 43%; }
+    .resume__skills-item .resume__skills-progress--44 {
+      width: 44%; }
+    .resume__skills-item .resume__skills-progress--45 {
+      width: 45%; }
+    .resume__skills-item .resume__skills-progress--46 {
+      width: 46%; }
+    .resume__skills-item .resume__skills-progress--47 {
+      width: 47%; }
+    .resume__skills-item .resume__skills-progress--48 {
+      width: 48%; }
+    .resume__skills-item .resume__skills-progress--49 {
+      width: 49%; }
+    .resume__skills-item .resume__skills-progress--50 {
+      width: 50%; }
+    .resume__skills-item .resume__skills-progress--51 {
+      width: 51%; }
+    .resume__skills-item .resume__skills-progress--52 {
+      width: 52%; }
+    .resume__skills-item .resume__skills-progress--53 {
+      width: 53%; }
+    .resume__skills-item .resume__skills-progress--54 {
+      width: 54%; }
+    .resume__skills-item .resume__skills-progress--55 {
+      width: 55%; }
+    .resume__skills-item .resume__skills-progress--56 {
+      width: 56%; }
+    .resume__skills-item .resume__skills-progress--57 {
+      width: 57%; }
+    .resume__skills-item .resume__skills-progress--58 {
+      width: 58%; }
+    .resume__skills-item .resume__skills-progress--59 {
+      width: 59%; }
+    .resume__skills-item .resume__skills-progress--60 {
+      width: 60%; }
+    .resume__skills-item .resume__skills-progress--61 {
+      width: 61%; }
+    .resume__skills-item .resume__skills-progress--62 {
+      width: 62%; }
+    .resume__skills-item .resume__skills-progress--63 {
+      width: 63%; }
+    .resume__skills-item .resume__skills-progress--64 {
+      width: 64%; }
+    .resume__skills-item .resume__skills-progress--65 {
+      width: 65%; }
+    .resume__skills-item .resume__skills-progress--66 {
+      width: 66%; }
+    .resume__skills-item .resume__skills-progress--67 {
+      width: 67%; }
+    .resume__skills-item .resume__skills-progress--68 {
+      width: 68%; }
+    .resume__skills-item .resume__skills-progress--69 {
+      width: 69%; }
+    .resume__skills-item .resume__skills-progress--70 {
+      width: 70%; }
+    .resume__skills-item .resume__skills-progress--71 {
+      width: 71%; }
+    .resume__skills-item .resume__skills-progress--72 {
+      width: 72%; }
+    .resume__skills-item .resume__skills-progress--73 {
+      width: 73%; }
+    .resume__skills-item .resume__skills-progress--74 {
+      width: 74%; }
+    .resume__skills-item .resume__skills-progress--75 {
+      width: 75%; }
+    .resume__skills-item .resume__skills-progress--76 {
+      width: 76%; }
+    .resume__skills-item .resume__skills-progress--77 {
+      width: 77%; }
+    .resume__skills-item .resume__skills-progress--78 {
+      width: 78%; }
+    .resume__skills-item .resume__skills-progress--79 {
+      width: 79%; }
+    .resume__skills-item .resume__skills-progress--80 {
+      width: 80%; }
+    .resume__skills-item .resume__skills-progress--81 {
+      width: 81%; }
+    .resume__skills-item .resume__skills-progress--82 {
+      width: 82%; }
+    .resume__skills-item .resume__skills-progress--83 {
+      width: 83%; }
+    .resume__skills-item .resume__skills-progress--84 {
+      width: 84%; }
+    .resume__skills-item .resume__skills-progress--85 {
+      width: 85%; }
+    .resume__skills-item .resume__skills-progress--86 {
+      width: 86%; }
+    .resume__skills-item .resume__skills-progress--87 {
+      width: 87%; }
+    .resume__skills-item .resume__skills-progress--88 {
+      width: 88%; }
+    .resume__skills-item .resume__skills-progress--89 {
+      width: 89%; }
+    .resume__skills-item .resume__skills-progress--90 {
+      width: 90%; }
+    .resume__skills-item .resume__skills-progress--91 {
+      width: 91%; }
+    .resume__skills-item .resume__skills-progress--92 {
+      width: 92%; }
+    .resume__skills-item .resume__skills-progress--93 {
+      width: 93%; }
+    .resume__skills-item .resume__skills-progress--94 {
+      width: 94%; }
+    .resume__skills-item .resume__skills-progress--95 {
+      width: 95%; }
+    .resume__skills-item .resume__skills-progress--96 {
+      width: 96%; }
+    .resume__skills-item .resume__skills-progress--97 {
+      width: 97%; }
+    .resume__skills-item .resume__skills-progress--98 {
+      width: 98%; }
+    .resume__skills-item .resume__skills-progress--99 {
+      width: 99%; }
+    .resume__skills-item .resume__skills-progress--100 {
+      width: 100%; }
+    .resume__skills-item .resume__skills-progress span {
+      position: absolute;
+      top: -19px;
+      left: 100%;
+      width: 42px;
+      margin-left: -2px;
+      padding: 0 6px;
+      text-align: center;
+      color: #333333;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.46);
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 42px; }
 
 /* ------------------------------------------ */
 /* PORTFOLIO BLOCK
@@ -359,12 +735,16 @@ a {
   min-height: 100vh; }
   .portfolio__container {
     position: relative;
+    display: flex;
     overflow-y: auto;
     width: 100vw;
     height: calc(100vh - 50px);
-    padding: 2em; }
+    padding: 2em;
+    align-content: flex-start;
+    flex-wrap: wrap; }
   .portfolio__heading {
-    padding-bottom: 4em; }
+    width: 100%;
+    padding-bottom: 3em; }
     .portfolio__heading svg {
       display: block;
       width: 70px;
@@ -377,6 +757,7 @@ a {
       text-align: center;
       text-transform: lowercase;
       font-size: 4em;
+      font-weight: bold;
       line-height: 1; }
 
 /* ------------------------------------------ */
@@ -390,12 +771,16 @@ a {
   min-height: 100vh; }
   .certificates__container {
     position: relative;
+    display: flex;
     overflow-y: auto;
     width: 100vw;
     height: calc(100vh - 50px);
-    padding: 2em; }
+    padding: 2em;
+    align-content: flex-start;
+    flex-wrap: wrap; }
   .certificates__heading {
-    padding-bottom: 4em; }
+    width: 100%;
+    padding-bottom: 3em; }
     .certificates__heading svg {
       display: block;
       width: 70px;
@@ -408,6 +793,7 @@ a {
       text-align: center;
       text-transform: lowercase;
       font-size: 4em;
+      font-weight: bold;
       line-height: 1; }
 
 /* ------------------------------------------ */
@@ -421,12 +807,16 @@ a {
   min-height: 100vh; }
   .blog__container {
     position: relative;
+    display: flex;
     overflow-y: auto;
     width: 100vw;
     height: calc(100vh - 50px);
-    padding: 2em; }
+    padding: 2em;
+    align-content: flex-start;
+    flex-wrap: wrap; }
   .blog__heading {
-    padding-bottom: 4em; }
+    width: 100%;
+    padding-bottom: 3em; }
     .blog__heading svg {
       display: block;
       width: 70px;
@@ -439,6 +829,7 @@ a {
       text-align: center;
       text-transform: lowercase;
       font-size: 4em;
+      font-weight: bold;
       line-height: 1; }
 
 .blog__item {
@@ -482,7 +873,7 @@ a {
   text-align: center;
   color: #cccccc;
   border-radius: 102px;
-  background: #ffffff;
+  background: white;
   font-size: 14px;
   font-style: italic;
   line-height: 1; }
@@ -501,7 +892,7 @@ a {
   display: block;
   width: 100%;
   padding: 3em 20px 28px;
-  background: #ffffff; }
+  background: white; }
   .blog__item-content a {
     color: #2ba163; }
   .blog__item-content h3 {
@@ -528,12 +919,16 @@ a {
   min-height: 100vh; }
   .contact__container {
     position: relative;
+    display: flex;
     overflow-y: auto;
     width: 100vw;
     height: calc(100vh - 50px);
-    padding: 2em; }
+    padding: 2em;
+    align-content: flex-start;
+    flex-wrap: wrap; }
   .contact__heading {
-    padding-bottom: 4em; }
+    width: 100%;
+    padding-bottom: 3em; }
     .contact__heading svg {
       display: block;
       width: 70px;
@@ -546,9 +941,11 @@ a {
       text-align: center;
       text-transform: lowercase;
       font-size: 4em;
+      font-weight: bold;
       line-height: 1; }
 
 .contact__reach {
+  width: 100%;
   margin-bottom: 5em;
   display: flex;
   flex-direction: row;
@@ -577,6 +974,7 @@ a {
       margin: 0 auto; }
 
 .contact__social {
+  width: 100%;
   margin-bottom: 5em;
   display: flex;
   flex-direction: row;
@@ -607,12 +1005,16 @@ a {
   min-height: 100vh; }
   .error__container {
     position: relative;
+    display: flex;
     overflow-y: auto;
     width: 100vw;
     height: calc(100vh - 50px);
-    padding: 2em; }
+    padding: 2em;
+    align-content: flex-start;
+    flex-wrap: wrap; }
   .error__heading {
-    padding-bottom: 4em; }
+    width: 100%;
+    padding-bottom: 3em; }
     .error__heading svg {
       display: block;
       width: 70px;
@@ -625,6 +1027,7 @@ a {
       text-align: center;
       text-transform: lowercase;
       font-size: 4em;
+      font-weight: bold;
       line-height: 1; }
     @media (min-width: 768px) {
   .header {
@@ -699,6 +1102,26 @@ a {
     padding: 3.5em; }
   .resume__container {
     padding: 3.5em; }
+  .resume__history {
+    width: calc(100% / 2);
+    padding-right: 15px; }
+  .resume__history-item {
+    padding: 0 1em 3em 5.5em; }
+  .resume__history-item h3 {
+    margin: 0.3em 0 1.5em -8px; }
+  .resume__history-item h3:before {
+    position: absolute;
+    bottom: 0;
+    left: -25px;
+    display: block;
+    content: "";
+    border: 10px solid #2ba163;
+    border-color: #2ba163;
+    border-right-width: 20px;
+    border-left-color: transparent; }
+  .resume__skills {
+    width: calc(100% / 2);
+    padding-left: 15px; }
   .portfolio__container {
     padding: 3.5em; }
   .certificates__container {

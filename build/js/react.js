@@ -29014,6 +29014,766 @@
 	                        null,
 	                        'Resume'
 	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: 'resume__history' },
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h2',
+	                            null,
+	                            'WORK HISTORY'
+	                        ),
+	                        _react2.default.createElement(
+	                            'svg',
+	                            null,
+	                            _react2.default.createElement('use', { xlinkHref: '#portfolio' })
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            'Jun 2016 - Current'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Frontend Engineer'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h5',
+	                            null,
+	                            'ENTech Solutions (USA)'
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'Working as a full-time Frontend engineer for ENTech Solutions. We build and deploy scalable Microsoft .Net stack web applications (SaaS), follow Agile Process and methodology.'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            '2015 - Current'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Tutor'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h5',
+	                            null,
+	                            'HTML Academy (Russia)'
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'Tutor at basic and advanced HTML Academy intensives. Daily code review of students\' practical tasks and code projects. Project development help during the individual online consultations.'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            '2013 - 2015'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Webmaster'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h5',
+	                            null,
+	                            'Positive Communications (Russia)'
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'Since 2013 I have been collaborating with the St. Petersburg branch of \xABPositive Communications\xBB. Main duty - maintaining the \xABRWM Capital\xBB management company websites in the English and Russian languages; weekly back-up of the websites\' lite version; Positive Communications company website development.'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            '2013 - 2015'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'LEAD WEB DEVELOPER'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h5',
+	                            null,
+	                            'Teplodom and Domservis (Russia)'
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'Corporate websites development, SEO optimization and weekly maintenance.'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            '2013 - 2014'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Webmaster'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h5',
+	                            null,
+	                            'SAYTORIYA (Russia)'
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'From December 2013 to March 2014 I have collaborated with the design studio \xABSaytoriya\xBB. Five websites based on content management system MODx Revolution were created during this period.'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            '2013 - 2013'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'SENIOR BACK-END DEVELOPER'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h5',
+	                            null,
+	                            'ADHERE MOBILE (Russia)'
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'Development of Kazakhstan mobile social network based on WAP and Yii PHP Framework.'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            '2012 - 2013'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'FRONT-END WEB DEVELOPER & DESIGNER'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h5',
+	                            null,
+	                            'ARKVISION (Russia)'
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'Websites design drawing (mostly Landing Pages) and Front-End development with Bootstrap.'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            '2010 - Current'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Webmaster'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h5',
+	                            null,
+	                            'Freelance'
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'More than 100 websites for individual and corporate clients have been developed since 2010. Some of them are made with self-made CMS or WordPress CMS.'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h2',
+	                            null,
+	                            'EDUCATION'
+	                        ),
+	                        _react2.default.createElement(
+	                            'svg',
+	                            null,
+	                            _react2.default.createElement('use', { xlinkHref: '#study' })
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            '2012 \u2013 2015'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'BACHELOR OF ENGINEERING'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h5',
+	                            null,
+	                            'MIKKELIN AMMATTIKORKEAKOULU (Finland)'
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'From August 2012 to July 2015 I studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) at the Information Technology department.'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__history-item' },
+	                        _react2.default.createElement(
+	                            'h3',
+	                            null,
+	                            '2009 \u2013 2012'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'MASTER OF DIGITAL INFORMATION PROCESSING'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h5',
+	                            null,
+	                            'GBOU L\u041D\u0421EUM AT SPB SUT (Russia)'
+	                        ),
+	                        _react2.default.createElement(
+	                            'p',
+	                            null,
+	                            'From September 2009 to May 2012 I participated in the \xABMaster of digital information processing\xBB major-training program in the amount of 1,020 hours).'
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: 'resume__skills' },
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'title' },
+	                        _react2.default.createElement(
+	                            'h2',
+	                            null,
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                'Coding skills'
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'HTML5'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--95' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '95'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'CSS3'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--95' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '95'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'LESS / SASS'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--75' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '75'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'jQuery'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--60' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '60'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'MySQL'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--40' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '40'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Java Script'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--35' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '35'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'PHP'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--25' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '25'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'C#'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--10' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '10'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'title' },
+	                        _react2.default.createElement(
+	                            'h2',
+	                            null,
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                'Design skills'
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Sketch'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--80' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '80'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Adobe Photoshop CC'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--60' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '60'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Adobe Illustrator CC'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--55' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '55'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Adobe InDesign CC'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--30' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '30'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'title' },
+	                        _react2.default.createElement(
+	                            'h2',
+	                            null,
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                'CMS skills'
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'WordPress'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--85' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '85'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            '1-C Bitrix'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--55' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '55'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Livestreet'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--35' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '35'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'MODX Revolution'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--30' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '30'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'title' },
+	                        _react2.default.createElement(
+	                            'h2',
+	                            null,
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                'Languages'
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Russian'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--95' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '95'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'English'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--85' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '85'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Chinese'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--15' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '15'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: 'https://hh.ru/resume/174b5603ff01623a6f0039ed1f6c5a434e5969?print=true', className: 'resume__download', target: '_blank' },
+	                        _react2.default.createElement(
+	                            'svg',
+	                            null,
+	                            _react2.default.createElement('use', { xlinkHref: '#download' })
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            null,
+	                            'Print CV'
+	                        )
+	                    )
 	                )
 	            )
 	        )
