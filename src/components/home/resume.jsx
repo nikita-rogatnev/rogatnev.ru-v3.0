@@ -93,6 +93,24 @@ function resume({children}) {
                     </div>
 
                     <div className="resume__skills">
+                        <div className="title title--first">
+                            <h2>
+                                <span>Dev skills</span>
+                            </h2>
+                        </div>
+                        <div className="resume__skills-dev">
+                            <h4>Agile</h4>
+                            <h4>BEM</h4>
+                            <h4>Gulp</h4>
+                            <h4>Git</h4>
+                            <h4>Github</h4>
+                            <h4>Mobile first</h4>
+                            <h4>Adaptive design</h4>
+                            <h4>Pixel perfect</h4>
+                            <h4>SEO</h4>
+                            <h4>Progressive enhancement</h4>
+                        </div>
+
                         <div className="title">
                             <h2>
                                 <span>Coding skills</span>
@@ -111,6 +129,14 @@ function resume({children}) {
                             <div className="resume__skills-bar">
                                 <div className="resume__skills-progress resume__skills-progress--95">
                                     <span>95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="resume__skills-item">
+                            <h4>Bootstrap</h4>
+                            <div className="resume__skills-bar">
+                                <div className="resume__skills-progress resume__skills-progress--90">
+                                    <span>90</span>
                                 </div>
                             </div>
                         </div>
@@ -273,7 +299,7 @@ function resume({children}) {
                             <svg>
                                 <use xlinkHref="#download"></use>
                             </svg>
-                            <span>Print CV</span>
+                            <span>Print / Download CV</span>
                         </a>
 
                     </div>

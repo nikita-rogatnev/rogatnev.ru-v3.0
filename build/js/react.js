@@ -29292,6 +29292,73 @@
 	                    { className: 'resume__skills' },
 	                    _react2.default.createElement(
 	                        'div',
+	                        { className: 'title title--first' },
+	                        _react2.default.createElement(
+	                            'h2',
+	                            null,
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                'Dev skills'
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-dev' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Agile'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'BEM'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Gulp'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Git'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Github'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Mobile first'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Adaptive design'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Pixel perfect'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'SEO'
+	                        ),
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Progressive enhancement'
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
 	                        { className: 'title' },
 	                        _react2.default.createElement(
 	                            'h2',
@@ -29343,6 +29410,28 @@
 	                                    'span',
 	                                    null,
 	                                    '95'
+	                                )
+	                            )
+	                        )
+	                    ),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'resume__skills-item' },
+	                        _react2.default.createElement(
+	                            'h4',
+	                            null,
+	                            'Bootstrap'
+	                        ),
+	                        _react2.default.createElement(
+	                            'div',
+	                            { className: 'resume__skills-bar' },
+	                            _react2.default.createElement(
+	                                'div',
+	                                { className: 'resume__skills-progress resume__skills-progress--90' },
+	                                _react2.default.createElement(
+	                                    'span',
+	                                    null,
+	                                    '90'
 	                                )
 	                            )
 	                        )
@@ -29771,7 +29860,7 @@
 	                        _react2.default.createElement(
 	                            'span',
 	                            null,
-	                            'Print CV'
+	                            'Print / Download CV'
 	                        )
 	                    )
 	                )

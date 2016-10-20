@@ -193,6 +193,7 @@ a {
       z-index: 2;
       display: inline-block;
       padding: 0.8em 3em;
+      white-space: normal;
       color: white;
       background-color: #2ba163;
       font-style: normal; }
@@ -237,6 +238,8 @@ a {
       z-index: 1;
       right: -1.57em;
       background-color: #7db376; }
+  .title--first h2 {
+    margin-top: 0; }
 
 /* ------------------------------------------ */
 /* MAIN BLOCK
@@ -462,7 +465,7 @@ a {
       margin-bottom: 0; }
 
 .resume__download {
-  display: inline-block;
+  display: block;
   margin-top: 3.5em;
   padding: 1.1em 2em;
   transition: all 0.1s;
@@ -723,6 +726,17 @@ a {
       font-size: 13px;
       font-weight: bold;
       line-height: 42px; }
+
+.resume__skills-dev h4 {
+  display: inline-block;
+  margin: 0 1em 1em 0;
+  padding: 1.1em 2.5em;
+  text-transform: uppercase;
+  color: #334455;
+  border: 2px solid #334455;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1; }
 
 /* ------------------------------------------ */
 /* PORTFOLIO BLOCK

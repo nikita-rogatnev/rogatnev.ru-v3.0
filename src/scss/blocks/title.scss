@@ -30,6 +30,8 @@
 
 			padding: 0.8em 3em;
 
+			white-space: normal;
+
 			color: $palette-primary;
 			background-color: $palette-accent;
 
@@ -101,6 +103,12 @@
 			right: -1.57em;
 
 			background-color: #7db376;
+		}
+	}
+
+	&--first {
+		h2 {
+			margin-top: 0;
 		}
 	}
 }
