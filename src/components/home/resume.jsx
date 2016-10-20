@@ -10,7 +10,12 @@ function resume({children}) {
         <div className="main__container">
             <section className="resume" id="resume">
                 <div className="resume__container">
-                    resume
+                    <div className="resume__heading">
+                        <svg>
+                            <use xlinkHref="#id"></use>
+                        </svg>
+                        <h1>Resume</h1>
+                    </div>
                 </div>
             </section>
         </div>

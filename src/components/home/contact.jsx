@@ -12,7 +12,7 @@ function contact({children}) {
                 <div className="contact__container">
                     <div className="contact__heading">
                         <svg>
-                            <use xlinkHref="#user"></use>
+                            <use xlinkHref="#call"></use>
                         </svg>
                         <h1>Contact me</h1>
                     </div>

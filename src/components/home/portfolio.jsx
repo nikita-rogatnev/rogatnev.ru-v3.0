@@ -10,7 +10,12 @@ function portfolio({children}) {
         <div className="main__container">
             <section className="portfolio" id="portfolio">
                 <div className="portfolio__container">
-                    portfolio
+                    <div className="portfolio__heading">
+                        <svg>
+                            <use xlinkHref="#glasses"></use>
+                        </svg>
+                        <h1>Latest works</h1>
+                    </div>
                 </div>
             </section>
         </div>

@@ -10,7 +10,12 @@ function certificates({children}) {
         <div className="main__container">
             <section className="certificates" id="certificates">
                 <div className="certificates__container">
-                  certificates
+                    <div className="certificates__heading">
+                        <svg>
+                            <use xlinkHref="#albums"></use>
+                        </svg>
+                        <h1>Certificates</h1>
+                    </div>
                 </div>
             </section>
         </div>

@@ -29001,7 +29001,20 @@
 	            _react2.default.createElement(
 	                'div',
 	                { className: 'resume__container' },
-	                'resume'
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: 'resume__heading' },
+	                    _react2.default.createElement(
+	                        'svg',
+	                        null,
+	                        _react2.default.createElement('use', { xlinkHref: '#id' })
+	                    ),
+	                    _react2.default.createElement(
+	                        'h1',
+	                        null,
+	                        'Resume'
+	                    )
+	                )
 	            )
 	        )
 	    );
@@ -29046,7 +29059,20 @@
 	            _react2.default.createElement(
 	                'div',
 	                { className: 'portfolio__container' },
-	                'portfolio'
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: 'portfolio__heading' },
+	                    _react2.default.createElement(
+	                        'svg',
+	                        null,
+	                        _react2.default.createElement('use', { xlinkHref: '#glasses' })
+	                    ),
+	                    _react2.default.createElement(
+	                        'h1',
+	                        null,
+	                        'Latest works'
+	                    )
+	                )
 	            )
 	        )
 	    );
@@ -29091,7 +29117,20 @@
 	            _react2.default.createElement(
 	                'div',
 	                { className: 'certificates__container' },
-	                'certificates'
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: 'certificates__heading' },
+	                    _react2.default.createElement(
+	                        'svg',
+	                        null,
+	                        _react2.default.createElement('use', { xlinkHref: '#albums' })
+	                    ),
+	                    _react2.default.createElement(
+	                        'h1',
+	                        null,
+	                        'Certificates'
+	                    )
+	                )
 	            )
 	        )
 	    );
@@ -29136,6 +29175,20 @@
 	            _react2.default.createElement(
 	                'div',
 	                { className: 'blog__container container-grid' },
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: 'blog__heading' },
+	                    _react2.default.createElement(
+	                        'svg',
+	                        null,
+	                        _react2.default.createElement('use', { xlinkHref: '#notebook' })
+	                    ),
+	                    _react2.default.createElement(
+	                        'h1',
+	                        null,
+	                        'Blog'
+	                    )
+	                ),
 	                _react2.default.createElement(
 	                    'article',
 	                    { className: 'blog__item' },
@@ -29227,7 +29280,7 @@
 	                    _react2.default.createElement(
 	                        'svg',
 	                        null,
-	                        _react2.default.createElement('use', { xlinkHref: '#user' })
+	                        _react2.default.createElement('use', { xlinkHref: '#call' })
 	                    ),
 	                    _react2.default.createElement(
 	                        'h1',

@@ -10,7 +10,12 @@ function blog({children}) {
         <div className="main__container">
             <section className="blog" id="blog">
                 <div className="blog__container container-grid">
-
+                    <div className="blog__heading">
+                        <svg>
+                            <use xlinkHref="#notebook"></use>
+                        </svg>
+                        <h1>Blog</h1>
+                    </div>
                     <article className="blog__item">
                         <div className="blog__item-media">
                             <a href="https://habrahabr.ru/post/213187/" target="_blank">
