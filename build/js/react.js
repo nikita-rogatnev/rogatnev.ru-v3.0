@@ -67,10 +67,6 @@
 	
 	var _intro2 = _interopRequireDefault(_intro);
 	
-	var _about = __webpack_require__(/*! ./src/components/home/about */ 246);
-	
-	var _about2 = _interopRequireDefault(_about);
-	
 	var _resume = __webpack_require__(/*! ./src/components/home/resume */ 247);
 	
 	var _resume2 = _interopRequireDefault(_resume);
@@ -101,7 +97,6 @@
 	    _reactRouter.Route,
 	    { path: '/', component: _App2.default },
 	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _intro2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: 'about', component: _about2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'resume', component: _resume2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'portfolio', component: _portfolio2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'certificates', component: _certificates2.default }),
@@ -28658,24 +28653,6 @@
 	                    { className: 'header__navigation-item' },
 	                    _react2.default.createElement(
 	                        _reactRouter.Link,
-	                        { to: 'about', className: 'header__navigation-link', activeClassName: 'header__navigation-link--active' },
-	                        _react2.default.createElement(
-	                            'svg',
-	                            null,
-	                            _react2.default.createElement('use', { xlinkHref: '#user' })
-	                        ),
-	                        _react2.default.createElement(
-	                            'span',
-	                            null,
-	                            'About Me'
-	                        )
-	                    )
-	                ),
-	                _react2.default.createElement(
-	                    'li',
-	                    { className: 'header__navigation-item' },
-	                    _react2.default.createElement(
-	                        _reactRouter.Link,
 	                        { to: 'resume', className: 'header__navigation-link', activeClassName: 'header__navigation-link--active' },
 	                        _react2.default.createElement(
 	                            'svg',
@@ -28806,7 +28783,11 @@
 	            _react2.default.createElement(
 	                'div',
 	                { className: 'intro__container' },
-	                'intro'
+	                _react2.default.createElement(
+	                    'h1',
+	                    null,
+	                    'Hi, my name is Rogatnev Nikita. I am a professional Web Developer & Designer from Russia. My objective is to work on creating minimalistic good looking HTML5 & CSS3 websites.'
+	                )
 	            )
 	        )
 	    );
@@ -28815,156 +28796,7 @@
 	exports.default = intro;
 
 /***/ },
-/* 246 */
-/*!***************************************!*\
-  !*** ./src/components/home/about.jsx ***!
-  \***************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRouter = __webpack_require__(/*! react-router */ 172);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var propTypes = {
-	    children: _react.PropTypes.element
-	};
-	
-	function about(_ref) {
-	    var children = _ref.children;
-	
-	    return _react2.default.createElement(
-	        'div',
-	        { className: 'main__container' },
-	        _react2.default.createElement(
-	            'section',
-	            { className: 'about', id: 'about' },
-	            _react2.default.createElement(
-	                'div',
-	                { className: 'about__container' },
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'about__heading' },
-	                    _react2.default.createElement(
-	                        'svg',
-	                        null,
-	                        _react2.default.createElement('use', { xlinkHref: '#user' })
-	                    ),
-	                    _react2.default.createElement(
-	                        'h1',
-	                        null,
-	                        'About me'
-	                    )
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'about__services' },
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'title' },
-	                        _react2.default.createElement(
-	                            'h2',
-	                            null,
-	                            _react2.default.createElement(
-	                                'span',
-	                                null,
-	                                'Services'
-	                            )
-	                        )
-	                    ),
-	                    _react2.default.createElement('div', { className: 'about__services-item' }),
-	                    _react2.default.createElement('div', { className: 'about__services-item' }),
-	                    _react2.default.createElement('div', { className: 'about__services-item' }),
-	                    _react2.default.createElement('div', { className: 'about__services-item' })
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'about__process' },
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'title' },
-	                        _react2.default.createElement(
-	                            'h2',
-	                            null,
-	                            _react2.default.createElement(
-	                                'span',
-	                                null,
-	                                'Work process'
-	                            )
-	                        )
-	                    ),
-	                    _react2.default.createElement('div', { className: 'about__process-item' }),
-	                    _react2.default.createElement('div', { className: 'about__process-item' }),
-	                    _react2.default.createElement('div', { className: 'about__process-item' }),
-	                    _react2.default.createElement('div', { className: 'about__process-item' }),
-	                    _react2.default.createElement('div', { className: 'about__process-item' }),
-	                    _react2.default.createElement('div', { className: 'about__process-item' })
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'about__clients' },
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'title' },
-	                        _react2.default.createElement(
-	                            'h2',
-	                            null,
-	                            _react2.default.createElement(
-	                                'span',
-	                                null,
-	                                'Clients'
-	                            )
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'about__clients-item' },
-	                        _react2.default.createElement('img', { src: '/build/img/about/__clients/rwm.png', alt: '', width: '160', height: '160' })
-	                    ),
-	                    _react2.default.createElement('div', { className: 'about__clients-item' }),
-	                    _react2.default.createElement('div', { className: 'about__clients-item' }),
-	                    _react2.default.createElement('div', { className: 'about__clients-item' }),
-	                    _react2.default.createElement('div', { className: 'about__clients-item' }),
-	                    _react2.default.createElement('div', { className: 'about__clients-item' })
-	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'about__facts' },
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'title' },
-	                        _react2.default.createElement(
-	                            'h2',
-	                            null,
-	                            _react2.default.createElement(
-	                                'span',
-	                                null,
-	                                'Fun fact'
-	                            )
-	                        )
-	                    ),
-	                    _react2.default.createElement('div', { className: 'about__facts-item' }),
-	                    _react2.default.createElement('div', { className: 'about__facts-item' }),
-	                    _react2.default.createElement('div', { className: 'about__facts-item' }),
-	                    _react2.default.createElement('div', { className: 'about__facts-item' })
-	                )
-	            )
-	        )
-	    );
-	}
-	
-	exports.default = about;
-
-/***/ },
+/* 246 */,
 /* 247 */
 /*!****************************************!*\
   !*** ./src/components/home/resume.jsx ***!

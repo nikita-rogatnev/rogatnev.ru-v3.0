@@ -10,7 +10,7 @@ function intro({children}) {
         <div className="main__container">
             <section className="intro" id="intro">
                 <div className="intro__container">
-                    intro
+                    <h1>Hi, my name is Rogatnev Nikita. I am a professional Web Developer & Designer from Russia. My objective is to work on creating minimalistic good looking HTML5 & CSS3 websites.</h1>
                 </div>
             </section>
         </div>
