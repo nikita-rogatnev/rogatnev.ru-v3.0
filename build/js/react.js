@@ -63,31 +63,27 @@
 	
 	var _App2 = _interopRequireDefault(_App);
 	
-	var _intro = __webpack_require__(/*! ./src/components/home/intro */ 245);
-	
-	var _intro2 = _interopRequireDefault(_intro);
-	
-	var _resume = __webpack_require__(/*! ./src/components/home/resume */ 246);
+	var _resume = __webpack_require__(/*! ./src/components/home/resume */ 245);
 	
 	var _resume2 = _interopRequireDefault(_resume);
 	
-	var _portfolio = __webpack_require__(/*! ./src/components/home/portfolio */ 247);
+	var _portfolio = __webpack_require__(/*! ./src/components/home/portfolio */ 246);
 	
 	var _portfolio2 = _interopRequireDefault(_portfolio);
 	
-	var _certificates = __webpack_require__(/*! ./src/components/home/certificates */ 248);
+	var _certificates = __webpack_require__(/*! ./src/components/home/certificates */ 247);
 	
 	var _certificates2 = _interopRequireDefault(_certificates);
 	
-	var _blog = __webpack_require__(/*! ./src/components/home/blog */ 249);
+	var _blog = __webpack_require__(/*! ./src/components/home/blog */ 248);
 	
 	var _blog2 = _interopRequireDefault(_blog);
 	
-	var _contact = __webpack_require__(/*! ./src/components/home/contact */ 250);
+	var _contact = __webpack_require__(/*! ./src/components/home/contact */ 249);
 	
 	var _contact2 = _interopRequireDefault(_contact);
 	
-	var _error = __webpack_require__(/*! ./src/components/error/error */ 251);
+	var _error = __webpack_require__(/*! ./src/components/error/error */ 250);
 	
 	var _error2 = _interopRequireDefault(_error);
 	
@@ -96,8 +92,7 @@
 	var routes = _react2.default.createElement(
 	    _reactRouter.Route,
 	    { path: '/', component: _App2.default },
-	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _intro2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: 'resume', component: _resume2.default }),
+	    _react2.default.createElement(_reactRouter.IndexRoute, { component: _resume2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'portfolio', component: _portfolio2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'certificates', component: _certificates2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'blog', component: _blog2.default }),
@@ -28639,24 +28634,6 @@
 	                        _react2.default.createElement(
 	                            'svg',
 	                            null,
-	                            _react2.default.createElement('use', { xlinkHref: '#home' })
-	                        ),
-	                        _react2.default.createElement(
-	                            'span',
-	                            null,
-	                            'Home'
-	                        )
-	                    )
-	                ),
-	                _react2.default.createElement(
-	                    'li',
-	                    { className: 'header__navigation-item' },
-	                    _react2.default.createElement(
-	                        _reactRouter.Link,
-	                        { to: 'resume', className: 'header__navigation-link', activeClassName: 'header__navigation-link--active' },
-	                        _react2.default.createElement(
-	                            'svg',
-	                            null,
 	                            _react2.default.createElement('use', { xlinkHref: '#id' })
 	                        ),
 	                        _react2.default.createElement(
@@ -28748,55 +28725,6 @@
 
 /***/ },
 /* 245 */
-/*!***************************************!*\
-  !*** ./src/components/home/intro.jsx ***!
-  \***************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRouter = __webpack_require__(/*! react-router */ 172);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var propTypes = {
-	    children: _react.PropTypes.element
-	};
-	
-	function intro(_ref) {
-	    var children = _ref.children;
-	
-	    return _react2.default.createElement(
-	        'div',
-	        { className: 'main__container' },
-	        _react2.default.createElement(
-	            'section',
-	            { className: 'intro', id: 'intro' },
-	            _react2.default.createElement(
-	                'div',
-	                { className: 'intro__container' },
-	                _react2.default.createElement(
-	                    'h1',
-	                    null,
-	                    'Hi, my name is Rogatnev Nikita. I am a professional Web Developer & Designer from Russia. My objective is to work on creating minimalistic good looking HTML5 & CSS3 websites.'
-	                )
-	            )
-	        )
-	    );
-	}
-	
-	exports.default = intro;
-
-/***/ },
-/* 246 */
 /*!****************************************!*\
   !*** ./src/components/home/resume.jsx ***!
   \****************************************/
@@ -29703,7 +29631,7 @@
 	exports.default = resume;
 
 /***/ },
-/* 247 */
+/* 246 */
 /*!*******************************************!*\
   !*** ./src/components/home/portfolio.jsx ***!
   \*******************************************/
@@ -29837,7 +29765,7 @@
 	exports.default = portfolio;
 
 /***/ },
-/* 248 */
+/* 247 */
 /*!**********************************************!*\
   !*** ./src/components/home/certificates.jsx ***!
   \**********************************************/
@@ -29895,7 +29823,7 @@
 	exports.default = certificates;
 
 /***/ },
-/* 249 */
+/* 248 */
 /*!**************************************!*\
   !*** ./src/components/home/blog.jsx ***!
   \**************************************/
@@ -29994,7 +29922,7 @@
 	exports.default = blog;
 
 /***/ },
-/* 250 */
+/* 249 */
 /*!*****************************************!*\
   !*** ./src/components/home/contact.jsx ***!
   \*****************************************/
@@ -30203,7 +30131,7 @@
 	exports.default = contact;
 
 /***/ },
-/* 251 */
+/* 250 */
 /*!****************************************!*\
   !*** ./src/components/error/error.jsx ***!
   \****************************************/

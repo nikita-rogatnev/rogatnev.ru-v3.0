@@ -62,18 +62,10 @@ function Header() {
                     <li className="header__navigation-item">
                         <IndexLink to="/" className="header__navigation-link" activeClassName="header__navigation-link--active">
                             <svg>
-                                <use xlinkHref="#home"></use>
-                            </svg>
-                            <span>Home</span>
-                        </IndexLink>
-                    </li>
-                    <li className="header__navigation-item">
-                        <Link to="resume" className="header__navigation-link" activeClassName="header__navigation-link--active">
-                            <svg>
                                 <use xlinkHref="#id"></use>
                             </svg>
                             <span>Resume</span>
-                        </Link>
+                        </IndexLink>
                     </li>
                     <li className="header__navigation-item">
                         <Link to="portfolio" className="header__navigation-link" activeClassName="header__navigation-link--active">

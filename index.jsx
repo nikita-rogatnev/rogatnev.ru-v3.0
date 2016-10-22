@@ -4,7 +4,6 @@ import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 import 'current-input';
 
 import App from './src/components/App';
-import intro from './src/components/home/intro';
 import resume from './src/components/home/resume';
 import portfolio from './src/components/home/portfolio';
 import certificates from './src/components/home/certificates';
@@ -14,8 +13,7 @@ import error from './src/components/error/error';
 
 const routes = (
     <Route path="/" component={App}>
-        <IndexRoute component={intro}/>
-        <Route path="resume" component={resume}></Route>
+        <IndexRoute component={resume}/>
         <Route path="portfolio" component={portfolio}></Route>
         <Route path="certificates" component={certificates}></Route>
         <Route path="blog" component={blog}></Route>

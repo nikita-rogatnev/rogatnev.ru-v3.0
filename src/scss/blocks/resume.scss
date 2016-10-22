@@ -10,7 +10,6 @@
 
 .resume__history {
 	width: 100%;
-	margin-bottom: 3.5em;
 
 	@include mediaquery-lg {
 		width: calc(100% / 2);
@@ -85,6 +84,10 @@
 	&:last-of-type {
 		margin-bottom: 3em;
 		padding-bottom: 0;
+
+		@include mediaquery-lg {
+			margin-bottom: 0;
+		}
 	}
 
 	&:last-of-type:before {
@@ -221,7 +224,6 @@
 
 .resume__skills {
 	width: 100%;
-	margin-bottom: 3.5em;
 
 	@include mediaquery-lg {
 		width: calc(100% / 2);
@@ -229,14 +231,13 @@
 	}
 }
 
-
 .resume__skills-item {
 	padding-right: 32px;
 	padding-bottom: 1.1em;
 
 	h4 {
 		position: relative;
-		z-index: 100;
+		z-index: 2;
 
 		margin: 0 0 4px 0;
 		padding-left: 0;

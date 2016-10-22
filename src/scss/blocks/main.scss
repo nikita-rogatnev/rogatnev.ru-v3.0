@@ -13,8 +13,8 @@
 		transform: none;
 	}
 	@include mediaquery-lg {
-		width: calc(100% - 150px);
-		margin: 0 0 0 150px;
+		width: calc(100% - 160px);
+		margin: 0 0 0 160px;
 	}
 
 	&--active {
