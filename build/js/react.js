@@ -67,27 +67,27 @@
 	
 	var _intro2 = _interopRequireDefault(_intro);
 	
-	var _resume = __webpack_require__(/*! ./src/components/home/resume */ 247);
+	var _resume = __webpack_require__(/*! ./src/components/home/resume */ 246);
 	
 	var _resume2 = _interopRequireDefault(_resume);
 	
-	var _portfolio = __webpack_require__(/*! ./src/components/home/portfolio */ 248);
+	var _portfolio = __webpack_require__(/*! ./src/components/home/portfolio */ 247);
 	
 	var _portfolio2 = _interopRequireDefault(_portfolio);
 	
-	var _certificates = __webpack_require__(/*! ./src/components/home/certificates */ 249);
+	var _certificates = __webpack_require__(/*! ./src/components/home/certificates */ 248);
 	
 	var _certificates2 = _interopRequireDefault(_certificates);
 	
-	var _blog = __webpack_require__(/*! ./src/components/home/blog */ 250);
+	var _blog = __webpack_require__(/*! ./src/components/home/blog */ 249);
 	
 	var _blog2 = _interopRequireDefault(_blog);
 	
-	var _contact = __webpack_require__(/*! ./src/components/home/contact */ 251);
+	var _contact = __webpack_require__(/*! ./src/components/home/contact */ 250);
 	
 	var _contact2 = _interopRequireDefault(_contact);
 	
-	var _error = __webpack_require__(/*! ./src/components/error/error */ 252);
+	var _error = __webpack_require__(/*! ./src/components/error/error */ 251);
 	
 	var _error2 = _interopRequireDefault(_error);
 	
@@ -28796,8 +28796,7 @@
 	exports.default = intro;
 
 /***/ },
-/* 246 */,
-/* 247 */
+/* 246 */
 /*!****************************************!*\
   !*** ./src/components/home/resume.jsx ***!
   \****************************************/
@@ -29704,7 +29703,7 @@
 	exports.default = resume;
 
 /***/ },
-/* 248 */
+/* 247 */
 /*!*******************************************!*\
   !*** ./src/components/home/portfolio.jsx ***!
   \*******************************************/
@@ -29727,6 +29726,81 @@
 	var propTypes = {
 	    children: _react.PropTypes.element
 	};
+	
+	var Portfolio = _react2.default.createClass({
+	    displayName: 'Portfolio',
+	
+	    render: function render() {
+	        var PortfolioItemsComponents = this.props.PortfolioItems.map(function (portfolio__item) {
+	            return _react2.default.createElement(
+	                'article',
+	                { className: 'portfolio__item' },
+	                _react2.default.createElement(
+	                    'a',
+	                    { href: portfolio__item.portfolio__link, className: 'portfolio__link', target: '_blank' },
+	                    _react2.default.createElement('img', { src: portfolio__item.portfolio__image, className: 'portfolio__image', alt: portfolio__item.portfolio__title })
+	                ),
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: 'portfolio__description' },
+	                    _react2.default.createElement(
+	                        'h2',
+	                        null,
+	                        portfolio__item.portfolio__title
+	                    ),
+	                    _react2.default.createElement(
+	                        'p',
+	                        null,
+	                        portfolio__item.portfolio__description
+	                    )
+	                )
+	            );
+	        });
+	        return _react2.default.createElement(
+	            'div',
+	            { className: 'portfolio__items' },
+	            PortfolioItemsComponents
+	        );
+	    }
+	});
+	
+	var PortfolioItems = [{
+	    key: '1',
+	    portfolio__title: 'Airbnb Open 2016',
+	    portfolio__link: 'https://airbnbopen.com/home',
+	    portfolio__description: 'LESS, HTML5, CSS3, JS',
+	    portfolio__image: 'build/img/portfolio/airbnbopen.png'
+	}, {
+	    key: '2',
+	    portfolio__title: 'Vocord',
+	    portfolio__link: 'https://mayer-web.github.io/vocord/',
+	    portfolio__description: 'LESS, HTML5, CSS3, JS',
+	    portfolio__image: 'build/img/portfolio/vocord.png'
+	}, {
+	    key: '3',
+	    portfolio__title: 'Positive Communications',
+	    portfolio__link: 'http://positivecommunications.ru/',
+	    portfolio__description: 'HTML5, CSS3, JS, WordPress',
+	    portfolio__image: 'build/img/portfolio/positive.png'
+	}, {
+	    key: '4',
+	    portfolio__title: 'MOOVY Template',
+	    portfolio__link: 'http://rogatnev-nikita.github.io/moovy/html/',
+	    portfolio__description: 'HTML5, CSS3, JS',
+	    portfolio__image: 'build/img/portfolio/moovy.png'
+	}, {
+	    key: '5',
+	    portfolio__title: 'DIGITIZE Template',
+	    portfolio__link: 'http://rogatnev-nikita.github.io/digitize-theme/html/',
+	    portfolio__description: 'HTML5, CSS3, JS',
+	    portfolio__image: 'build/img/portfolio/digitize.png'
+	}, {
+	    key: '6',
+	    portfolio__title: 'Olesya Tattoo Master',
+	    portfolio__link: 'http://www.olesya-tattoo.ru/',
+	    portfolio__description: 'HTML5, CSS3, JS',
+	    portfolio__image: 'build/img/portfolio/tattoo.png'
+	}];
 	
 	function portfolio(_ref) {
 	    var children = _ref.children;
@@ -29753,7 +29827,8 @@
 	                        null,
 	                        'Latest works'
 	                    )
-	                )
+	                ),
+	                _react2.default.createElement(Portfolio, { PortfolioItems: PortfolioItems })
 	            )
 	        )
 	    );
@@ -29762,7 +29837,7 @@
 	exports.default = portfolio;
 
 /***/ },
-/* 249 */
+/* 248 */
 /*!**********************************************!*\
   !*** ./src/components/home/certificates.jsx ***!
   \**********************************************/
@@ -29820,7 +29895,7 @@
 	exports.default = certificates;
 
 /***/ },
-/* 250 */
+/* 249 */
 /*!**************************************!*\
   !*** ./src/components/home/blog.jsx ***!
   \**************************************/
@@ -29919,7 +29994,7 @@
 	exports.default = blog;
 
 /***/ },
-/* 251 */
+/* 250 */
 /*!*****************************************!*\
   !*** ./src/components/home/contact.jsx ***!
   \*****************************************/
@@ -30128,7 +30203,7 @@
 	exports.default = contact;
 
 /***/ },
-/* 252 */
+/* 251 */
 /*!****************************************!*\
   !*** ./src/components/error/error.jsx ***!
   \****************************************/
