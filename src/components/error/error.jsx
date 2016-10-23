@@ -1,3 +1,6 @@
+// ------------------------------------------ //
+// ERROR PAGE
+// ------------------------------------------ //
 import React, {PropTypes} from 'react';
 
 const propTypes = {

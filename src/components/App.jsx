@@ -1,3 +1,6 @@
+// ------------------------------------------ //
+// REACT APP
+// ------------------------------------------ //
 import React, {PropTypes} from 'react';
 import {IndexLink, Link} from 'react-router';
 

@@ -1,3 +1,6 @@
+// ------------------------------------------ //
+// PORTFOLIO PAGE
+// ------------------------------------------ //
 import React, {PropTypes} from 'react';
 import {portfolio__link} from 'react-router';
 

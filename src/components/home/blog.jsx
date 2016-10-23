@@ -1,3 +1,6 @@
+// ------------------------------------------ //
+// BLOG PAGE
+// ------------------------------------------ //
 import React, {PropTypes} from 'react';
 import {blog__link} from 'react-router';
 
@@ -199,7 +202,7 @@ function blog({children}) {
                         <svg>
                             <use xlinkHref="#notebook"></use>
                         </svg>
-                        <h1>blog</h1>
+                        <h1>Blog</h1>
                     </div>
                     <Blog BlogItems={BlogItems}/>
                 </div>

@@ -28539,6 +28539,9 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	// ------------------------------------------ //
+	// REACT APP
+	// ------------------------------------------ //
 	var propTypes = {
 	    children: _react.PropTypes.element.isRequired,
 	    routes: _react.PropTypes.array.isRequired
@@ -28744,6 +28747,9 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	// ------------------------------------------ //
+	// RESUME PAGE
+	// ------------------------------------------ //
 	var propTypes = {
 	    children: _react.PropTypes.element
 	};
@@ -29651,6 +29657,9 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	// ------------------------------------------ //
+	// PORTFOLIO PAGE
+	// ------------------------------------------ //
 	var propTypes = {
 	    children: _react.PropTypes.element
 	};
@@ -29785,6 +29794,9 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	// ------------------------------------------ //
+	// CERTIFICATES PAGE
+	// ------------------------------------------ //
 	var propTypes = {
 	    children: _react.PropTypes.element
 	};
@@ -29843,6 +29855,9 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	// ------------------------------------------ //
+	// BLOG PAGE
+	// ------------------------------------------ //
 	var propTypes = {
 	    children: _react.PropTypes.element
 	};
@@ -30085,7 +30100,7 @@
 	                    _react2.default.createElement(
 	                        'h1',
 	                        null,
-	                        'blog'
+	                        'Blog'
 	                    )
 	                ),
 	                _react2.default.createElement(Blog, { BlogItems: BlogItems })
@@ -30117,6 +30132,9 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	// ------------------------------------------ //
+	// CONTACT PAGE
+	// ------------------------------------------ //
 	var propTypes = {
 	    children: _react.PropTypes.element
 	};
@@ -30326,7 +30344,10 @@
 	
 	var propTypes = {
 	    location: _react.PropTypes.object.isRequired
-	};
+	}; // ------------------------------------------ //
+	// ERROR PAGE
+	// ------------------------------------------ //
+	
 	
 	function error(_ref) {
 	    var location = _ref.location;
