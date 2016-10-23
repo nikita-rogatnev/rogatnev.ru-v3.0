@@ -3,6 +3,7 @@
 // ------------------------------------------ //
 import React, {PropTypes} from 'react';
 import {IndexLink, Link} from 'react-router';
+import logo from '/build/img/header/__profile/header__profile.png';
 
 const propTypes = {
     children: PropTypes.element.isRequired,
@@ -10,26 +11,6 @@ const propTypes = {
 };
 
 function App({children, routes}) {
-    function generateMapMenu() {
-        let path = '';
-
-        function nextPath(route) {
-            path += ((path.slice(-1) === '/'
-                ? ''
-                : '/') + (route.path === '/'
-                ? ''
-                : route.path));
-            return path;
-        }
-
-        return (routes.filter(route => route.mapMenuTitle).map((route, index, array) => (
-            <span key={index}>
-                <Link to={nextPath(route)}>{route.mapMenuTitle}</Link>
-                {(index + 1) < array.length && ' / '}
-            </span>
-        )));
-    }
-
     return (
         <div className="app__container">
             <Header/>
@@ -57,7 +38,7 @@ function Header() {
                 </a>
             </div>
             <div className="header__profile">
-                <img src="/build/img/header/__profile/header__profile.png" alt="Rogatnev Nikita" width="160" height="160"/>
+                <img src={logo} alt="Rogatnev Nikita" width="160" height="160"/>
                 <h1>Rogatnev Nikita</h1>
             </div>
             <nav id="header__navigation" className="header__navigation" role="navigation">
