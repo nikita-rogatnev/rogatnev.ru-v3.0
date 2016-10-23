@@ -37,7 +37,7 @@ function Header() {
                 </a>
             </div>
             <div className="header__profile">
-                <img src="/build/img/header/__profile/header__profile.png" alt="Rogatnev Nikita" width="160" height="160"/>
+                <img src="build/img/header/__profile/header__profile.png" alt="Rogatnev Nikita" width="160" height="160"/>
                 <h1>Rogatnev Nikita</h1>
             </div>
             <nav id="header__navigation" className="header__navigation" role="navigation">
