@@ -28537,19 +28537,15 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 172);
 	
-	var _header__profile = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"/build/img/header/__profile/header__profile.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
-	
-	var _header__profile2 = _interopRequireDefault(_header__profile);
-	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	// ------------------------------------------ //
+	// REACT APP
+	// ------------------------------------------ //
 	var propTypes = {
 	    children: _react.PropTypes.element.isRequired,
 	    routes: _react.PropTypes.array.isRequired
-	}; // ------------------------------------------ //
-	// REACT APP
-	// ------------------------------------------ //
-	
+	};
 	
 	function App(_ref) {
 	    var children = _ref.children;
@@ -28595,7 +28591,7 @@
 	        _react2.default.createElement(
 	            'div',
 	            { className: 'header__profile' },
-	            _react2.default.createElement('img', { src: _header__profile2.default, alt: 'Rogatnev Nikita', width: '160', height: '160' }),
+	            _react2.default.createElement('img', { src: '/build/img/header/__profile/header__profile.png', alt: 'Rogatnev Nikita', width: '160', height: '160' }),
 	            _react2.default.createElement(
 	                'h1',
 	                null,
