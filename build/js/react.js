@@ -28591,7 +28591,7 @@
 	        _react2.default.createElement(
 	            'div',
 	            { className: 'header__profile' },
-	            _react2.default.createElement('img', { src: '/build/img/header/__profile/header__profile.png', alt: 'Rogatnev Nikita', width: '160', height: '160' }),
+	            _react2.default.createElement('img', { src: 'build/img/header/__profile/header__profile.png', alt: 'Rogatnev Nikita', width: '160', height: '160' }),
 	            _react2.default.createElement(
 	                'h1',
 	                null,
