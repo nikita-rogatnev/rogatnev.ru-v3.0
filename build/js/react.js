@@ -28591,7 +28591,7 @@
 	        _react2.default.createElement(
 	            'div',
 	            { className: 'header__profile' },
-	            _react2.default.createElement('img', { src: 'build/img/header/__profile/header__profile.png', alt: 'Rogatnev Nikita', width: '160', height: '160' }),
+	            _react2.default.createElement('img', { src: 'build/img/header/header__profile.png', alt: 'Rogatnev Nikita', width: '160', height: '160' }),
 	            _react2.default.createElement(
 	                'h1',
 	                null,
@@ -30050,7 +30050,7 @@
 	    blog__day: '28',
 	    blog__month: 'may 15',
 	    blog__description: 'In this thesis I described everything regarding to the responsive web design. I summed up and compared all the possible website layout approaches. The disadvantages of fixed, fluid, adaptive and hybrid layouts are so significant that it is undoubtedly clear that responsive approach is the best one.',
-	    blog__image: 'http://image.slidesharecdn.com/mamkmrpresentation2014v3-150715084821-lva1-app6891/95/mamk-presentation-2014-22-638.jpg'
+	    blog__image: 'https://i.ytimg.com/vi/e8Syghjr8YM/maxresdefault.jpg'
 	}];
 	
 	function blog(_ref) {
