@@ -3,7 +3,6 @@
 // ------------------------------------------ //
 import React, {PropTypes} from 'react';
 import {IndexLink, Link} from 'react-router';
-import logo from '/build/img/header/__profile/header__profile.png';
 
 const propTypes = {
     children: PropTypes.element.isRequired,
@@ -38,7 +37,7 @@ function Header() {
                 </a>
             </div>
             <div className="header__profile">
-                <img src={logo} alt="Rogatnev Nikita" width="160" height="160"/>
+                <img src="/build/img/header/__profile/header__profile.png" alt="Rogatnev Nikita" width="160" height="160"/>
                 <h1>Rogatnev Nikita</h1>
             </div>
             <nav id="header__navigation" className="header__navigation" role="navigation">
