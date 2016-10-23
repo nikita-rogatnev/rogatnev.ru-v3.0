@@ -30,7 +30,10 @@ var Blog = React.createClass({
                             </span>
                             <h1>{blog__item.blog__title}</h1>
                             <p>{blog__item.blog__description}</p>
-                            <a href={blog__item.blog__link} target="_blank">Continue reading at [{blog__item.blog__domain}]</a>
+                            <a href={blog__item.blog__link} target="_blank">
+                                <span className="language__english language__active">Continue reading at&nbsp;</span>
+                                <span className="language__russian">Читать дальше на&nbsp;</span>
+                                [{blog__item.blog__domain}]</a>
                         </footer>
                     </article>
                 );
@@ -202,7 +205,10 @@ function blog({children}) {
                         <svg>
                             <use xlinkHref="#notebook"></use>
                         </svg>
-                        <h1>Blog</h1>
+                        <h1>
+                            <span className="language__english language__active">Blog</span>
+                            <span className="language__russian">Блог</span>
+                        </h1>
                     </div>
                     <Blog BlogItems={BlogItems}/>
                 </div>

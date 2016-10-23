@@ -64,3 +64,12 @@ a {
 .container-grid {
 	display: grid;
 }
+
+.app .language__english,
+.app .language__russian {
+	display: none;
+}
+
+.app .language__active {
+	display: block;
+}

@@ -28557,7 +28557,7 @@
 	        _react2.default.createElement(Header, null),
 	        _react2.default.createElement(
 	            'main',
-	            { className: 'main' },
+	            { className: 'main', id: 'main' },
 	            children
 	        )
 	    );
@@ -28569,21 +28569,21 @@
 	function Header() {
 	    return _react2.default.createElement(
 	        'header',
-	        { className: 'header' },
+	        { className: 'header', id: 'header' },
 	        _react2.default.createElement(
 	            'div',
 	            { className: 'header__mobile' },
 	            _react2.default.createElement(
 	                'a',
-	                { className: 'header__mobile-toggle' },
+	                { className: 'header__mobile-toggle', id: 'header__mobile-toggle' },
 	                _react2.default.createElement(
 	                    'svg',
-	                    { className: 'header__mobile-icon header__mobile-icon--active' },
+	                    { className: 'header__mobile-icon header__mobile-icon--active', id: 'header__mobile-open' },
 	                    _react2.default.createElement('use', { xlinkHref: '#menu' })
 	                ),
 	                _react2.default.createElement(
 	                    'svg',
-	                    { className: 'header__mobile-icon' },
+	                    { className: 'header__mobile-icon', id: 'header__mobile-close' },
 	                    _react2.default.createElement('use', { xlinkHref: '#close' })
 	                )
 	            )
@@ -28595,7 +28595,16 @@
 	            _react2.default.createElement(
 	                'h1',
 	                null,
-	                'Rogatnev Nikita'
+	                _react2.default.createElement(
+	                    'span',
+	                    { className: 'language__english language__active' },
+	                    'Rogatnev Nikita'
+	                ),
+	                _react2.default.createElement(
+	                    'span',
+	                    { className: 'language__russian' },
+	                    '\u0420\u043E\u0433\u0430\u0442\u043D\u0435\u0432 \u041D\u0438\u043A\u0438\u0442\u0430'
+	                )
 	            )
 	        ),
 	        _react2.default.createElement(
@@ -28618,7 +28627,16 @@
 	                        _react2.default.createElement(
 	                            'span',
 	                            null,
-	                            'Resume'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Resume'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0420\u0435\u0437\u044E\u043C\u0435'
+	                            )
 	                        )
 	                    )
 	                ),
@@ -28635,8 +28653,13 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            'span',
-	                            null,
+	                            { className: 'language__english language__active' },
 	                            'Portfolio'
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__russian' },
+	                            '\u041F\u043E\u0440\u0442\u0444\u043E\u043B\u0438\u043E'
 	                        )
 	                    )
 	                ),
@@ -28653,8 +28676,13 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            'span',
-	                            null,
+	                            { className: 'language__english language__active' },
 	                            'Certifacates'
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__russian' },
+	                            '\u0421\u0435\u0440\u0442\u0438\u0444\u0438\u043A\u0430\u0442\u044B'
 	                        )
 	                    )
 	                ),
@@ -28671,8 +28699,13 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            'span',
-	                            null,
+	                            { className: 'language__english language__active' },
 	                            'Blog'
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__russian' },
+	                            '\u0411\u043B\u043E\u0433'
 	                        )
 	                    )
 	                ),
@@ -28689,9 +28722,23 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            'span',
-	                            null,
+	                            { className: 'language__english language__active' },
 	                            'Contact'
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__russian' },
+	                            '\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B'
 	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'li',
+	                    { className: 'header__navigation-item' },
+	                    _react2.default.createElement(
+	                        'a',
+	                        { className: 'header__navigation-language', id: 'header__navigation-language' },
+	                        'Russian'
 	                    )
 	                )
 	            )
@@ -28753,7 +28800,16 @@
 	                    _react2.default.createElement(
 	                        'h1',
 	                        null,
-	                        'Resume'
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__english language__active' },
+	                            'Resume'
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__russian' },
+	                            '\u0420\u0435\u0437\u044E\u043C\u0435'
+	                        )
 	                    )
 	                ),
 	                _react2.default.createElement(
@@ -28765,7 +28821,16 @@
 	                        _react2.default.createElement(
 	                            'h2',
 	                            null,
-	                            'WORK HISTORY'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Work history'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u041E\u043F\u044B\u0442 \u0440\u0430\u0431\u043E\u0442\u044B'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'svg',
@@ -28779,22 +28844,58 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            'Jun 2016 - Current'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Jun 2016 - Current'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0418\u044E\u043D\u044C 2016 - \u041D\u0412'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'Frontend Engineer'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Front-End Engineer'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                'Front-End \u0438\u043D\u0436\u0435\u043D\u0435\u0440'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h5',
 	                            null,
-	                            'ENTech Solutions (USA)'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'ENTech Solutions (USA)'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                'ENTech Solutions (\u0421\u0428\u0410)'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Working as a full-time Frontend engineer for ENTech Solutions. We build and deploy scalable Microsoft .Net stack web applications (SaaS), follow Agile Process and methodology.'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Working as a full-time Front-End engineer for ENTech Solutions. We build and deploy scalable Microsoft .Net stack web applications (SaaS), follow Agile Process and methodology.'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '12'
+	                            )
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -28803,22 +28904,58 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '2015 - Current'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                '2015 - Current'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '2015 - \u041D\u0412'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'Tutor'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Tutor'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u041D\u0430\u0441\u0442\u0430\u0432\u043D\u0438\u043A \u0431\u0430\u0437\u043E\u0432\u043E\u0433\u043E \u0438 \u043F\u0440\u043E\u0434\u0432\u0438\u043D\u0443\u0442\u043E\u0433\u043E \u0438\u043D\u0442\u0435\u043D\u0441\u0438\u0432\u043E\u0432'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h5',
 	                            null,
-	                            'HTML Academy (Russia)'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'HTML Academy (Russia)'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                'HTML Academy (\u0420\u043E\u0441\u0441\u0438\u044F)'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Tutor at basic and advanced HTML Academy intensives. Daily code review of students\' practical tasks and code projects. Project development help during the individual online consultations.'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Tutor at basic and advanced HTML Academy intensives. Daily code review of students\' practical tasks and code projects. Project development help during the individual online consultations.'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0445 \u0437\u0430\u0434\u0430\u043D\u0438\u0439 \u0438 \u043A\u043E\u0434-\u0440\u0435\u0432\u044C\u044E \u043F\u0440\u043E\u0435\u043A\u0442\u043E\u0432 \u0441\u0442\u0443\u0434\u0435\u043D\u0442\u043E\u0432, \u0430 \u0442\u0430\u043A\u0436\u0435 \u043F\u043E\u043C\u043E\u0449\u044C \u0441 \u0432\u0451\u0440\u0441\u0442\u043A\u043E\u0439 \u043C\u0430\u043A\u0435\u0442\u043E\u0432 \u0432\u043E \u0432\u0440\u0435\u043C\u044F \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u044B\u0445 \u043E\u043D\u043B\u0430\u0439\u043D \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0438\u0439.'
+	                            )
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -28832,17 +28969,44 @@
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'Webmaster'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Webmaster'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0412\u0435\u0431-\u043C\u0430\u0441\u0442\u0435\u0440'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h5',
 	                            null,
-	                            'Positive Communications (Russia)'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Positive Communications (Russia)'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                'Positive Communications (\u0420\u043E\u0441\u0441\u0438\u044F)'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Since 2013 I have been collaborating with the St. Petersburg branch of \xABPositive Communications\xBB. Main duty - maintaining the \xABRWM Capital\xBB management company websites in the English and Russian languages; weekly back-up of the websites\' lite version; Positive Communications company website development.'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Since 2013 I have been collaborating with the St. Petersburg branch of \xABPositive Communications\xBB. Main duty - maintaining the \xABRWM Capital\xBB management company websites in the English and Russian languages; weekly back-up of the websites\' lite version; Positive Communications company website development.'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0421 2013 \u0433\u043E\u0434\u0430 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0430\u044E \u0441 \u0421\u0430\u043D\u043A\u0442-\u041F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0441\u043A\u0438\u043C \u043E\u0442\u0434\u0435\u043B\u0435\u043D\u0438\u0435\u043C \xABPositive Communications\xBB. \u041E\u0441\u043D\u043E\u0432\u043D\u0430\u044F \u0437\u0430\u0434\u0430\u0447\u0430 - \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u0435 \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u043E\u0439 \u0438 \u0440\u0443\u0441\u0441\u043A\u043E\u0439 \u0432\u0435\u0440\u0441\u0438\u0439 \u0441\u0430\u0439\u0442\u0430 \u0443\u043F\u0440\u0430\u0432\u043B\u044F\u044E\u0449\u0435\u0439 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438 \xAB\u0420\u0412\u041C \u041A\u0430\u043F\u0438\u0442\u0430\u043B\xBB; \u0435\u0436\u0435\u043D\u0435\u0434\u0435\u043B\u044C\u043D\u043E\u0435 \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u0440\u0435\u0437\u0435\u0440\u0432\u043D\u043E\u0439 \u043A\u043E\u043F\u0438\u0438 lite \u0432\u0435\u0440\u0441\u0438\u0438 \u0441\u0430\u0439\u0442\u0430; \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0441\u0430\u0439\u0442\u0430 Positive Communications.'
+	                            )
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -28856,17 +29020,44 @@
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'LEAD WEB DEVELOPER'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Lead web developer'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                'Lead \u0432\u0435\u0431 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h5',
 	                            null,
-	                            'Teplodom and Domservis (Russia)'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Teplodom and Domservis (Russia)'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0422\u0435\u043F\u043B\u044B\u0439 \u0434\u043E\u043C \u0438 \u0414\u043E\u043C\u0441\u0435\u0440\u0432\u0438\u0441 (\u0420\u043E\u0441\u0441\u0438\u044F)'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Corporate websites development, SEO optimization and weekly maintenance.'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Corporate websites development, SEO optimization and weekly maintenance.'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043A\u043E\u0440\u043F\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0445 \u0441\u0430\u0439\u0442\u043E\u0432, SEO \u043E\u043F\u0442\u0438\u043C\u0438\u0437\u0430\u0446\u0438\u044F \u0438 \u0438\u0445 \u0435\u0436\u0435\u043D\u0435\u0434\u0435\u043B\u044C\u043D\u043E\u0435 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u0435.'
+	                            )
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -28880,17 +29071,44 @@
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'Webmaster'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Webmaster'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0412\u0435\u0431-\u043C\u0430\u0441\u0442\u0435\u0440'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h5',
 	                            null,
-	                            'SAYTORIYA (Russia)'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Saytoriya (Russia)'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0421\u0430\u0439\u0442\u043E\u0440\u0438\u044F (\u0420\u043E\u0441\u0441\u0438\u044F)'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'From December 2013 to March 2014 I have collaborated with the design studio \xABSaytoriya\xBB. Five websites based on content management system MODx Revolution were created during this period.'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'From December 2013 to March 2014 I have collaborated with the design studio \xABSaytoriya\xBB. Five websites based on content management system MODx Revolution were created during this period.'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0421 \u0434\u0435\u043A\u0430\u0431\u0440\u044F 2013 \u043F\u043E \u043C\u0430\u0440\u0442 2014 \u0433\u043E\u0434\u0430 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0430\u043B \u0441\u043E \u0441\u0442\u0443\u0434\u0438\u0435\u0439 \u0434\u0438\u0437\u0430\u0439\u043D\u0430 \xAB\u0421\u0430\u0439\u0442\u043E\u0440\u0438\u044F\xBB. \u0417\u0430 \u044D\u0442\u043E\u0442 \u043F\u0435\u0440\u0438\u043E\u0434 \u0431\u044B\u043B\u043E \u0441\u043E\u0437\u0434\u0430\u043D\u043E \u043F\u044F\u0442\u044C \u0441\u0430\u0439\u0442\u043E\u0432 \u043D\u0430 \u0441\u0438\u0441\u0442\u0435\u043C\u0435 \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F \u0441\u043E\u0434\u0435\u0440\u0436\u0438\u043C\u044B\u043C MODx Revolution.'
+	                            )
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -28904,17 +29122,44 @@
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'SENIOR BACK-END DEVELOPER'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Senior Back-End developer'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                'Senior Back-End \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h5',
 	                            null,
-	                            'ADHERE MOBILE (Russia)'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Adhere mobile (Russia)'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                'Adhere mobile (\u0420\u043E\u0441\u0441\u0438\u044F)'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Development of Kazakhstan mobile social network based on WAP and Yii PHP Framework.'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Development of Kazakhstan mobile social network based on WAP and Yii PHP Framework.'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u041A\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043D\u0441\u043A\u043E\u0439 \u043C\u043E\u0431\u0438\u043B\u044C\u043D\u043E\u0439 \u0441\u043E\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0439 \u0441\u0435\u0442\u0438 \u043D\u0430 \u0431\u0430\u0437\u0435 WAP \u0438 Yii PHP \u0444\u0440\u0435\u0439\u043C\u0432\u043E\u0440\u043Aa.'
+	                            )
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -28928,17 +29173,44 @@
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'FRONT-END WEB DEVELOPER & DESIGNER'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Front-End developer and designer'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                'Front-End \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A \u0438 \u0434\u0438\u0437\u0430\u0439\u043D\u0435\u0440'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h5',
 	                            null,
-	                            'ARKVISION (Russia)'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Arkvision (Russia)'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                'Arkvision (\u0420\u043E\u0441\u0441\u0438\u044F)'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Websites design drawing (mostly Landing Pages) and Front-End development with Bootstrap.'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Websites design drawing (mostly Landing Pages) and Front-End development with Bootstrap.'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u0434\u0438\u0437\u0430\u0439\u043D-\u043C\u0430\u043A\u0435\u0442\u043E\u0432 \u0441\u0430\u0439\u0442\u043E\u0432 (\u043F\u0440\u0435\u0438\u043C\u0443\u0449\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u043E \u043B\u0435\u043D\u0434\u0438\u043D\u0433\u043E\u0432) \u0438 \u0438\u0445 \u0432\u0435\u0440\u0441\u0442\u043A\u0430 \u043D\u0430 \u0431\u0430\u0437\u0435 Bootstrap.'
+	                            )
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -28947,22 +29219,58 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '2010 - Current'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                '2010 - Current'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '2010 - \u041D\u0412'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'Webmaster'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Webmaster'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0412\u0435\u0431-\u043C\u0430\u0441\u0442\u0435\u0440'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h5',
 	                            null,
-	                            'Freelance'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Freelance'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0424\u0440\u0438\u043B\u0430\u043D\u0441'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'More than 100 websites for individual and corporate clients have been developed since 2010. Some of them are made with self-made CMS or WordPress CMS.'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'More than 100 websites for individual and corporate clients have been developed since 2010. Some of them are made with self-made CMS or WordPress CMS.'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0421 2010 \u0433\u043E\u0434\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043E \u0431\u043E\u043B\u0435\u0435 100 \u0441\u0430\u0439\u0442\u043E\u0432 \u0434\u043B\u044F \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u044B\u0445 \u0438 \u043A\u043E\u0440\u043F\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0445 \u043A\u043B\u0438\u0435\u043D\u0442\u043E\u0432. \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0438\u0437 \u043D\u0438\u0445 \u043D\u0430 \u0441\u0430\u043C\u043E\u043F\u0438\u0441\u043D\u043E\u0439 CMS \u0438\u043B\u0438 CMS WordPress.'
+	                            )
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -28971,7 +29279,16 @@
 	                        _react2.default.createElement(
 	                            'h2',
 	                            null,
-	                            'EDUCATION'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Education'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u041E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u0435'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'svg',
@@ -28990,17 +29307,44 @@
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'BACHELOR OF ENGINEERING'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Bachelor of engineering'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0411\u0430\u043A\u0430\u043B\u0430\u0432\u0440 \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0438\u0438'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h5',
 	                            null,
-	                            'MIKKELIN AMMATTIKORKEAKOULU (Finland)'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Mikkelin ammattikorkeakoulu (Finland)'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                'Mikkelin ammattikorkeakoulu (\u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0438\u044F)'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'From August 2012 to July 2015 I studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) at the Information Technology department.'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'From August 2012 to July 2015 I studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) at the Information Technology department.'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0421 \u0430\u0432\u0433\u0443\u0441\u0442\u0430 2012 \u0433. \u043F\u043E \u0438\u044E\u043B\u044C 2015 \u0433. \u043F\u0440\u043E\u0448\u0435\u043B \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435 \u0432 \u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0435 \u043F\u0440\u0438\u043A\u043B\u0430\u0434\u043D\u044B\u0445 \u043D\u0430\u0443\u043A \u0433\u043E\u0440\u043E\u0434\u0430 \u041C\u0438\u043A\u043A\u0435\u043B\u0438, \u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0438\u044F (Mikkelin Ammattikorkeakoulu) \u043D\u0430 \u043A\u0430\u0444\u0435\u0434\u0440\u0435 IT (\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0435 \u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438).'
+	                            )
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -29014,17 +29358,44 @@
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'MASTER OF DIGITAL INFORMATION PROCESSING'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Master of digital information processing'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u041C\u0430\u0441\u0442\u0435\u0440 \u0446\u0438\u0444\u0440\u043E\u0432\u043E\u0439 \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h5',
 	                            null,
-	                            'GBOU L\u041D\u0421EUM AT SPB SUT (Russia)'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'GBOU liceum at St. Petersburg State University of Telecommunications (Russia)'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0413\u0411\u041E\u0423 \u043B\u0438\u0446\u0435\u0439 \u043F\u0440\u0438 \u0421\u0430\u043D\u043A\u0442-\u041F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0441\u043A\u043E\u043C \u0433\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u043C \u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0435 \u0442\u0435\u043B\u0435\u043A\u043E\u043C\u043C\u0443\u043D\u0438\u043A\u0430\u0446\u0438\u0439 \u0438\u043C. \u043F\u0440\u043E\u0444. \u041C.\u0410. \u0411\u043E\u043D\u0447-\u0411\u0440\u0443\u0435\u0432\u0438\u0447\u0430 (\u0420\u043E\u0441\u0441\u0438\u044F)'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'From September 2009 to May 2012 I participated in the \xABMaster of digital information processing\xBB major-training program in the amount of 1,020 hours).'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'From September 2009 to May 2012 I participated in the \xABMaster of digital information processing\xBB major-training program in the amount of 1,020 hours).'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0421 \u0441\u0435\u043D\u0442\u044F\u0431\u0440\u044F 2009 \u0433. \u043F\u043E \u043C\u0430\u0439 2012 \u0433. \u043F\u0440\u043E\u0448\u0435\u043B \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435 \u043F\u043E \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0435 \u043F\u0440\u043E\u0444\u0438\u043B\u044C\u043D\u043E-\u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u043E\u0439 \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0438 \xAB\u041C\u0430\u0441\u0442\u0435\u0440 \u0446\u0438\u0444\u0440\u043E\u0432\u043E\u0439 \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438\xBB \u0432 \u043E\u0431\u044A\u0435\u043C\u0435 1020 \u0447\u0430\u0441\u043E\u0432.'
+	                            )
 	                        )
 	                    )
 	                ),
@@ -29039,8 +29410,13 @@
 	                            null,
 	                            _react2.default.createElement(
 	                                'span',
-	                                null,
+	                                { className: 'language__english language__active' },
 	                                'Dev skills'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0421\u043A\u0438\u043B\u044B'
 	                            )
 	                        )
 	                    ),
@@ -29055,7 +29431,16 @@
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'BEM'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'BEM'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0411\u042D\u041C'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h4',
@@ -29080,7 +29465,16 @@
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'Adaptive design'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Adaptive design'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0410\u0434\u0430\u043F\u0442\u0438\u0432'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h4',
@@ -29095,7 +29489,16 @@
 	                        _react2.default.createElement(
 	                            'h4',
 	                            null,
-	                            'Progressive enhancement'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Progressive enhancement'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u041F\u0440\u043E\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043D\u043E\u0435 \u0443\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435'
+	                            )
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -29106,8 +29509,13 @@
 	                            null,
 	                            _react2.default.createElement(
 	                                'span',
-	                                null,
+	                                { className: 'language__english language__active' },
 	                                'Coding skills'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435'
 	                            )
 	                        )
 	                    ),
@@ -29317,8 +29725,13 @@
 	                            null,
 	                            _react2.default.createElement(
 	                                'span',
-	                                null,
+	                                { className: 'language__english language__active' },
 	                                'Design skills'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0414\u0438\u0437\u0430\u0439\u043D'
 	                            )
 	                        )
 	                    ),
@@ -29418,8 +29831,13 @@
 	                            null,
 	                            _react2.default.createElement(
 	                                'span',
-	                                null,
+	                                { className: 'language__english language__active' },
 	                                'CMS skills'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0434\u043A\u0430 \u043F\u043E\u0434 CMS'
 	                            )
 	                        )
 	                    ),
@@ -29519,8 +29937,13 @@
 	                            null,
 	                            _react2.default.createElement(
 	                                'span',
-	                                null,
+	                                { className: 'language__english language__active' },
 	                                'Languages'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u042F\u0437\u044B\u043A\u0438'
 	                            )
 	                        )
 	                    ),
@@ -29600,8 +30023,13 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            'span',
-	                            null,
+	                            { className: 'language__english language__active' },
 	                            'Print / Download CV'
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__russian' },
+	                            '\u0420\u0430\u0441\u043F\u0435\u0447\u0430\u0442\u0430\u0442\u044C / \u0421\u043A\u0430\u0447\u0430\u0442\u044C CV'
 	                        )
 	                    )
 	                )
@@ -29709,7 +30137,7 @@
 	    portfolio__image: 'build/img/portfolio/digitize.png'
 	}, {
 	    key: '6',
-	    portfolio__title: 'Olesya Tattoo Master',
+	    portfolio__title: 'Olesya Tattoo',
 	    portfolio__link: 'http://www.olesya-tattoo.ru/',
 	    portfolio__description: 'HTML5, CSS3, JS',
 	    portfolio__image: 'build/img/portfolio/tattoo.png'
@@ -29738,7 +30166,16 @@
 	                    _react2.default.createElement(
 	                        'h1',
 	                        null,
-	                        'Latest works'
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__english language__active' },
+	                            'Latest works'
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__russian' },
+	                            '\u041F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0435 \u0440\u0430\u0431\u043E\u0442\u044B'
+	                        )
 	                    )
 	                ),
 	                _react2.default.createElement(Portfolio, { PortfolioItems: PortfolioItems })
@@ -29800,7 +30237,16 @@
 	                    _react2.default.createElement(
 	                        'h1',
 	                        null,
-	                        'Certificates'
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__english language__active' },
+	                            'Certificates'
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__russian' },
+	                            '\u0421\u0435\u0440\u0442\u0438\u0444\u0438\u043A\u0430\u0442\u044B'
+	                        )
 	                    )
 	                )
 	            )
@@ -29886,7 +30332,17 @@
 	                    _react2.default.createElement(
 	                        'a',
 	                        { href: blog__item.blog__link, target: '_blank' },
-	                        'Continue reading at [',
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__english language__active' },
+	                            'Continue reading at\xA0'
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__russian' },
+	                            '\u0427\u0438\u0442\u0430\u0442\u044C \u0434\u0430\u043B\u044C\u0448\u0435 \u043D\u0430\xA0'
+	                        ),
+	                        '[',
 	                        blog__item.blog__domain,
 	                        ']'
 	                    )
@@ -30076,7 +30532,16 @@
 	                    _react2.default.createElement(
 	                        'h1',
 	                        null,
-	                        'Blog'
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__english language__active' },
+	                            'Blog'
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__russian' },
+	                            '\u0411\u043B\u043E\u0433'
+	                        )
 	                    )
 	                ),
 	                _react2.default.createElement(Blog, { BlogItems: BlogItems })
@@ -30138,7 +30603,16 @@
 	                    _react2.default.createElement(
 	                        'h1',
 	                        null,
-	                        'Contact me'
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__english language__active' },
+	                            'Contact me'
+	                        ),
+	                        _react2.default.createElement(
+	                            'span',
+	                            { className: 'language__russian' },
+	                            '\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B'
+	                        )
 	                    )
 	                ),
 	                _react2.default.createElement(
@@ -30152,8 +30626,13 @@
 	                            null,
 	                            _react2.default.createElement(
 	                                'span',
-	                                null,
+	                                { className: 'language__english language__active' },
 	                                'Reach me'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0421\u0432\u044F\u0436\u0438\u0442\u0435\u0441\u044C \u0441\u043E \u043C\u043D\u043E\u0439'
 	                            )
 	                        )
 	                    ),
@@ -30168,9 +30647,21 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            'Location',
-	                            _react2.default.createElement('br', null),
-	                            'Koh Samui'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Location'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u041C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                'Koh Samui'
+	                            )
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -30184,8 +30675,11 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            'Skype',
-	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                'Skype'
+	                            ),
 	                            _react2.default.createElement(
 	                                'a',
 	                                { href: 'skype:rogatnev_nikita?chat' },
@@ -30204,8 +30698,11 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            'Email',
-	                            _react2.default.createElement('br', null),
+	                            _react2.default.createElement(
+	                                'span',
+	                                null,
+	                                'Email'
+	                            ),
 	                            _react2.default.createElement(
 	                                'a',
 	                                { href: 'mailto:mail@rogatnev.ru' },
@@ -30224,9 +30721,26 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            'Freelance',
-	                            _react2.default.createElement('br', null),
-	                            'Available'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Freelance'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u041D\u0430\u0439\u043C'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Available'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0414\u043E\u0441\u0442\u0443\u043F\u0435\u043D'
+	                            )
 	                        )
 	                    )
 	                ),
@@ -30241,8 +30755,13 @@
 	                            null,
 	                            _react2.default.createElement(
 	                                'span',
-	                                null,
+	                                { className: 'language__english language__active' },
 	                                'Let\'s socialize'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0421\u043E\u0446\u0438\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0435\u0442\u0438'
 	                            )
 	                        )
 	                    ),

@@ -63,7 +63,7 @@ var PortfolioItems = [
         portfolio__image: 'build/img/portfolio/digitize.png'
     }, {
         key: '6',
-        portfolio__title: 'Olesya Tattoo Master',
+        portfolio__title: 'Olesya Tattoo',
         portfolio__link: 'http://www.olesya-tattoo.ru/',
         portfolio__description: 'HTML5, CSS3, JS',
         portfolio__image: 'build/img/portfolio/tattoo.png'
@@ -79,7 +79,10 @@ function portfolio({children}) {
                         <svg>
                             <use xlinkHref="#glasses"></use>
                         </svg>
-                        <h1>Latest works</h1>
+                        <h1>
+                            <span className="language__english language__active">Latest works</span>
+                            <span className="language__russian">Последние работы</span>
+                        </h1>
                     </div>
                     <Portfolio PortfolioItems={PortfolioItems}/>
                 </div>

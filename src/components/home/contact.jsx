@@ -17,25 +17,34 @@ function contact({children}) {
                         <svg>
                             <use xlinkHref="#call"></use>
                         </svg>
-                        <h1>Contact me</h1>
+                        <h1>
+                            <span className="language__english language__active">Contact me</span>
+                            <span className="language__russian">Контакты</span>
+                        </h1>
                     </div>
                     <div className="contact__reach">
                         <div className="title">
                             <h2>
-                                <span>Reach me</span>
+                                <span className="language__english language__active">Reach me</span>
+                                <span className="language__russian">Свяжитесь со мной</span>
                             </h2>
                         </div>
                         <div className="contact__reach-item">
                             <svg>
                                 <use xlinkHref="#map-marker"></use>
                             </svg>
-                            <h3>Location<br/>Koh Samui</h3>
+                            <h3>
+                                <span className="language__english language__active">Location</span>
+                                <span className="language__russian">Местоположение</span>
+                                <span>Koh Samui</span>
+                            </h3>
                         </div>
                         <div className="contact__reach-item">
                             <svg>
                                 <use xlinkHref="#call"></use>
                             </svg>
-                            <h3>Skype<br/>
+                            <h3>
+                                <span>Skype</span>
                                 <a href="skype:rogatnev_nikita?chat">rogatnev_nikita</a>
                             </h3>
                         </div>
@@ -43,7 +52,8 @@ function contact({children}) {
                             <svg>
                                 <use xlinkHref="#mail"></use>
                             </svg>
-                            <h3>Email<br/>
+                            <h3>
+                                <span>Email</span>
                                 <a href="mailto:mail@rogatnev.ru">mail@rogatnev.ru</a>
                             </h3>
                         </div>
@@ -51,13 +61,19 @@ function contact({children}) {
                             <svg>
                                 <use xlinkHref="#check"></use>
                             </svg>
-                            <h3>Freelance<br/>Available</h3>
+                            <h3>
+                                <span className="language__english language__active">Freelance</span>
+                                <span className="language__russian">Найм</span>
+                                <span className="language__english language__active">Available</span>
+                                <span className="language__russian">Доступен</span>
+                            </h3>
                         </div>
                     </div>
                     <div className="contact__social">
                         <div className="title">
                             <h2>
-                                <span>Let's socialize</span>
+                                <span className="language__english language__active">Let's socialize</span>
+                                <span className="language__russian">Социальные сети</span>
                             </h2>
                         </div>
                         <a className="contact__social-item" target="_blank" href="https://vk.com/rogatnev_nikita">

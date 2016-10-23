@@ -17,7 +17,10 @@ function certificates({children}) {
                         <svg>
                             <use xlinkHref="#albums"></use>
                         </svg>
-                        <h1>Certificates</h1>
+                        <h1>
+                            <span className="language__english language__active">Certificates</span>
+                            <span className="language__russian">Сертификаты</span>
+                        </h1>
                     </div>
                 </div>
             </section>

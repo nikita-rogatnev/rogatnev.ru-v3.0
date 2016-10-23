@@ -13,7 +13,7 @@ function App({children, routes}) {
     return (
         <div className="app__container">
             <Header/>
-            <main className="main">
+            <main className="main" id="main">
                 {children}
             </main>
         </div>
@@ -25,20 +25,23 @@ function App({children, routes}) {
 // ------------------------------------------ //
 function Header() {
     return (
-        <header className="header">
+        <header className="header" id="header">
             <div className="header__mobile">
-                <a className="header__mobile-toggle">
-                    <svg className="header__mobile-icon header__mobile-icon--active">
+                <a className="header__mobile-toggle" id="header__mobile-toggle">
+                    <svg className="header__mobile-icon header__mobile-icon--active" id="header__mobile-open">
                         <use xlinkHref="#menu"></use>
                     </svg>
-                    <svg className="header__mobile-icon">
+                    <svg className="header__mobile-icon" id="header__mobile-close">
                         <use xlinkHref="#close"></use>
                     </svg>
                 </a>
             </div>
             <div className="header__profile">
                 <img src="build/img/header/header__profile.png" alt="Rogatnev Nikita" width="160" height="160"/>
-                <h1>Rogatnev Nikita</h1>
+                <h1>
+                    <span className="language__english language__active">Rogatnev Nikita</span>
+                    <span className="language__russian">Рогатнев Никита</span>
+                </h1>
             </div>
             <nav id="header__navigation" className="header__navigation" role="navigation">
                 <ul>
@@ -47,7 +50,10 @@ function Header() {
                             <svg>
                                 <use xlinkHref="#id"></use>
                             </svg>
-                            <span>Resume</span>
+                            <span>
+                                <span className="language__english language__active">Resume</span>
+                                <span className="language__russian">Резюме</span>
+                            </span>
                         </IndexLink>
                     </li>
                     <li className="header__navigation-item">
@@ -55,7 +61,8 @@ function Header() {
                             <svg>
                                 <use xlinkHref="#glasses"></use>
                             </svg>
-                            <span>Portfolio</span>
+                            <span className="language__english language__active">Portfolio</span>
+                            <span className="language__russian">Портфолио</span>
                         </Link>
                     </li>
                     <li className="header__navigation-item">
@@ -63,7 +70,8 @@ function Header() {
                             <svg>
                                 <use xlinkHref="#albums"></use>
                             </svg>
-                            <span>Certifacates</span>
+                            <span className="language__english language__active">Certifacates</span>
+                            <span className="language__russian">Сертификаты</span>
                         </Link>
                     </li>
                     <li className="header__navigation-item">
@@ -71,7 +79,8 @@ function Header() {
                             <svg>
                                 <use xlinkHref="#notebook"></use>
                             </svg>
-                            <span>Blog</span>
+                            <span className="language__english language__active">Blog</span>
+                            <span className="language__russian">Блог</span>
                         </Link>
                     </li>
                     <li className="header__navigation-item">
@@ -79,8 +88,12 @@ function Header() {
                             <svg>
                                 <use xlinkHref="#call"></use>
                             </svg>
-                            <span>Contact</span>
+                            <span className="language__english language__active">Contact</span>
+                            <span className="language__russian">Контакты</span>
                         </Link>
+                    </li>
+                    <li className="header__navigation-item">
+                        <a className="header__navigation-language" id="header__navigation-language">Russian</a>
                     </li>
                 </ul>
             </nav>

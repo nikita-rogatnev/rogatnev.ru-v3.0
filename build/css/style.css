@@ -54,6 +54,13 @@ a {
   display: -ms-grid;
   display: grid; }
 
+.app .language__english,
+.app .language__russian {
+  display: none; }
+
+.app .language__active {
+  display: block; }
+
 /* ------------------------------------------ */
 /* APP CONTAINER BLOCK
 /* ------------------------------------------ */
@@ -334,6 +341,7 @@ a {
   .resume__history-item h2 {
     margin: 1.3em 0 1em 0;
     letter-spacing: 0.15em;
+    text-transform: uppercase;
     font-size: 1.4em;
     font-weight: 400;
     line-height: 1; }
@@ -984,6 +992,8 @@ a {
       .contact__reach-item a:hover, .contact__reach-item a:visited {
         text-decoration: underline;
         color: #333333; }
+    .contact__reach-item span {
+      display: block; }
     .contact__reach-item svg {
       width: 50px;
       height: 50px;
