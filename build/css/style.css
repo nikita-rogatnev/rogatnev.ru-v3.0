@@ -397,7 +397,7 @@ a {
     height: 17px;
     margin-right: 10px;
     vertical-align: middle; }
-  .resume__download span {
+  .resume__download > span {
     display: inline-block;
     vertical-align: middle; }
   .resume__download:hover {

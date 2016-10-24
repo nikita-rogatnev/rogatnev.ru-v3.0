@@ -24,23 +24,4 @@ window.onload = function() {
         };
     });
 
-
-    // ------------------------------------------ //
-    // CHANGE LANGUAGE
-    // ------------------------------------------ //
-    var languageToggle = document.querySelector("#header__navigation-language");
-    var languageEnglish = document.querySelectorAll(".language__english");
-    var languageRussian = document.querySelectorAll(".language__russian");
-
-    languageToggle.addEventListener("click", function(event) {
-        event.preventDefault();
-        if(languageEnglish.classList.contains("language__active")) {
-            languageEnglish.classList.remove("language__active");
-            languageRussian.classList.add("language__active");
-        } else {
-            languageEnglish.classList.add("language__active");
-            languageRussian.classList.remove("language__active");
-        };
-    });
-
 }

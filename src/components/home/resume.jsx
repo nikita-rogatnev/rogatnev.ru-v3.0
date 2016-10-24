@@ -423,8 +423,10 @@ function resume({children}) {
                             <svg>
                                 <use xlinkHref="#download"></use>
                             </svg>
-                            <span className="language__english language__active">Print / Download CV</span>
-                            <span className="language__russian">Распечатать / Скачать CV</span>
+                            <span>
+                                <span className="language__english language__active">Print / Download CV</span>
+                                <span className="language__russian">Распечатать / Скачать CV</span>
+                            </span>
                         </a>
 
                     </div>

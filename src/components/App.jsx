@@ -92,9 +92,7 @@ function Header() {
                             <span className="language__russian">Контакты</span>
                         </Link>
                     </li>
-                    <li className="header__navigation-item">
-                        <a className="header__navigation-language" id="header__navigation-language">Russian</a>
-                    </li>
+
                 </ul>
             </nav>
         </header>

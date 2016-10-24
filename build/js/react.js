@@ -28731,15 +28731,6 @@
 	                            '\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B'
 	                        )
 	                    )
-	                ),
-	                _react2.default.createElement(
-	                    'li',
-	                    { className: 'header__navigation-item' },
-	                    _react2.default.createElement(
-	                        'a',
-	                        { className: 'header__navigation-language', id: 'header__navigation-language' },
-	                        'Russian'
-	                    )
 	                )
 	            )
 	        )
@@ -30023,13 +30014,17 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            'span',
-	                            { className: 'language__english language__active' },
-	                            'Print / Download CV'
-	                        ),
-	                        _react2.default.createElement(
-	                            'span',
-	                            { className: 'language__russian' },
-	                            '\u0420\u0430\u0441\u043F\u0435\u0447\u0430\u0442\u0430\u0442\u044C / \u0421\u043A\u0430\u0447\u0430\u0442\u044C CV'
+	                            null,
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Print / Download CV'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0420\u0430\u0441\u043F\u0435\u0447\u0430\u0442\u0430\u0442\u044C / \u0421\u043A\u0430\u0447\u0430\u0442\u044C CV'
+	                            )
 	                        )
 	                    )
 	                )
