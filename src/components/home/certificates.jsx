@@ -76,9 +76,6 @@ var CertificatesItems = [
     }, {
         key: '17',
         certificates__image: 'build/img/certificates/schneideruniversities-8.png'
-    }, {
-        key: '18',
-        certificates__image: 'build/img/certificates/schneideruniversities-9.png'
     }
 
 ];
