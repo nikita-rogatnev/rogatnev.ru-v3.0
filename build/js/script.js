@@ -24,36 +24,4 @@ window.onload = function() {
         };
     });
 
-
-    // ------------------------------------------ //
-    // CHANGE LANGUAGE
-    // ------------------------------------------ //
-    var languageToggle = document.querySelector("#header__navigation-language");
-
-    languageToggle.addEventListener("click", function(event) {
-        event.preventDefault();
-
-        var languageEnglish = document.querySelectorAll(".language__english");
-        var languageRussian = document.querySelectorAll(".language__russian");
-        var languageEnglishActive = document.querySelectorAll(".language__active.language__english");
-        var a = 0;
-        var b = 0;
-
-        if(languageEnglishActive.length > 0) {
-            for(a = 0; a < languageEnglish.length; a++) {
-                languageEnglish[a].classList.remove("language__active");
-            }
-            for(b = 0; b < languageRussian.length; b++) {
-                languageRussian[b].classList.add("language__active");
-            }
-        } else {
-            for(a = 0; a < languageEnglish.length; a++) {
-                languageEnglish[a].classList.add("language__active");
-            }
-            for(b = 0; b < languageRussian.length; b++) {
-                languageRussian[b].classList.remove("language__active");
-            }
-        };
-    });
-
 }

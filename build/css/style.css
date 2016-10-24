@@ -786,6 +786,20 @@ a {
       font-weight: bold;
       line-height: 1; }
 
+.certificates__items {
+  width: 100%;
+  -moz-column-count: 1;
+       column-count: 1;
+  -moz-column-gap: 0;
+       column-gap: 0; }
+
+.certificates__item {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  text-align: center; }
+
 /* ------------------------------------------ */
 /* BLOG BLOCK
 /* ------------------------------------------ */
@@ -1089,6 +1103,9 @@ a {
   .certificates__container {
     width: 100%;
     padding: 4em; }
+  .certificates__items {
+    -moz-column-count: 2;
+    column-count: 2; }
   .blog__container {
     width: 100%;
     padding: 4em; }
@@ -1142,6 +1159,9 @@ a {
     width: calc(100% / 3); }
   .certificates__container {
     padding: 3.5em; }
+  .certificates__items {
+    -moz-column-count: 3;
+    column-count: 3; }
   .blog__container {
     padding: 3.5em; }
   .blog__items {

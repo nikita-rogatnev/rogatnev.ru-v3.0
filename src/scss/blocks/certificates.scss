@@ -7,3 +7,27 @@
 	@include section;
 	@include container;
 }
+
+.certificates__items {
+	width: 100%;
+
+	column-count: 1;
+	column-gap: 0;
+	@include mediaquery-md {
+		column-count: 2;
+	}
+	@include mediaquery-lg {
+		column-count: 3;
+	}
+}
+
+.certificates__item {
+	position: relative;
+
+	display: inline-block;
+
+	width: 100%;
+	padding: 15px;
+
+	text-align: center;
+}

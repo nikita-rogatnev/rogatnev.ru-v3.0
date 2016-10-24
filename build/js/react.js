@@ -30209,6 +30209,81 @@
 	    children: _react.PropTypes.element
 	};
 	
+	var Certificates = _react2.default.createClass({
+	    displayName: 'Certificates',
+	
+	    render: function render() {
+	        var CertificatesItemsComponents = this.props.CertificatesItems.map(function (certificates__item) {
+	            return _react2.default.createElement(
+	                'article',
+	                { className: 'certificates__item' },
+	                _react2.default.createElement('img', { src: certificates__item.certificates__image, className: 'certificates__image', alt: certificates__item.certificates__title })
+	            );
+	        });
+	        return _react2.default.createElement(
+	            'div',
+	            { className: 'certificates__items' },
+	            CertificatesItemsComponents
+	        );
+	    }
+	});
+	
+	var CertificatesItems = [{
+	    key: '1',
+	    certificates__image: 'build/img/certificates/ccna1.png'
+	}, {
+	    key: '2',
+	    certificates__image: 'build/img/certificates/ccna2.png'
+	}, {
+	    key: '3',
+	    certificates__image: 'build/img/certificates/ccna3.png'
+	}, {
+	    key: '4',
+	    certificates__image: 'build/img/certificates/ccna4.png'
+	}, {
+	    key: '5',
+	    certificates__image: 'build/img/certificates/w3c.png'
+	}, {
+	    key: '6',
+	    certificates__image: 'build/img/certificates/alison.jpg'
+	}, {
+	    key: '7',
+	    certificates__image: 'build/img/certificates/mcp.png'
+	}, {
+	    key: '8',
+	    certificates__image: 'build/img/certificates/mta-html5.png'
+	}, {
+	    key: '9',
+	    certificates__image: 'build/img/certificates/mta-wosf.png'
+	}, {
+	    key: '10',
+	    certificates__image: 'build/img/certificates/schneideruniversities-1.png'
+	}, {
+	    key: '11',
+	    certificates__image: 'build/img/certificates/schneideruniversities-2.png'
+	}, {
+	    key: '12',
+	    certificates__image: 'build/img/certificates/schneideruniversities-3.png'
+	}, {
+	    key: '13',
+	    certificates__image: 'build/img/certificates/schneideruniversities-4.png'
+	}, {
+	    key: '14',
+	    certificates__image: 'build/img/certificates/schneideruniversities-5.png'
+	}, {
+	    key: '15',
+	    certificates__image: 'build/img/certificates/schneideruniversities-6.png'
+	}, {
+	    key: '16',
+	    certificates__image: 'build/img/certificates/schneideruniversities-7.png'
+	}, {
+	    key: '17',
+	    certificates__image: 'build/img/certificates/schneideruniversities-8.png'
+	}, {
+	    key: '18',
+	    certificates__image: 'build/img/certificates/schneideruniversities-9.png'
+	}];
+	
 	function certificates(_ref) {
 	    var children = _ref.children;
 	
@@ -30243,7 +30318,8 @@
 	                            '\u0421\u0435\u0440\u0442\u0438\u0444\u0438\u043A\u0430\u0442\u044B'
 	                        )
 	                    )
-	                )
+	                ),
+	                _react2.default.createElement(Certificates, { CertificatesItems: CertificatesItems })
 	            )
 	        )
 	    );
