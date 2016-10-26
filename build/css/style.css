@@ -326,7 +326,7 @@ a {
     content: "";
     border-radius: 50%;
     background: white; }
-  .resume__history-item:nth-of-type(2):after, .resume__history-item:nth-of-type(3):after, .resume__history-item:nth-of-type(8):after {
+  .resume__history-item:nth-of-type(2):after, .resume__history-item:nth-of-type(3):after, .resume__history-item:nth-of-type(9):after {
     background-color: #2ba163; }
   .resume__history-item:first-child h2 {
     margin-top: 10px; }
