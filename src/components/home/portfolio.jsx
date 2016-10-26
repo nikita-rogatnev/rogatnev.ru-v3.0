@@ -35,13 +35,13 @@ var PortfolioItems = [
         key: '1',
         portfolio__title: 'Airbnb Open 2016',
         portfolio__link: 'https://airbnbopen.com/home',
-        portfolio__description: 'LESS, HTML5, CSS3, JS',
+        portfolio__description: 'BEM, LESS, HTML5, CSS3, JS',
         portfolio__image: 'build/img/portfolio/airbnbopen.png'
     }, {
         key: '2',
         portfolio__title: 'Vocord',
         portfolio__link: 'https://mayer-web.github.io/vocord/',
-        portfolio__description: 'LESS, HTML5, CSS3, JS',
+        portfolio__description: 'BEM, LESS, HTML5, CSS3, JS',
         portfolio__image: 'build/img/portfolio/vocord.png'
     }, {
         key: '3',
@@ -53,7 +53,7 @@ var PortfolioItems = [
         key: '4',
         portfolio__title: 'MOOVY Template',
         portfolio__link: 'http://rogatnev-nikita.github.io/moovy/html/',
-        portfolio__description: 'HTML5, CSS3, JS',
+        portfolio__description: 'BEM, HTML5, CSS3, JS',
         portfolio__image: 'build/img/portfolio/moovy.png'
     }, {
         key: '5',
