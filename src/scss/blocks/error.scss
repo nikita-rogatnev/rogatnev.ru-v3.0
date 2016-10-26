@@ -2,7 +2,7 @@
 /* ERROR BLOCK
 /* ------------------------------------------ */
 .error {
-	background: blue;
+	background: $palette-error;
 
 	@include section;
 	@include container;

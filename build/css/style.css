@@ -1037,7 +1037,7 @@ a {
 /* ERROR BLOCK
 /* ------------------------------------------ */
 .error {
-  background: blue;
+  background: #ebf0df;
   width: 100%;
   max-width: 100%;
   height: 100%; }

@@ -30917,17 +30917,37 @@
 	
 	    return _react2.default.createElement(
 	        "div",
-	        { className: "main__content" },
+	        { className: "main__container" },
 	        _react2.default.createElement(
 	            "section",
-	            { className: "error" },
-	            "Page not found - the path,",
+	            { className: "error", id: "error" },
 	            _react2.default.createElement(
-	                "code",
-	                null,
-	                location.pathname
-	            ),
-	            ", did not match any React Router routes."
+	                "div",
+	                { className: "error__container" },
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "error__heading" },
+	                    _react2.default.createElement(
+	                        "svg",
+	                        null,
+	                        _react2.default.createElement("use", { xlinkHref: "#tools" })
+	                    ),
+	                    _react2.default.createElement(
+	                        "h1",
+	                        null,
+	                        _react2.default.createElement(
+	                            "span",
+	                            { className: "language__english language__active" },
+	                            "404 - Page not found"
+	                        ),
+	                        _react2.default.createElement(
+	                            "span",
+	                            { className: "language__russian" },
+	                            "404 - \u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u0430"
+	                        )
+	                    )
+	                )
+	            )
 	        )
 	    );
 	}
