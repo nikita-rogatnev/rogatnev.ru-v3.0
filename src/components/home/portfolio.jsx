@@ -15,7 +15,7 @@ var Portfolio = React.createClass({
             .PortfolioItems
             .map(function (portfolio__item) {
                 return (
-                    <article className="portfolio__item">
+                    <article className="portfolio__item" key={portfolio__item.key}>
                         <a href={portfolio__item.portfolio__link} className="portfolio__link" target="_blank">
                             <img src={portfolio__item.portfolio__image} className="portfolio__image" alt={portfolio__item.portfolio__title}/>
                         </a>

@@ -15,7 +15,7 @@ var Certificates = React.createClass({
             .CertificatesItems
             .map(function (certificates__item) {
                 return (
-                    <article className="certificates__item">
+                    <article className="certificates__item" key={certificates__item.key}>
                         <img src={certificates__item.certificates__image} className="certificates__image" alt={certificates__item.certificates__title}/>
                     </article>
                 );

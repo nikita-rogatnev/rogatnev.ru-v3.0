@@ -30070,7 +30070,7 @@
 	        var PortfolioItemsComponents = this.props.PortfolioItems.map(function (portfolio__item) {
 	            return _react2.default.createElement(
 	                'article',
-	                { className: 'portfolio__item' },
+	                { className: 'portfolio__item', key: portfolio__item.key },
 	                _react2.default.createElement(
 	                    'a',
 	                    { href: portfolio__item.portfolio__link, className: 'portfolio__link', target: '_blank' },
@@ -30216,7 +30216,7 @@
 	        var CertificatesItemsComponents = this.props.CertificatesItems.map(function (certificates__item) {
 	            return _react2.default.createElement(
 	                'article',
-	                { className: 'certificates__item' },
+	                { className: 'certificates__item', key: certificates__item.key },
 	                _react2.default.createElement('img', { src: certificates__item.certificates__image, className: 'certificates__image', alt: certificates__item.certificates__title })
 	            );
 	        });
@@ -30359,7 +30359,7 @@
 	        var BlogItemsComponents = this.props.BlogItems.reverse().map(function (blog__item) {
 	            return _react2.default.createElement(
 	                'article',
-	                { className: 'blog__item' },
+	                { className: 'blog__item', key: blog__item.key },
 	                _react2.default.createElement(
 	                    'header',
 	                    { className: 'blog__item-media' },

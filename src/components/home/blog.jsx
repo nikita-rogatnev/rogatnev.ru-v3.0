@@ -16,7 +16,7 @@ var Blog = React.createClass({
             .reverse()
             .map(function (blog__item) {
                 return (
-                    <article className="blog__item">
+                    <article className="blog__item" key={blog__item.key}>
                         <header className="blog__item-media">
                             <a href={blog__item.blog__link} target="_blank">
                                 <span className={"blog__item-label " + "blog__item-label--" + blog__item.blog__label}>{blog__item.blog__label}</span>

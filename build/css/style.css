@@ -1,7 +1,4 @@
 /* ------------------------------------------ */
-/* FONTS
-/* ------------------------------------------ */
-/* ------------------------------------------ */
 /* GLOBAL
 /* ------------------------------------------ */
 * {
@@ -135,14 +132,14 @@ a {
     width: calc(100vw - 50px);
     height: 50px;
     margin: 0;
-    padding: 10px;
+    padding: 18px 10px 16px;
     text-align: left;
     white-space: nowrap;
     text-transform: uppercase;
     color: white;
     background: #1c262b;
-    font-size: 2.3em;
-    line-height: 1.4; }
+    font-size: 1.5em;
+    line-height: 1; }
 
 .header__navigation {
   text-align: center; }
@@ -291,7 +288,7 @@ a {
       padding: 0.2em 0;
       text-align: center;
       text-transform: lowercase;
-      font-size: 4em;
+      font-size: 3em;
       font-weight: bold;
       line-height: 1; }
 
@@ -681,7 +678,7 @@ a {
       padding: 0.2em 0;
       text-align: center;
       text-transform: lowercase;
-      font-size: 4em;
+      font-size: 3em;
       font-weight: bold;
       line-height: 1; }
 
@@ -782,7 +779,7 @@ a {
       padding: 0.2em 0;
       text-align: center;
       text-transform: lowercase;
-      font-size: 4em;
+      font-size: 3em;
       font-weight: bold;
       line-height: 1; }
 
@@ -831,7 +828,7 @@ a {
       padding: 0.2em 0;
       text-align: center;
       text-transform: lowercase;
-      font-size: 4em;
+      font-size: 3em;
       font-weight: bold;
       line-height: 1; }
 
@@ -979,7 +976,7 @@ a {
       padding: 0.2em 0;
       text-align: center;
       text-transform: lowercase;
-      font-size: 4em;
+      font-size: 3em;
       font-weight: bold;
       line-height: 1; }
 
@@ -1064,7 +1061,7 @@ a {
       padding: 0.2em 0;
       text-align: center;
       text-transform: lowercase;
-      font-size: 4em;
+      font-size: 3em;
       font-weight: bold;
       line-height: 1; }
     @media (min-width: 768px) {
@@ -1085,7 +1082,8 @@ a {
     text-align: center;
     white-space: normal;
     background: #2ba163;
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    line-height: 1.4; }
   .header__navigation-link svg {
     display: block; }
   .main {
@@ -1095,32 +1093,44 @@ a {
   .resume__container {
     width: 100%;
     padding: 4em; }
+  .resume__heading h1 {
+    font-size: 4em; }
   .portfolio__container {
     width: 100%;
     padding: 4em; }
+  .portfolio__heading h1 {
+    font-size: 4em; }
   .portfolio__item {
     width: calc(100% / 2); }
   .certificates__container {
     width: 100%;
     padding: 4em; }
+  .certificates__heading h1 {
+    font-size: 4em; }
   .certificates__items {
     -moz-column-count: 2;
     column-count: 2; }
   .blog__container {
     width: 100%;
     padding: 4em; }
+  .blog__heading h1 {
+    font-size: 4em; }
   .blog__items {
     -moz-column-count: 2;
     column-count: 2; }
   .contact__container {
     width: 100%;
     padding: 4em; }
+  .contact__heading h1 {
+    font-size: 4em; }
   .contact__reach-item svg {
     width: 60px;
     height: 60px; }
   .error__container {
     width: 100%;
-    padding: 4em; } }
+    padding: 4em; }
+  .error__heading h1 {
+    font-size: 4em; } }
     @media (min-width: 1024px) {
   .header {
     width: 160px;

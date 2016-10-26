@@ -72,9 +72,13 @@
 			text-align: center;
 			text-transform: lowercase;
 
-			font-size: 4em;
+			font-size: 3em;
 			font-weight: bold;
 			line-height: 1;
+
+			@include mediaquery-md {
+				font-size: 4em;
+			}
 		}
 	}
 }
