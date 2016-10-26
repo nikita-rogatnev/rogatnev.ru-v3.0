@@ -27,16 +27,16 @@ var Certificates = React.createClass({
 var CertificatesItems = [
     {
         key: '1',
-        certificates__image: 'build/img/certificates/ccna1.png'
+        certificates__image: 'build/img/certificates/ccna-1.png'
     }, {
         key: '2',
-        certificates__image: 'build/img/certificates/ccna2.png'
+        certificates__image: 'build/img/certificates/ccna-2.png'
     }, {
         key: '3',
-        certificates__image: 'build/img/certificates/ccna3.png'
+        certificates__image: 'build/img/certificates/ccna-3.png'
     }, {
         key: '4',
-        certificates__image: 'build/img/certificates/ccna4.png'
+        certificates__image: 'build/img/certificates/ccna-4.png'
     }, {
         key: '5',
         certificates__image: 'build/img/certificates/w3c.png'
@@ -45,7 +45,7 @@ var CertificatesItems = [
         certificates__image: 'build/img/certificates/alison.jpg'
     }, {
         key: '7',
-        certificates__image: 'build/img/certificates/mcp.png'
+        certificates__image: 'build/img/certificates/mta-mcp.png'
     }, {
         key: '8',
         certificates__image: 'build/img/certificates/mta-html5.png'
