@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /src/
 Disallow: /node_modules/
 
-Sitemap: /sitemap.xml
+Sitemap: http://rogatnev.ru/sitemap.xml
