@@ -30728,7 +30728,7 @@
 	                            _react2.default.createElement(
 	                                'span',
 	                                null,
-	                                'Koh Samui'
+	                                'St. Petersburg'
 	                            )
 	                        )
 	                    ),
