@@ -36,7 +36,7 @@ function contact({children}) {
                             <h3>
                                 <span className="language__english language__active">Location</span>
                                 <span className="language__russian">Местоположение</span>
-                                <span>Koh Samui</span>
+                                <span>St. Petersburg</span>
                             </h3>
                         </div>
                         <div className="contact__reach-item">
