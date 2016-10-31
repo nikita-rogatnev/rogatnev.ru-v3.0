@@ -42,14 +42,14 @@ function resume({children}) {
                                 <span className="language__russian">Front-End инженер</span>
                             </h4>
                             <h5>
-                                <span className="language__english language__active">ENTech Solutions / Eventgrid (USA)</span>
-                                <span className="language__russian">ENTech Solutions / Eventgrid (США)</span>
+                                <span className="language__english language__active">ENTech Solutions (USA)</span>
+                                <span className="language__russian">ENTech Solutions (США)</span>
                             </h5>
                             <a href="https://eventgrid.com/" target="_blank">
                                 <img src="build/img/resume/eventgrid.png" alt="eventgrid" width="135"/>
                             </a>
                             <p>
-                                <span className="language__english language__active">Working as a full-time Front-End engineer for ENTech Solutions. We build and deploy scalable Microsoft .Net stack web applications (SaaS), follow Agile Process and methodology.</span>
+                                <span className="language__english language__active">Working as a full-time Front-End engineer in ENTech Solutions. We build and deploy scalable Microsoft .Net stack web applications (SaaS), follow Agile Process and methodology.</span>
                                 <span className="language__russian">12</span>
                             </p>
                         </div>
@@ -158,8 +158,8 @@ function resume({children}) {
                                 <span className="language__russian">2010 - НВ</span>
                             </h3>
                             <h4>
-                                <span className="language__english language__active">Webmaster</span>
-                                <span className="language__russian">Веб-мастер</span>
+                                <span className="language__english language__active">Web Developer</span>
+                                <span className="language__russian">Веб разработчик</span>
                             </h4>
                             <h5>
                                 <span className="language__english language__active">Freelance</span>
@@ -193,8 +193,8 @@ function resume({children}) {
                                 <img src="build/img/resume/mamk.png" alt="Mikkelin ammattikorkeakoulu" width="135"/>
                             </a>
                             <p>
-                                <span className="language__english language__active">From August 2012 to July 2015 I studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) at the Information Technology department.</span>
-                                <span className="language__russian">С августа 2012 г. по июль 2015 г. прошел обучение в университете прикладных наук города Миккели, Финляндия (Mikkelin Ammattikorkeakoulu) на кафедре IT (Информационные Технологии).</span>
+                                <span className="language__english language__active">From August 2012 to July 2015 I studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) at the Information Technology department. Mikkelin Ammattikorkeakoulu was ranked as the best Finnish university of applied sciences in 2014.</span>
+                                <span className="language__russian">С августа 2012 г. по июль 2015 г. прошел обучение в университете прикладных наук города Миккели, Финляндия (Mikkelin Ammattikorkeakoulu) на кафедре IT (Информационные Технологии). В 2014 году Mikkelin Ammattikorkeakoulu был признан лучшим университетом прикладных наук Финляндии.</span>
                             </p>
                         </div>
                         <div className="resume__history-item">

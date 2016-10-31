@@ -91,7 +91,7 @@ function contact({children}) {
                                 <use xlinkHref="#in-logo"></use>
                             </svg>
                         </a>
-                        <a className="contact__social-item" target="_blank" href="https://instagram.com/rogatnev_nikita/">
+                        <a className="contact__social-item" target="_blank" href="https://www.instagram.com/rogatnev_nikita/">
                             <svg>
                                 <use xlinkHref="#inst-logo"></use>
                             </svg>

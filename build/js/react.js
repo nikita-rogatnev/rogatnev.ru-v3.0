@@ -28095,12 +28095,12 @@
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__english language__active' },
-	                                'ENTech Solutions / Eventgrid (USA)'
+	                                'ENTech Solutions (USA)'
 	                            ),
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__russian' },
-	                                'ENTech Solutions / Eventgrid (\u0421\u0428\u0410)'
+	                                'ENTech Solutions (\u0421\u0428\u0410)'
 	                            )
 	                        ),
 	                        _react2.default.createElement(
@@ -28114,7 +28114,7 @@
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__english language__active' },
-	                                'Working as a full-time Front-End engineer for ENTech Solutions. We build and deploy scalable Microsoft .Net stack web applications (SaaS), follow Agile Process and methodology.'
+	                                'Working as a full-time Front-End engineer in ENTech Solutions. We build and deploy scalable Microsoft .Net stack web applications (SaaS), follow Agile Process and methodology.'
 	                            ),
 	                            _react2.default.createElement(
 	                                'span',
@@ -28471,12 +28471,12 @@
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__english language__active' },
-	                                'Webmaster'
+	                                'Web Developer'
 	                            ),
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__russian' },
-	                                '\u0412\u0435\u0431-\u043C\u0430\u0441\u0442\u0435\u0440'
+	                                '\u0412\u0435\u0431 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A'
 	                            )
 	                        ),
 	                        _react2.default.createElement(
@@ -28578,12 +28578,12 @@
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__english language__active' },
-	                                'From August 2012 to July 2015 I studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) at the Information Technology department.'
+	                                'From August 2012 to July 2015 I studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) at the Information Technology department. Mikkelin Ammattikorkeakoulu was ranked as the best Finnish university of applied sciences in 2014.'
 	                            ),
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__russian' },
-	                                '\u0421 \u0430\u0432\u0433\u0443\u0441\u0442\u0430 2012 \u0433. \u043F\u043E \u0438\u044E\u043B\u044C 2015 \u0433. \u043F\u0440\u043E\u0448\u0435\u043B \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435 \u0432 \u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0435 \u043F\u0440\u0438\u043A\u043B\u0430\u0434\u043D\u044B\u0445 \u043D\u0430\u0443\u043A \u0433\u043E\u0440\u043E\u0434\u0430 \u041C\u0438\u043A\u043A\u0435\u043B\u0438, \u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0438\u044F (Mikkelin Ammattikorkeakoulu) \u043D\u0430 \u043A\u0430\u0444\u0435\u0434\u0440\u0435 IT (\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0435 \u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438).'
+	                                '\u0421 \u0430\u0432\u0433\u0443\u0441\u0442\u0430 2012 \u0433. \u043F\u043E \u0438\u044E\u043B\u044C 2015 \u0433. \u043F\u0440\u043E\u0448\u0435\u043B \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435 \u0432 \u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0435 \u043F\u0440\u0438\u043A\u043B\u0430\u0434\u043D\u044B\u0445 \u043D\u0430\u0443\u043A \u0433\u043E\u0440\u043E\u0434\u0430 \u041C\u0438\u043A\u043A\u0435\u043B\u0438, \u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0438\u044F (Mikkelin Ammattikorkeakoulu) \u043D\u0430 \u043A\u0430\u0444\u0435\u0434\u0440\u0435 IT (\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0435 \u0422\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438). \u0412 2014 \u0433\u043E\u0434\u0443 Mikkelin Ammattikorkeakoulu \u0431\u044B\u043B \u043F\u0440\u0438\u0437\u043D\u0430\u043D \u043B\u0443\u0447\u0448\u0438\u043C \u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u043E\u043C \u043F\u0440\u0438\u043A\u043B\u0430\u0434\u043D\u044B\u0445 \u043D\u0430\u0443\u043A \u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0438\u0438.'
 	                            )
 	                        )
 	                    ),
@@ -30111,7 +30111,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'a',
-	                        { className: 'contact__social-item', target: '_blank', href: 'https://instagram.com/rogatnev_nikita/' },
+	                        { className: 'contact__social-item', target: '_blank', href: 'https://www.instagram.com/rogatnev_nikita/' },
 	                        _react2.default.createElement(
 	                            'svg',
 	                            null,
