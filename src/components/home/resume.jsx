@@ -46,7 +46,7 @@ function resume({children}) {
                                 <span className="language__russian">ENTech Solutions / Eventgrid (США)</span>
                             </h5>
                             <a href="https://eventgrid.com/" target="_blank">
-                                <img src="build/img/resume/eventgrid.png" alt="eventgrid" width="125"/>
+                                <img src="build/img/resume/eventgrid.png" alt="eventgrid" width="135"/>
                             </a>
                             <p>
                                 <span className="language__english language__active">Working as a full-time Front-End engineer for ENTech Solutions. We build and deploy scalable Microsoft .Net stack web applications (SaaS), follow Agile Process and methodology.</span>
@@ -55,8 +55,8 @@ function resume({children}) {
                         </div>
                         <div className="resume__history-item">
                             <h3>
-                                <span className="language__english language__active">2015 - Current</span>
-                                <span className="language__russian">2015 - НВ</span>
+                                <span className="language__english language__active">Mar 2015 - Current</span>
+                                <span className="language__russian">Март 2015 - НВ</span>
                             </h3>
                             <h4>
                                 <span className="language__english language__active">Tutor</span>
@@ -67,7 +67,7 @@ function resume({children}) {
                                 <span className="language__russian">HTML Academy (Россия)</span>
                             </h5>
                             <a href="https://htmlacademy.ru/" target="_blank">
-                                <img src="build/img/resume/htmlacademy.svg" alt="htmlacademy" width="125"/>
+                                <img src="build/img/resume/htmlacademy.svg" alt="htmlacademy" width="135"/>
                             </a>
                             <p>
                                 <span className="language__english language__active">Tutor at basic and advanced HTML Academy intensives. Daily code review of students' practical tasks and code projects. Project development help during the individual online consultations.</span>
@@ -85,7 +85,7 @@ function resume({children}) {
                                 <span className="language__russian">Positive Communications (Россия)</span>
                             </h5>
                             <a href="http://positivecommunications.ru/" target="_blank">
-                                <img src="build/img/resume/positivecommunications.svg" alt="positivecommunications" width="125"/>
+                                <img src="build/img/resume/positivecommunications.svg" alt="positivecommunications" width="135"/>
                             </a>
                             <p>
                                 <span className="language__english language__active">Since 2013 I have been collaborating with the St. Petersburg branch of «Positive Communications». Main duty - maintaining the «RWM Capital» management company websites in the English and Russian languages; weekly back-up of the websites' lite version; Positive Communications company website development.</span>
@@ -189,6 +189,9 @@ function resume({children}) {
                                 <span className="language__english language__active">Mikkelin ammattikorkeakoulu (Finland)</span>
                                 <span className="language__russian">Mikkelin ammattikorkeakoulu (Финляндия)</span>
                             </h5>
+                            <a href="http://www.mamk.fi/" target="_blank">
+                                <img src="build/img/resume/mamk.png" alt="Mikkelin ammattikorkeakoulu" width="135"/>
+                            </a>
                             <p>
                                 <span className="language__english language__active">From August 2012 to July 2015 I studied in Mikkeli University of Applied Sciences, Finland (Mikkelin Ammattikorkeakoulu) at the Information Technology department.</span>
                                 <span className="language__russian">С августа 2012 г. по июль 2015 г. прошел обучение в университете прикладных наук города Миккели, Финляндия (Mikkelin Ammattikorkeakoulu) на кафедре IT (Информационные Технологии).</span>

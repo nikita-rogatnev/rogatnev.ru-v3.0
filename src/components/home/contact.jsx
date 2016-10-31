@@ -86,7 +86,7 @@ function contact({children}) {
                                 <use xlinkHref="#github-logo"></use>
                             </svg>
                         </a>
-                        <a className="contact__social-item" target="_blank" href="https://linkedin.com/in/rogatnevnikita/">
+                        <a className="contact__social-item" target="_blank" href="https://www.linkedin.com/in/rogatnevnikita/">
                             <svg>
                                 <use xlinkHref="#in-logo"></use>
                             </svg>

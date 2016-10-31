@@ -28106,7 +28106,7 @@
 	                        _react2.default.createElement(
 	                            'a',
 	                            { href: 'https://eventgrid.com/', target: '_blank' },
-	                            _react2.default.createElement('img', { src: 'build/img/resume/eventgrid.png', alt: 'eventgrid', width: '125' })
+	                            _react2.default.createElement('img', { src: 'build/img/resume/eventgrid.png', alt: 'eventgrid', width: '135' })
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
@@ -28132,12 +28132,12 @@
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__english language__active' },
-	                                '2015 - Current'
+	                                'Mar 2015 - Current'
 	                            ),
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__russian' },
-	                                '2015 - \u041D\u0412'
+	                                '\u041C\u0430\u0440\u0442 2015 - \u041D\u0412'
 	                            )
 	                        ),
 	                        _react2.default.createElement(
@@ -28171,7 +28171,7 @@
 	                        _react2.default.createElement(
 	                            'a',
 	                            { href: 'https://htmlacademy.ru/', target: '_blank' },
-	                            _react2.default.createElement('img', { src: 'build/img/resume/htmlacademy.svg', alt: 'htmlacademy', width: '125' })
+	                            _react2.default.createElement('img', { src: 'build/img/resume/htmlacademy.svg', alt: 'htmlacademy', width: '135' })
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
@@ -28227,7 +28227,7 @@
 	                        _react2.default.createElement(
 	                            'a',
 	                            { href: 'http://positivecommunications.ru/', target: '_blank' },
-	                            _react2.default.createElement('img', { src: 'build/img/resume/positivecommunications.svg', alt: 'positivecommunications', width: '125' })
+	                            _react2.default.createElement('img', { src: 'build/img/resume/positivecommunications.svg', alt: 'positivecommunications', width: '135' })
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
@@ -28566,6 +28566,11 @@
 	                                { className: 'language__russian' },
 	                                'Mikkelin ammattikorkeakoulu (\u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0438\u044F)'
 	                            )
+	                        ),
+	                        _react2.default.createElement(
+	                            'a',
+	                            { href: 'http://www.mamk.fi/', target: '_blank' },
+	                            _react2.default.createElement('img', { src: 'build/img/resume/mamk.png', alt: 'Mikkelin ammattikorkeakoulu', width: '135' })
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
@@ -30097,7 +30102,7 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'a',
-	                        { className: 'contact__social-item', target: '_blank', href: 'https://linkedin.com/in/rogatnevnikita/' },
+	                        { className: 'contact__social-item', target: '_blank', href: 'https://www.linkedin.com/in/rogatnevnikita/' },
 	                        _react2.default.createElement(
 	                            'svg',
 	                            null,
