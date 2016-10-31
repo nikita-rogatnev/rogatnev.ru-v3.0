@@ -34,8 +34,8 @@ function resume({children}) {
                         </div>
                         <div className="resume__history-item">
                             <h3>
-                                <span className="language__english language__active">Jun 2016 - Current</span>
-                                <span className="language__russian">Июнь 2016 - НВ</span>
+                                <span className="language__english language__active">Jun 2016 &ndash; Current</span>
+                                <span className="language__russian">Июнь 2016 &ndash; НВ</span>
                             </h3>
                             <h4>
                                 <span className="language__english language__active">Front-End Engineer</span>
@@ -55,8 +55,8 @@ function resume({children}) {
                         </div>
                         <div className="resume__history-item">
                             <h3>
-                                <span className="language__english language__active">Mar 2015 - Current</span>
-                                <span className="language__russian">Март 2015 - НВ</span>
+                                <span className="language__english language__active">Mar 2015 &ndash; Current</span>
+                                <span className="language__russian">Март 2015 &ndash; НВ</span>
                             </h3>
                             <h4>
                                 <span className="language__english language__active">Tutor</span>
@@ -75,7 +75,7 @@ function resume({children}) {
                             </p>
                         </div>
                         <div className="resume__history-item">
-                            <h3>2013 - 2016</h3>
+                            <h3>2013 &ndash; 2016</h3>
                             <h4>
                                 <span className="language__english language__active">Webmaster</span>
                                 <span className="language__russian">Веб-мастер</span>
@@ -88,12 +88,12 @@ function resume({children}) {
                                 <img src="build/img/resume/positivecommunications.svg" alt="Positive Communications" width="135"/>
                             </a>
                             <p>
-                                <span className="language__english language__active">Since 2013 I have been collaborating with the St. Petersburg branch of «Positive Communications». Main duty - maintaining the «RWM Capital» management company websites in the English and Russian languages; weekly back-up of the websites' lite version; Positive Communications company website development.</span>
-                                <span className="language__russian">С 2013 года сотрудничаю с Санкт-Петербургским отделением «Positive Communications». Основная задача - поддержание английской и русской версий сайта управляющей компании «РВМ Капитал»; еженедельное создание резервной копии lite версии сайта; разработка сайта Positive Communications.</span>
+                                <span className="language__english language__active">Since 2013 I have been collaborating with the St. Petersburg branch of «Positive Communications». Main duty &ndash; maintaining the «RWM Capital» management company websites in the English and Russian languages; weekly back-up of the websites' lite version; Positive Communications company website development.</span>
+                                <span className="language__russian">С 2013 года сотрудничаю с Санкт-Петербургским отделением «Positive Communications». Основная задача &ndash; поддержание английской и русской версий сайта управляющей компании «РВМ Капитал»; еженедельное создание резервной копии lite версии сайта; разработка сайта Positive Communications.</span>
                             </p>
                         </div>
                         <div className="resume__history-item">
-                            <h3>2013 - 2015</h3>
+                            <h3>2013 &ndash; 2015</h3>
                             <h4>
                                 <span className="language__english language__active">Lead web developer</span>
                                 <span className="language__russian">Lead веб разработчик</span>
@@ -108,7 +108,10 @@ function resume({children}) {
                             </p>
                         </div>
                         <div className="resume__history-item">
-                            <h3>2013 - 2014</h3>
+                            <h3>
+                                <span className="language__english language__active">Dec 2013 &ndash; Mar 2014</span>
+                                <span className="language__russian">Декабрь 2013 &ndash; Март 2014</span>
+                            </h3>
                             <h4>
                                 <span className="language__english language__active">Webmaster</span>
                                 <span className="language__russian">Веб-мастер</span>
@@ -123,7 +126,10 @@ function resume({children}) {
                             </p>
                         </div>
                         <div className="resume__history-item">
-                            <h3>2013 - 2013</h3>
+                            <h3>
+                                <span className="language__english language__active">May 2013 &ndash; Oct 2013</span>
+                                <span className="language__russian">Май 2013 &ndash; Октябрь 2013</span>
+                            </h3>
                             <h4>
                                 <span className="language__english language__active">Senior Back-End developer</span>
                                 <span className="language__russian">Senior Back-End разработчик</span>
@@ -138,7 +144,7 @@ function resume({children}) {
                             </p>
                         </div>
                         <div className="resume__history-item">
-                            <h3>2012 - 2013</h3>
+                            <h3>2012 &ndash; 2013</h3>
                             <h4>
                                 <span className="language__english language__active">Front-End developer and designer</span>
                                 <span className="language__russian">Front-End разработчик и дизайнер</span>
@@ -154,8 +160,8 @@ function resume({children}) {
                         </div>
                         <div className="resume__history-item">
                             <h3>
-                                <span className="language__english language__active">2010 - Current</span>
-                                <span className="language__russian">2010 - НВ</span>
+                                <span className="language__english language__active">2010 &ndash; Current</span>
+                                <span className="language__russian">2010 &ndash; НВ</span>
                             </h3>
                             <h4>
                                 <span className="language__english language__active">Web Developer</span>
@@ -180,7 +186,10 @@ function resume({children}) {
                             </svg>
                         </div>
                         <div className="resume__history-item">
-                            <h3>2012 &ndash; 2015</h3>
+                            <h3>
+                                <span className="language__english language__active">Aug 2012 &ndash; May 2015</span>
+                                <span className="language__russian">Август 2012 &ndash; Май 2015</span>
+                            </h3>
                             <h4>
                                 <span className="language__english language__active">Bachelor of engineering</span>
                                 <span className="language__russian">Бакалавр инженерии</span>

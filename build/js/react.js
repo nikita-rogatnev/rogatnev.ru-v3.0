@@ -28067,12 +28067,12 @@
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__english language__active' },
-	                                'Jun 2016 - Current'
+	                                'Jun 2016 \u2013 Current'
 	                            ),
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__russian' },
-	                                '\u0418\u044E\u043D\u044C 2016 - \u041D\u0412'
+	                                '\u0418\u044E\u043D\u044C 2016 \u2013 \u041D\u0412'
 	                            )
 	                        ),
 	                        _react2.default.createElement(
@@ -28132,12 +28132,12 @@
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__english language__active' },
-	                                'Mar 2015 - Current'
+	                                'Mar 2015 \u2013 Current'
 	                            ),
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__russian' },
-	                                '\u041C\u0430\u0440\u0442 2015 - \u041D\u0412'
+	                                '\u041C\u0430\u0440\u0442 2015 \u2013 \u041D\u0412'
 	                            )
 	                        ),
 	                        _react2.default.createElement(
@@ -28194,7 +28194,7 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '2013 - 2016'
+	                            '2013 \u2013 2016'
 	                        ),
 	                        _react2.default.createElement(
 	                            'h4',
@@ -28235,12 +28235,12 @@
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__english language__active' },
-	                                'Since 2013 I have been collaborating with the St. Petersburg branch of \xABPositive Communications\xBB. Main duty - maintaining the \xABRWM Capital\xBB management company websites in the English and Russian languages; weekly back-up of the websites\' lite version; Positive Communications company website development.'
+	                                'Since 2013 I have been collaborating with the St. Petersburg branch of \xABPositive Communications\xBB. Main duty \u2013 maintaining the \xABRWM Capital\xBB management company websites in the English and Russian languages; weekly back-up of the websites\' lite version; Positive Communications company website development.'
 	                            ),
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__russian' },
-	                                '\u0421 2013 \u0433\u043E\u0434\u0430 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0430\u044E \u0441 \u0421\u0430\u043D\u043A\u0442-\u041F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0441\u043A\u0438\u043C \u043E\u0442\u0434\u0435\u043B\u0435\u043D\u0438\u0435\u043C \xABPositive Communications\xBB. \u041E\u0441\u043D\u043E\u0432\u043D\u0430\u044F \u0437\u0430\u0434\u0430\u0447\u0430 - \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u0435 \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u043E\u0439 \u0438 \u0440\u0443\u0441\u0441\u043A\u043E\u0439 \u0432\u0435\u0440\u0441\u0438\u0439 \u0441\u0430\u0439\u0442\u0430 \u0443\u043F\u0440\u0430\u0432\u043B\u044F\u044E\u0449\u0435\u0439 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438 \xAB\u0420\u0412\u041C \u041A\u0430\u043F\u0438\u0442\u0430\u043B\xBB; \u0435\u0436\u0435\u043D\u0435\u0434\u0435\u043B\u044C\u043D\u043E\u0435 \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u0440\u0435\u0437\u0435\u0440\u0432\u043D\u043E\u0439 \u043A\u043E\u043F\u0438\u0438 lite \u0432\u0435\u0440\u0441\u0438\u0438 \u0441\u0430\u0439\u0442\u0430; \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0441\u0430\u0439\u0442\u0430 Positive Communications.'
+	                                '\u0421 2013 \u0433\u043E\u0434\u0430 \u0441\u043E\u0442\u0440\u0443\u0434\u043D\u0438\u0447\u0430\u044E \u0441 \u0421\u0430\u043D\u043A\u0442-\u041F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0441\u043A\u0438\u043C \u043E\u0442\u0434\u0435\u043B\u0435\u043D\u0438\u0435\u043C \xABPositive Communications\xBB. \u041E\u0441\u043D\u043E\u0432\u043D\u0430\u044F \u0437\u0430\u0434\u0430\u0447\u0430 \u2013 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u0435 \u0430\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u043E\u0439 \u0438 \u0440\u0443\u0441\u0441\u043A\u043E\u0439 \u0432\u0435\u0440\u0441\u0438\u0439 \u0441\u0430\u0439\u0442\u0430 \u0443\u043F\u0440\u0430\u0432\u043B\u044F\u044E\u0449\u0435\u0439 \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438 \xAB\u0420\u0412\u041C \u041A\u0430\u043F\u0438\u0442\u0430\u043B\xBB; \u0435\u0436\u0435\u043D\u0435\u0434\u0435\u043B\u044C\u043D\u043E\u0435 \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u0440\u0435\u0437\u0435\u0440\u0432\u043D\u043E\u0439 \u043A\u043E\u043F\u0438\u0438 lite \u0432\u0435\u0440\u0441\u0438\u0438 \u0441\u0430\u0439\u0442\u0430; \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0441\u0430\u0439\u0442\u0430 Positive Communications.'
 	                            )
 	                        )
 	                    ),
@@ -28250,7 +28250,7 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '2013 - 2015'
+	                            '2013 \u2013 2015'
 	                        ),
 	                        _react2.default.createElement(
 	                            'h4',
@@ -28301,7 +28301,16 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '2013 - 2014'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Dec 2013 \u2013 Mar 2014'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0414\u0435\u043A\u0430\u0431\u0440\u044C 2013 \u2013 \u041C\u0430\u0440\u0442 2014'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h4',
@@ -28352,7 +28361,16 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '2013 - 2013'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'May 2013 \u2013 Oct 2013'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u041C\u0430\u0439 2013 \u2013 \u041E\u043A\u0442\u044F\u0431\u0440\u044C 2013'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h4',
@@ -28403,7 +28421,7 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '2012 - 2013'
+	                            '2012 \u2013 2013'
 	                        ),
 	                        _react2.default.createElement(
 	                            'h4',
@@ -28457,12 +28475,12 @@
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__english language__active' },
-	                                '2010 - Current'
+	                                '2010 \u2013 Current'
 	                            ),
 	                            _react2.default.createElement(
 	                                'span',
 	                                { className: 'language__russian' },
-	                                '2010 - \u041D\u0412'
+	                                '2010 \u2013 \u041D\u0412'
 	                            )
 	                        ),
 	                        _react2.default.createElement(
@@ -28537,7 +28555,16 @@
 	                        _react2.default.createElement(
 	                            'h3',
 	                            null,
-	                            '2012 \u2013 2015'
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__english language__active' },
+	                                'Aug 2012 \u2013 May 2015'
+	                            ),
+	                            _react2.default.createElement(
+	                                'span',
+	                                { className: 'language__russian' },
+	                                '\u0410\u0432\u0433\u0443\u0441\u0442 2012 \u2013 \u041C\u0430\u0439 2015'
+	                            )
 	                        ),
 	                        _react2.default.createElement(
 	                            'h4',
