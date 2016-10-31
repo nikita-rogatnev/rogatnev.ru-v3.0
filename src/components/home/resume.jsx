@@ -45,8 +45,8 @@ function resume({children}) {
                                 <span className="language__english language__active">ENTech Solutions (USA)</span>
                                 <span className="language__russian">ENTech Solutions (США)</span>
                             </h5>
-                            <a href="https://eventgrid.com/" target="_blank">
-                                <img src="build/img/resume/eventgrid.png" alt="eventgrid" width="135"/>
+                            <a href="http://www.entechsolutions.com" target="_blank">
+                                <img src="build/img/resume/entechsolutions.png" alt="ENTech Solutions" width="135"/>
                             </a>
                             <p>
                                 <span className="language__english language__active">Working as a full-time Front-End engineer in ENTech Solutions. We build and deploy scalable Microsoft .Net stack web applications (SaaS), follow Agile Process and methodology.</span>
@@ -67,7 +67,7 @@ function resume({children}) {
                                 <span className="language__russian">HTML Academy (Россия)</span>
                             </h5>
                             <a href="https://htmlacademy.ru/" target="_blank">
-                                <img src="build/img/resume/htmlacademy.svg" alt="htmlacademy" width="135"/>
+                                <img src="build/img/resume/htmlacademy.svg" alt="HTML Academy" width="135"/>
                             </a>
                             <p>
                                 <span className="language__english language__active">Tutor at basic and advanced HTML Academy intensives. Daily code review of students' practical tasks and code projects. Project development help during the individual online consultations.</span>
@@ -85,7 +85,7 @@ function resume({children}) {
                                 <span className="language__russian">Positive Communications (Россия)</span>
                             </h5>
                             <a href="http://positivecommunications.ru/" target="_blank">
-                                <img src="build/img/resume/positivecommunications.svg" alt="positivecommunications" width="135"/>
+                                <img src="build/img/resume/positivecommunications.svg" alt="Positive Communications" width="135"/>
                             </a>
                             <p>
                                 <span className="language__english language__active">Since 2013 I have been collaborating with the St. Petersburg branch of «Positive Communications». Main duty - maintaining the «RWM Capital» management company websites in the English and Russian languages; weekly back-up of the websites' lite version; Positive Communications company website development.</span>

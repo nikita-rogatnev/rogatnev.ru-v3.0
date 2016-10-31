@@ -28105,8 +28105,8 @@
 	                        ),
 	                        _react2.default.createElement(
 	                            'a',
-	                            { href: 'https://eventgrid.com/', target: '_blank' },
-	                            _react2.default.createElement('img', { src: 'build/img/resume/eventgrid.png', alt: 'eventgrid', width: '135' })
+	                            { href: 'http://www.entechsolutions.com', target: '_blank' },
+	                            _react2.default.createElement('img', { src: 'build/img/resume/entechsolutions.png', alt: 'ENTech Solutions', width: '135' })
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
@@ -28171,7 +28171,7 @@
 	                        _react2.default.createElement(
 	                            'a',
 	                            { href: 'https://htmlacademy.ru/', target: '_blank' },
-	                            _react2.default.createElement('img', { src: 'build/img/resume/htmlacademy.svg', alt: 'htmlacademy', width: '135' })
+	                            _react2.default.createElement('img', { src: 'build/img/resume/htmlacademy.svg', alt: 'HTML Academy', width: '135' })
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
@@ -28227,7 +28227,7 @@
 	                        _react2.default.createElement(
 	                            'a',
 	                            { href: 'http://positivecommunications.ru/', target: '_blank' },
-	                            _react2.default.createElement('img', { src: 'build/img/resume/positivecommunications.svg', alt: 'positivecommunications', width: '135' })
+	                            _react2.default.createElement('img', { src: 'build/img/resume/positivecommunications.svg', alt: 'Positive Communications', width: '135' })
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
