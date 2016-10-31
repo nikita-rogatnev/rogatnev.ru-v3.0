@@ -42,9 +42,12 @@ function resume({children}) {
                                 <span className="language__russian">Front-End инженер</span>
                             </h4>
                             <h5>
-                                <span className="language__english language__active">ENTech Solutions (USA)</span>
-                                <span className="language__russian">ENTech Solutions (США)</span>
+                                <span className="language__english language__active">ENTech Solutions / Eventgrid (USA)</span>
+                                <span className="language__russian">ENTech Solutions / Eventgrid (США)</span>
                             </h5>
+                            <a href="https://eventgrid.com/" target="_blank">
+                                <img src="build/img/resume/eventgrid.png" alt="eventgrid" width="125"/>
+                            </a>
                             <p>
                                 <span className="language__english language__active">Working as a full-time Front-End engineer for ENTech Solutions. We build and deploy scalable Microsoft .Net stack web applications (SaaS), follow Agile Process and methodology.</span>
                                 <span className="language__russian">12</span>
@@ -63,13 +66,16 @@ function resume({children}) {
                                 <span className="language__english language__active">HTML Academy (Russia)</span>
                                 <span className="language__russian">HTML Academy (Россия)</span>
                             </h5>
+                            <a href="https://htmlacademy.ru/" target="_blank">
+                                <img src="build/img/resume/htmlacademy.svg" alt="htmlacademy" width="125"/>
+                            </a>
                             <p>
                                 <span className="language__english language__active">Tutor at basic and advanced HTML Academy intensives. Daily code review of students' practical tasks and code projects. Project development help during the individual online consultations.</span>
                                 <span className="language__russian">Проверка практических заданий и код-ревью проектов студентов, а также помощь с вёрсткой макетов во время индивидуальных онлайн консультаций.</span>
                             </p>
                         </div>
                         <div className="resume__history-item">
-                            <h3>2013 - 2015</h3>
+                            <h3>2013 - 2016</h3>
                             <h4>
                                 <span className="language__english language__active">Webmaster</span>
                                 <span className="language__russian">Веб-мастер</span>
@@ -78,6 +84,9 @@ function resume({children}) {
                                 <span className="language__english language__active">Positive Communications (Russia)</span>
                                 <span className="language__russian">Positive Communications (Россия)</span>
                             </h5>
+                            <a href="http://positivecommunications.ru/" target="_blank">
+                                <img src="build/img/resume/positivecommunications.svg" alt="positivecommunications" width="125"/>
+                            </a>
                             <p>
                                 <span className="language__english language__active">Since 2013 I have been collaborating with the St. Petersburg branch of «Positive Communications». Main duty - maintaining the «RWM Capital» management company websites in the English and Russian languages; weekly back-up of the websites' lite version; Positive Communications company website development.</span>
                                 <span className="language__russian">С 2013 года сотрудничаю с Санкт-Петербургским отделением «Positive Communications». Основная задача - поддержание английской и русской версий сайта управляющей компании «РВМ Капитал»; еженедельное создание резервной копии lite версии сайта; разработка сайта Positive Communications.</span>

@@ -175,6 +175,18 @@
 			margin-bottom: 0;
 		}
 	}
+
+	a {
+		font-size: 0;
+
+		img {
+			display: block;
+
+			min-width: 125px;
+			max-width: 125px;
+			margin: 8px 0;
+		}
+	}
 }
 
 .resume__download {

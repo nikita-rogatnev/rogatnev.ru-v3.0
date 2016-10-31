@@ -33,7 +33,8 @@ var Blog = React.createClass({
                             <a href={blog__item.blog__link} target="_blank">
                                 <span className="language__english language__active">Continue reading at&nbsp;</span>
                                 <span className="language__russian">Читать дальше на&nbsp;</span>
-                                [{blog__item.blog__domain}]</a>
+                                [{blog__item.blog__domain}]
+                            </a>
                         </footer>
                     </article>
                 );
