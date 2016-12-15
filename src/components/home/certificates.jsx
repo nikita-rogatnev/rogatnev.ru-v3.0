@@ -27,21 +27,24 @@ var Certificates = React.createClass({
 var CertificatesItems = [
 	{
 		key: '1',
-		certificates__image: 'build/img/certificates/ccna-1.png'
+		certificates__image: 'build/img/certificates/googlep-1.png'
 	}, {
 		key: '2',
-		certificates__image: 'build/img/certificates/ccna-2.png'
+		certificates__image: 'build/img/certificates/ccna-1.png'
 	}, {
 		key: '3',
-		certificates__image: 'build/img/certificates/ccna-3.png'
+		certificates__image: 'build/img/certificates/ccna-2.png'
 	}, {
 		key: '4',
-		certificates__image: 'build/img/certificates/ccna-4.png'
+		certificates__image: 'build/img/certificates/ccna-3.png'
 	}, {
 		key: '5',
-		certificates__image: 'build/img/certificates/w3c.png'
+		certificates__image: 'build/img/certificates/ccna-4.png'
 	}, {
 		key: '6',
+		certificates__image: 'build/img/certificates/w3c.png'
+	}, {
+		key: '7',
 		certificates__image: 'build/img/certificates/alison.jpg'
 	}, {
 		key: '8',
@@ -92,10 +95,11 @@ function certificates({ children }) {
 						</h1>
 					</div>
 					<div className="certificates__other">
+						<img src="build/img/certificates/other/bitrix24.png" alt="bitrix24"/>
+						<img src="build/img/certificates/other/googlep.png" alt="google certified partner"/>
 						<img src="build/img/certificates/other/mcp.png" alt="microsoft certified professional"/>
 						<img src="build/img/certificates/other/w3c.png" alt="w3c"/>
 						<img src="build/img/certificates/other/ccna.png" alt="ccna"/>
-						<img src="build/img/certificates/other/bitrix24.png" alt="bitrix24"/>
 						<img src="build/img/certificates/other/iwa.png" alt="iwa"/>
 					</div>
 					<Certificates CertificatesItems={CertificatesItems}/>
