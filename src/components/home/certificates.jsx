@@ -15,8 +15,14 @@ var Certificates = React.createClass({
 			.CertificatesItems
 			.map( function ( certificates__item ) {
 				return (
-					<article className="certificates__item" key={certificates__item.key}>
+					<article className="certificates__item" key={certificates__item.key} data-key={certificates__item.key}>
 						<img src={certificates__item.certificates__image} className="certificates__image" alt={certificates__item.certificates__title}/>
+						<div className="certificates__modal">
+							<svg className="certificates__close">
+								<use xlinkHref="#close"></use>
+							</svg>
+							<img src={certificates__item.certificates__image} className="certificates__image" alt={certificates__item.certificates__title}/>
+						</div>
 					</article>
 				);
 			});

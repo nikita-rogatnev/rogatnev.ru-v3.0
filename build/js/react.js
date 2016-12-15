@@ -29592,8 +29592,18 @@
 			var CertificatesItemsComponents = this.props.CertificatesItems.map(function (certificates__item) {
 				return _react2.default.createElement(
 					'article',
-					{ className: 'certificates__item', key: certificates__item.key },
-					_react2.default.createElement('img', { src: certificates__item.certificates__image, className: 'certificates__image', alt: certificates__item.certificates__title })
+					{ className: 'certificates__item', key: certificates__item.key, 'data-key': certificates__item.key },
+					_react2.default.createElement('img', { src: certificates__item.certificates__image, className: 'certificates__image', alt: certificates__item.certificates__title }),
+					_react2.default.createElement(
+						'div',
+						{ className: 'certificates__modal' },
+						_react2.default.createElement(
+							'svg',
+							{ className: 'certificates__close' },
+							_react2.default.createElement('use', { xlinkHref: '#close' })
+						),
+						_react2.default.createElement('img', { src: certificates__item.certificates__image, className: 'certificates__image', alt: certificates__item.certificates__title })
+					)
 				);
 			});
 			return _react2.default.createElement(

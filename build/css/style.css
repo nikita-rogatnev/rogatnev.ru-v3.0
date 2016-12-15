@@ -799,10 +799,24 @@ a {
 
 .certificates__item {
   position: relative;
-  display: inline-block;
+  overflow: hidden;
   width: 100%;
   margin-bottom: 30px;
-  text-align: center; }
+  font-size: 0;
+  line-height: 0; }
+  .certificates__item:hover:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url(../img/icons/look-white.svg), rgba(51, 71, 93, 0.5);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40% 40%; }
 
 .certificates__other {
   -moz-column-count: 2;
@@ -810,7 +824,42 @@ a {
   -moz-column-gap: 30px;
        column-gap: 30px; }
   .certificates__other img {
+    display: block;
     margin-bottom: 30px; }
+
+.certificates__modal {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9); }
+  .certificates__modal img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    max-width: 75%;
+    height: auto;
+    max-height: 85%;
+    transform: translate(-50%, -50%); }
+  .certificates__modal--active {
+    display: block; }
+  .certificates__modal .certificates__close {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 80px;
+    height: 80px;
+    fill: white; }
+    .certificates__modal .certificates__close:hover {
+      fill: #2ba163; }
 
 /* ------------------------------------------ */
 /* BLOG BLOCK
@@ -1193,6 +1242,10 @@ a {
   .certificates__other {
     -moz-column-count: 6;
     column-count: 6; }
+  .certificates__modal img {
+    max-width: 95%;
+    height: 85%;
+    max-height: 70%; }
   .blog__container {
     padding: 3.5em; }
   .blog__items {
