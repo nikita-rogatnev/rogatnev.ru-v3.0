@@ -794,15 +794,23 @@ a {
   width: 100%;
   -moz-column-count: 1;
        column-count: 1;
-  -moz-column-gap: 0;
-       column-gap: 0; }
+  -moz-column-gap: 30px;
+       column-gap: 30px; }
 
 .certificates__item {
   position: relative;
   display: inline-block;
   width: 100%;
-  padding: 15px;
+  margin-bottom: 30px;
   text-align: center; }
+
+.certificates__other {
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-gap: 30px;
+       column-gap: 30px; }
+  .certificates__other img {
+    margin-bottom: 30px; }
 
 /* ------------------------------------------ */
 /* BLOG BLOCK
@@ -1117,6 +1125,9 @@ a {
   .certificates__items {
     -moz-column-count: 2;
     column-count: 2; }
+  .certificates__other {
+    -moz-column-count: 3;
+    column-count: 3; }
   .blog__container {
     width: 100%;
     padding: 4em; }
@@ -1179,6 +1190,9 @@ a {
   .certificates__items {
     -moz-column-count: 3;
     column-count: 3; }
+  .certificates__other {
+    -moz-column-count: 6;
+    column-count: 6; }
   .blog__container {
     padding: 3.5em; }
   .blog__items {

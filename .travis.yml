@@ -1,10 +1,10 @@
 language: node_js
 
 node_js:
-  - "stable"
+	- "stable"
 
 before_script:
-  - npm install -g grunt-cli
+	- npm install -g grunt-cli
 
 notifications:
-  email: false
+	email: false

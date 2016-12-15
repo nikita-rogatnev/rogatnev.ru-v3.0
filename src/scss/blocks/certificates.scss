@@ -12,7 +12,7 @@
 	width: 100%;
 
 	column-count: 1;
-	column-gap: 0;
+	column-gap: 30px;
 	@include mediaquery-md {
 		column-count: 2;
 	}
@@ -27,7 +27,22 @@
 	display: inline-block;
 
 	width: 100%;
-	padding: 15px;
+	margin-bottom: 30px;
 
 	text-align: center;
+}
+
+.certificates__other {
+	column-count: 2;
+	column-gap: 30px;
+	@include mediaquery-md {
+		column-count: 3;
+	}
+	@include mediaquery-lg {
+		column-count: 6;
+	}
+
+	img {
+		margin-bottom: 30px;
+	}
 }
