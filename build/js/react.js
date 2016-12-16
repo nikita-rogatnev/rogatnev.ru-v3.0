@@ -29615,56 +29615,59 @@
 	});
 	
 	var CertificatesItems = [{
-		key: '1',
+		key: '18',
+		certificates__image: 'build/img/certificates/googlep-2.png'
+	}, {
+		key: '17',
 		certificates__image: 'build/img/certificates/googlep-1.png'
 	}, {
-		key: '2',
-		certificates__image: 'build/img/certificates/ccna-1.png'
-	}, {
-		key: '3',
-		certificates__image: 'build/img/certificates/ccna-2.png'
-	}, {
-		key: '4',
-		certificates__image: 'build/img/certificates/ccna-3.png'
-	}, {
-		key: '5',
+		key: '16',
 		certificates__image: 'build/img/certificates/ccna-4.png'
 	}, {
-		key: '6',
+		key: '15',
+		certificates__image: 'build/img/certificates/ccna-3.png'
+	}, {
+		key: '14',
+		certificates__image: 'build/img/certificates/ccna-2.png'
+	}, {
+		key: '13',
+		certificates__image: 'build/img/certificates/ccna-1.png'
+	}, {
+		key: '12',
 		certificates__image: 'build/img/certificates/w3c.png'
 	}, {
-		key: '7',
+		key: '11',
 		certificates__image: 'build/img/certificates/alison.jpg'
 	}, {
-		key: '8',
+		key: '10',
 		certificates__image: 'build/img/certificates/mta-html5.png'
 	}, {
 		key: '9',
 		certificates__image: 'build/img/certificates/mta-wosf.png'
 	}, {
-		key: '10',
-		certificates__image: 'build/img/certificates/schneideruniversities-1.png'
+		key: '8',
+		certificates__image: 'build/img/certificates/schneideruniversities-8.png'
 	}, {
-		key: '11',
-		certificates__image: 'build/img/certificates/schneideruniversities-2.png'
-	}, {
-		key: '12',
-		certificates__image: 'build/img/certificates/schneideruniversities-3.png'
-	}, {
-		key: '13',
-		certificates__image: 'build/img/certificates/schneideruniversities-4.png'
-	}, {
-		key: '14',
-		certificates__image: 'build/img/certificates/schneideruniversities-5.png'
-	}, {
-		key: '15',
-		certificates__image: 'build/img/certificates/schneideruniversities-6.png'
-	}, {
-		key: '16',
+		key: '7',
 		certificates__image: 'build/img/certificates/schneideruniversities-7.png'
 	}, {
-		key: '17',
-		certificates__image: 'build/img/certificates/schneideruniversities-8.png'
+		key: '6',
+		certificates__image: 'build/img/certificates/schneideruniversities-6.png'
+	}, {
+		key: '5',
+		certificates__image: 'build/img/certificates/schneideruniversities-5.png'
+	}, {
+		key: '4',
+		certificates__image: 'build/img/certificates/schneideruniversities-4.png'
+	}, {
+		key: '3',
+		certificates__image: 'build/img/certificates/schneideruniversities-3.png'
+	}, {
+		key: '2',
+		certificates__image: 'build/img/certificates/schneideruniversities-2.png'
+	}, {
+		key: '1',
+		certificates__image: 'build/img/certificates/schneideruniversities-1.png'
 	}];
 	
 	function certificates(_ref) {
