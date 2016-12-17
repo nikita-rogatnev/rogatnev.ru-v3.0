@@ -29,6 +29,9 @@ var Certificates = React.createClass({
 
 var CertificatesItems = [
 	{
+		key: '19',
+		certificates__image: 'build/img/certificates/yandex.png'
+	}, {
 		key: '18',
 		certificates__image: 'build/img/certificates/googlep-2.png'
 	}, {
