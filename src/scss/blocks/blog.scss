@@ -30,6 +30,7 @@
 	padding: 15px;
 
 	text-align: center;
+	vertical-align: top;
 }
 
 .blog__item-media {
@@ -91,7 +92,7 @@
 				background: url(../img/icons/look-white.svg), rgba(51, 71, 93, 0.5);
 				background-repeat: no-repeat;
 				background-position: center center;
-				background-size: 40% 40%;
+				background-size: 100px;
 			}
 		}
 	}

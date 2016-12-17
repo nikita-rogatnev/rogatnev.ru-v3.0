@@ -8,17 +8,13 @@ $(document)
 			.click(function () {
 				$(this)
 					.children(".certificates__modal")
-					.addClass("certificates__modal--active");
+					.toggleClass("certificates__modal--active");
 			});
 
 		$(document).keydown(function (e) {
 			if (e.keyCode == 27) {
-				$(".certificates__item .certificates__modal").removeClass("certificates__modal--active");
+				$(".certificates__modal").removeClass("certificates__modal--active");
 			}
-		});
-
-		$(".certificates__close").click(function () {
-			$(".certificates__item .certificates__modal").removeClass("certificates__modal--active");
 		});
 
 		// ------------------------------------------ //
