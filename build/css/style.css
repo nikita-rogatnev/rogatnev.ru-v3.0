@@ -830,6 +830,8 @@ a {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100px; }
+  .certificates__item--active .certificates__modal {
+    display: block; }
 
 .certificates__modal {
   position: fixed;
@@ -851,8 +853,6 @@ a {
     height: auto;
     max-height: 85%;
     transform: translate(-50%, -50%); }
-  .certificates__modal--active {
-    display: block; }
 
 /* ------------------------------------------ */
 /* BLOG BLOCK

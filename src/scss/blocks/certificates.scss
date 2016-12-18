@@ -70,6 +70,12 @@
 			background-size: 100px;
 		}
 	}
+
+	&--active {
+		.certificates__modal {
+			display: block;
+		}
+	}
 }
 
 .certificates__modal {
@@ -104,9 +110,5 @@
 			height: 85%;
 			max-height: 70%;
 		}
-	}
-
-	&--active {
-		display: block;
 	}
 }
