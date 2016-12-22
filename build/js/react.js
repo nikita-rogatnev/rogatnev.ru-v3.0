@@ -898,12 +898,18 @@
 	 * will remain to ensure logic does not differ in production.
 	 */
 	
-	function invariant(condition, format, a, b, c, d, e, f) {
-	  if (process.env.NODE_ENV !== 'production') {
+	var validateFormat = function validateFormat(format) {};
+	
+	if (process.env.NODE_ENV !== 'production') {
+	  validateFormat = function validateFormat(format) {
 	    if (format === undefined) {
 	      throw new Error('invariant requires an error message argument');
 	    }
-	  }
+	  };
+	}
+	
+	function invariant(condition, format, a, b, c, d, e, f) {
+	  validateFormat(format);
 	
 	  if (!condition) {
 	    var error;
@@ -29497,13 +29503,13 @@
 	}, {
 		key: '4',
 		portfolio__title: 'MOOVY Template',
-		portfolio__link: 'http://rogatnev-nikita.github.io/moovy/html/',
+		portfolio__link: 'http://rogatnev.ru/moovy/html/',
 		portfolio__description: 'BEM, HTML5, CSS3, JS',
 		portfolio__image: 'build/img/portfolio/moovy.png'
 	}, {
 		key: '5',
 		portfolio__title: 'DIGITIZE Template',
-		portfolio__link: 'http://rogatnev-nikita.github.io/digitize-theme/html/',
+		portfolio__link: 'http://rogatnev.ru/DigitizeTheme/html/',
 		portfolio__description: 'HTML5, CSS3, JS',
 		portfolio__image: 'build/img/portfolio/digitize.png'
 	}, {

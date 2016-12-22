@@ -52,13 +52,13 @@ var PortfolioItems = [
 	}, {
 		key: '4',
 		portfolio__title: 'MOOVY Template',
-		portfolio__link: 'http://rogatnev-nikita.github.io/moovy/html/',
+		portfolio__link: 'http://rogatnev.ru/moovy/html/',
 		portfolio__description: 'BEM, HTML5, CSS3, JS',
 		portfolio__image: 'build/img/portfolio/moovy.png'
 	}, {
 		key: '5',
 		portfolio__title: 'DIGITIZE Template',
-		portfolio__link: 'http://rogatnev-nikita.github.io/digitize-theme/html/',
+		portfolio__link: 'http://rogatnev.ru/DigitizeTheme/html/',
 		portfolio__description: 'HTML5, CSS3, JS',
 		portfolio__image: 'build/img/portfolio/digitize.png'
 	}, {
