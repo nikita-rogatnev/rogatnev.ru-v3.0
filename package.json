@@ -23,7 +23,7 @@
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-native-lightbox": "^0.6.0",
-    "react-router": "^3.0.0"
+    "react-router": "^4.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.1",
@@ -37,9 +37,9 @@
     "css-mqpacker": "^5.0.1",
     "del": "^2.2.2",
     "eslint": "^3.2.2",
-    "eslint-config-airbnb": "^12.0.0",
+    "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.0.1",
-    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.0.0",
     "gulp": "^3.9.1",
     "gulp-csso": "^2.0.0",
@@ -47,12 +47,12 @@
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^6.2.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
+    "gulp-sass": "^3.1.0",
     "gulp-svgmin": "^1.2.3",
     "gulp-svgstore": "^6.0.0",
     "gulp-uglify": "^2.0.0",
     "live-server": "^1.0.0",
     "run-sequence": "^1.2.2",
-    "webpack": "^1.13.1"
+    "webpack": "^2.2.1"
   }
 }
