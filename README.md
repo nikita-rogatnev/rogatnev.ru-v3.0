@@ -1,7 +1,5 @@
 # Rogatnev Nikita Website v3.0 [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url] [![devDependency status][dev-dependency-image]][dev-dependency-url]
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/rogatnev-nikita/rogatnev-nikita.github.io.svg)](https://greenkeeper.io/)
-
 ## Summary
 * High Resolution: Yes
 * Compatible Browsers: IE10+, Edge, Firefox, Safari, Opera, Chrome
