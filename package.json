@@ -34,7 +34,7 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-1": "^6.5.0",
     "browser-sync": "^2.15.0",
-    "css-mqpacker": "^5.0.1",
+    "css-mqpacker": "^6.0.0",
     "del": "^2.2.2",
     "eslint": "^3.2.2",
     "eslint-config-airbnb": "^14.1.0",
