@@ -34,29 +34,8 @@ function resume({ children }) {
 						</div>
 						<div className="resume__history-item">
 							<h3>
-								<span className="language__english language__active">May 2017 &ndash; Current</span>
-								<span className="language__russian">Май 2017 &ndash; НВ</span>
-							</h3>
-							<h4>
-								<span className="language__english language__active">Front-End Engineer</span>
-								<span className="language__russian">HTML Engineer</span>
-							</h4>
-							<h5>
-								<span className="language__english language__active">OMNIGON Communications, LLC</span>
-								<span className="language__russian">OMNIGON Communications, LLC</span>
-							</h5>
-							<a href="http://www.omnigon.com" target="_blank">
-								<img src="build/img/resume/omnigon.png" alt="OMNIGON Communications" width="135"/>
-							</a>
-							<p>
-								<span className="language__english language__active">TBA</span>
-								<span className="language__russian">12</span>
-							</p>
-						</div>
-						<div className="resume__history-item">
-							<h3>
-								<span className="language__english language__active">Jun 2016 &ndash; May 2017</span>
-								<span className="language__russian">Июнь 2016 &ndash; Май 2017</span>
+								<span className="language__english language__active">Jun 2016 &ndash; Current</span>
+								<span className="language__russian">Июнь 2016 &ndash; НВ</span>
 							</h3>
 							<h4>
 								<span className="language__english language__active">Front-End Engineer</span>
@@ -96,10 +75,7 @@ function resume({ children }) {
 							</p>
 						</div>
 						<div className="resume__history-item">
-							<h3>
-								<span className="language__english language__active">Feb 2013 &ndash; 2016</span>
-								<span className="language__russian">Фев 2013 &ndash; 2016</span>
-							</h3>
+							<h3>2013 &ndash; 2016</h3>
 							<h4>
 								<span className="language__english language__active">Webmaster</span>
 								<span className="language__russian">Веб-мастер</span>
