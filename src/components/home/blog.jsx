@@ -44,16 +44,6 @@ var Blog = React.createClass({
 
 var BlogItems = [
 	{
-		key: 16,
-		blog__label: 'other',
-		blog__title: 'Блог путешественника по Азии',
-		blog__link: 'http://nomad.rogatnev.ru',
-		blog__domain: 'nomad.rogatnev.ru',
-		blog__day: '17',
-		blog__month: 'dec 16',
-		blog__description: 'Привет, меня зовут Рогатнев Никита. Я фронтенд разработчик, работаю удаленно. Это небольшой блог о моем путешествии по Азии.',
-		blog__image: 'https://i1.wp.com/nomad.rogatnev.ru/wp-content/uploads/2016/11/14515886_157085634744845_6232110031689482240_n.jpg?zoom=2&resize=409%2C255'
-	}, {
 		key: 15,
 		blog__label: 'thesis',
 		blog__title: 'Responsive Web Design',
