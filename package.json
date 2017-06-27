@@ -39,7 +39,7 @@
     "eslint": "^3.2.2",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.0.1",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-jsx-a11y": "^6.0.0",
     "eslint-plugin-react": "^6.0.0",
     "gulp": "^3.9.1",
     "gulp-csso": "^3.0.0",
