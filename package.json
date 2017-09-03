@@ -22,7 +22,7 @@
     "normalize.scss": "^0.1.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
-    "react-native-lightbox": "^0.6.0",
+    "react-native-lightbox": "^0.7.0",
     "react-router": "^4.0.0"
   },
   "devDependencies": {
